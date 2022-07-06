@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap");
+@import "../src/assets/Styles/resets.scss";
+@import "../src/assets/Styles/grids.scss";
+
+* {
+  font-family: Nunito, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 11px;
+}
+
+input ::placeholder {
+  font-family: Nunito, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: #8e8e8e;
+}
+
+body{
+    background-color: #8e8e8e;
+}
+

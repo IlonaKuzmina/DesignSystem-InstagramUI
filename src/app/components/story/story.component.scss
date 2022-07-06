@@ -1,0 +1,18 @@
+.story__wrapper {
+  width: fit-content;
+  background-color: lightcoral;
+  padding: 11px 23px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.story__image {
+  width: 77px;
+  height: 77px;
+}
+
+.story__tekst {
+  padding: 15px 11px 0px;
+  gap: 10px;
+}

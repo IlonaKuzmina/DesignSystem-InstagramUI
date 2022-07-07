@@ -1,0 +1,71 @@
+.menu__buttons {
+  padding: 7px 0 7px 24px;
+  background-color: transparent;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  margin: 0 11px;
+  padding: 0;
+}
+
+.btn__home {
+  width: 22px;
+  height: 22px;
+  background: url(../../../assets/Icons/Home.svg);
+}
+
+.btn__home-active {
+  background: url(../../../assets/Icons/Home-fill.svg);
+}
+
+.btn__messenger {
+  width: 22px;
+  height: 22px;
+  background: url(../../../assets/Icons/Messenger.svg);
+}
+
+.btn__messenger-active {
+  background: url(../../../assets/Icons/Messenger-Fill.svg);
+}
+
+.btn__post {
+  width: 22px;
+  height: 22px;
+  background: url(../../../assets/Icons/NewPosts.svg);
+}
+
+.btn__activity {
+  width: 22px;
+  height: 22px;
+  background: url(../../../assets/Icons/ActivityFeed.svg);
+}
+
+.btn__activity-active {
+  background: url(../../../assets/Icons/ActivityFeed-Fiil.svg);
+}
+
+.btn__people {
+  width: 22px;
+  height: 22px;
+  background: url(../../../assets/Icons/FindPeople.svg);
+}
+
+.btn__people-active {
+  background: url(../../../assets/Icons/FindPeople-Fiil.svg);
+}
+
+.btn__my-profile {
+  width: 22px;
+  height: 22px;
+  background: url(../../../assets/Icons/Profile-Pic-S.svg);
+}
+
+.btn:last-child {
+  margin: 0 0 0 11px;
+}
+
+.btn:first-child {
+  margin: 0 11px 0 0;
+}

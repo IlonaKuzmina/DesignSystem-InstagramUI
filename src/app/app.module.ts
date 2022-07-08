@@ -22,6 +22,11 @@ import { SecondaryBlockComponent } from './components/secondary-block/secondary-
 import { ProfileComponent } from './components/profile/profile.component';
 import { SugestionsComponent } from './components/sugestions/sugestions.component';
 import { FollowsComponent } from './components/follows/follows.component';
+import { StoryBtnComponent } from './components/story-btn/story-btn.component';
+import { StoryItemComponent } from './components/story-item/story-item.component';
+import { PostSectionComponent } from './components/post-section/post-section.component';
+import { PostFooterComponent } from './components/post-footer/post-footer.component';
+import { PostHeaderComponent } from './components/post-header/post-header.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +49,12 @@ import { FollowsComponent } from './components/follows/follows.component';
     SecondaryBlockComponent,
     ProfileComponent,
     SugestionsComponent,
-    FollowsComponent
+    FollowsComponent,
+    StoryBtnComponent,
+    StoryItemComponent,
+    PostSectionComponent,
+    PostFooterComponent,
+    PostHeaderComponent
   ],
   imports: [
     BrowserModule,

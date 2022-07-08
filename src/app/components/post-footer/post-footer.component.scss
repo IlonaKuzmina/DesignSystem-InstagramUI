@@ -1,0 +1,48 @@
+.footer__wrapper {
+  padding: 8px 16px;
+  border: 1px solid #dbdbdb;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  height: 54px;
+  align-items: center;
+}
+
+.btn {
+  border: none;
+}
+
+.icons--left {
+  display: flex;
+}
+
+.icon {
+  margin: 8px 8px 0 8px;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+
+.likes, .name {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 18px;
+  color: #262626;
+}
+
+.comment__counter {
+  color: #8e8e8e;
+  margin: 5px 0;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.time {
+  text-transform: uppercase;
+  color: #8e8e8e;
+  font-size: 10px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+}

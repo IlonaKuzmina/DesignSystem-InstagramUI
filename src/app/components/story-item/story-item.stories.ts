@@ -1,15 +1,15 @@
 import { Story, Meta } from '@storybook/angular/types-6-0';
-import { StoryComponent } from './story.component';
+import { StoryItemComponent } from './story-item.component';
 
 export default {
-  title: 'Instagram UI/Molecules/StoryComponent',
-  component: StoryComponent,
+  title: 'Instagram UI/Molecules/StoryItemComponent',
+  component: StoryItemComponent,
   argTypes: {
     backgroundColor: { control: 'color' },
   },
 } as Meta;
 
-const Template: Story<StoryComponent> = (args: StoryComponent) => ({
+const Template: Story<StoryItemComponent> = (args: StoryItemComponent) => ({
   props: args,
 });
 

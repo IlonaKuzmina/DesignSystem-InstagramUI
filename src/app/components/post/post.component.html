@@ -1,1 +1,9 @@
-<p>post works!</p>
+<div class="post__wrapper" *ngFor="let user of users | slice: 1:5">
+  <app-post-header [user]="user"></app-post-header>
+
+  <div class="post__image">
+    <img src="{{ user.image }}" alt="" />
+  </div>
+
+  <app-post-footer [user]="user"></app-post-footer>
+</div>

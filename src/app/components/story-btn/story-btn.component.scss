@@ -1,0 +1,24 @@
+.story__btn--wrapper {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  padding: 11px;
+  cursor: pointer;
+  right: 10px;
+  top: 20px;
+  background-color: transparent;
+}
+
+.story__btn {
+  cursor: pointer;
+  border: none;
+  background: url(../../../assets/Icons/Arrow.svg);
+  background-repeat: no-repeat;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 22px;
+  transform: rotate(90deg);
+  width: 22px;
+  height: 22px;
+  color: #8e8e8e;
+}

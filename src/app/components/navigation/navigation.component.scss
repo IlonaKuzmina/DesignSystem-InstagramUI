@@ -3,10 +3,12 @@
   display: flex;
   justify-content: space-between;
   background-color: #fafafa;
+  flex-wrap: wrap;
+  min-width: 320px;
 }
 
 ::placeholder {
-  background: url(../../../assets/Icons/Search.svg);
+  background: url(../../../assets/Icons//Search.svg);
   background-repeat: no-repeat;
   background-position: 35px;
   color: #8e8e8e;

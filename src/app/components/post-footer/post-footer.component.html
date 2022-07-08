@@ -1,0 +1,39 @@
+<div class="footer__wrapper">
+  <div class="icons">
+    <div class="icons--left">
+      <img
+        *ngIf="!postLiked"
+        class="icon"
+        (click)="clickLike()"
+        src="../../../assets/Icons/ActivityFeed.svg"
+      />
+      <img
+        *ngIf="postLiked"
+        class="icon"
+        (click)="clickLike()"
+        src="../../../assets/Icons/ActivityFeed-Fiil.svg"
+      />
+      <img class="icon" src="../../../assets/Icons/Comment.svg" />
+      <img class="icon" src="../../../assets/Icons/SharePosts.svg" />
+    </div>
+    <div class="icons--right">
+      <button *ngIf="postSaved" (click)="clickSave()" class="btn">
+        <img class="icon" src="../../../assets/Icons/Save.svg" />
+      </button>
+      <button *ngIf="!postSaved" (click)="clickSave()" class="btn">
+        <img class="icon" src="../../../assets/Icons/icons8-save-64.png" />
+      </button>
+    </div>
+  </div>
+  <div class="likes">{{ likes }} likes</div>
+
+  <div class="comment__container">
+    <span class="name">{{ user.foolName }}</span>
+    <div class="comment__counter">View all {{ commentsCount }} comments</div>
+    <div class="time">1 hour ago</div>
+  </div>
+
+  <div class="comment__adder">
+
+  </div>
+</div>

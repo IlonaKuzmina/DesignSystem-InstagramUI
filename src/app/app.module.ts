@@ -54,13 +54,10 @@ import { PostHeaderComponent } from './components/post-header/post-header.compon
     StoryItemComponent,
     PostSectionComponent,
     PostFooterComponent,
-    PostHeaderComponent
+    PostHeaderComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

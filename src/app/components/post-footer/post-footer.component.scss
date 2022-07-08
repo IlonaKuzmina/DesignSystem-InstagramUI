@@ -1,6 +1,11 @@
 .footer__wrapper {
   padding: 8px 16px;
   border: 1px solid #dbdbdb;
+  background: #ffffff;
+}
+
+.comment__container {
+  background: #ffffff;
 }
 
 .icons {
@@ -8,14 +13,17 @@
   justify-content: space-between;
   height: 54px;
   align-items: center;
+  background: #ffffff;
 }
 
 .btn {
   border: none;
+  background: #ffffff;
 }
 
 .icons--left {
   display: flex;
+  background: #ffffff;
 }
 
 .icon {
@@ -23,13 +31,16 @@
   cursor: pointer;
   width: 24px;
   height: 24px;
+  background: #ffffff;
 }
 
-.likes, .name {
+.likes,
+.name {
   font-weight: 900;
   font-size: 14px;
   line-height: 18px;
   color: #262626;
+  background: #ffffff;
 }
 
 .comment__counter {
@@ -37,6 +48,7 @@
   margin: 5px 0;
   font-size: 14px;
   line-height: 18px;
+  background: #ffffff;
 }
 
 .time {
@@ -45,4 +57,33 @@
   font-size: 10px;
   line-height: 18px;
   letter-spacing: 0.2px;
+  background: #ffffff;
+}
+
+.comment__wrapper {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #dbdbdb;
+  padding: 6px 16px;
+  background: #ffffff;
+}
+
+.comment__input {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.post__btn {
+  border: none;
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #0095f6;
+}
+
+.comment__emoji {
+  margin-right: 16px;
 }

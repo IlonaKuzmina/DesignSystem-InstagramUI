@@ -1,1 +1,12 @@
-<p>follows works!</p>
+<div *ngFor="let user of users | slice: 2:7">
+  <div class="profile__wrapper">
+    <div class="name__wrapper">
+      <img class="image" src="{{ user.avatar }}" />
+      <div>
+        <div class="username">{{ user.foolName }}</div>
+        <div class="acountname">Followed by {{ user.foolName }} + 2 more</div>
+      </div>
+    </div>
+    <button class="btn">Follow</button>
+  </div>
+</div>

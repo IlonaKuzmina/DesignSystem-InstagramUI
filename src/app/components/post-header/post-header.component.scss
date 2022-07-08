@@ -6,12 +6,14 @@
   align-items: center;
   border: 1px solid #dbdbdb;
   padding: 9px 0 9px 9px;
+  background: #ffffff;
 }
 
 .name__wrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
+  background: #ffffff;
 }
 
 .avatar__cirkle {
@@ -25,6 +27,7 @@
   text-transform: lowercase;
   color: #262626;
   padding-left: 12px;
+  background: #ffffff;
 }
 
 .more__options {

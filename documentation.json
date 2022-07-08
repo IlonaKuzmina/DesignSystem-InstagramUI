@@ -1,6 +1,57 @@
 {
     "pipes": [],
-    "interfaces": [],
+    "interfaces": [
+        {
+            "name": "User",
+            "id": "interface-User-6766f532934eee5793b7c7874330bb5f8ca3640ebc289fe0faa9b781e4ce6fde10bbdbeff8d30c9464e95e902bbfec50ed7cb81e0d406947233fbfe812ddf07d",
+            "file": "src/app/data/users.ts",
+            "deprecated": false,
+            "deprecationMessage": "",
+            "type": "interface",
+            "sourceCode": "export interface User {\r\n  name: string;\r\n  avatar:string\r\n  image?: string;\r\n  foolName: string;\r\n}\r\n\r\nconst UsersData: User[] = [\r\n  {\r\n    name: 'your story',\r\n    foolName: 'i.slimeeee____',\r\n    avatar: '../../../assets/Icons/Profile-Pic-S.svg',\r\n    // image:'',\r\n  },\r\n  {\r\n    name: 'tery',\r\n    foolName: 'terylucas',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-7.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-7.1.png',\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsint',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-2.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-2.1.png',\r\n  },\r\n  {\r\n    name: 'harry',\r\n    foolName: 'harryprescott',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-3.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-3.1.png',\r\n  },\r\n  {\r\n    name: 'edna',\r\n    foolName: 'ednamanz',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-4.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-4.1.png',\r\n  },\r\n  {\r\n    name: 'christina',\r\n    foolName: 'christinasterling',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-5.png',\r\n    // image:'',\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsant',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-1.png',\r\n    // image:'',\r\n  },\r\n  {\r\n    name: 'lorem m',\r\n    foolName: 'loremlorem',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-6.png',\r\n    // image:'',\r\n  },\r\n];\r\n\r\nexport default UsersData;\r\n",
+            "properties": [
+                {
+                    "name": "avatar",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "optional": false,
+                    "description": "",
+                    "line": 3
+                },
+                {
+                    "name": "foolName",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "optional": false,
+                    "description": "",
+                    "line": 5
+                },
+                {
+                    "name": "image",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "optional": true,
+                    "description": "",
+                    "line": 4
+                },
+                {
+                    "name": "name",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "optional": false,
+                    "description": "",
+                    "line": 2
+                }
+            ],
+            "indexSignatures": [],
+            "kind": 165,
+            "methods": []
+        }
+    ],
     "injectables": [],
     "guards": [],
     "interceptors": [],
@@ -660,7 +711,7 @@
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": ".navigation__wrapper {\r\n  padding: 13px 0 0 8px;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  background-color: #fafafa;\r\n}\r\n\r\n::placeholder {\r\n  background: url(../../../assets/Icons/Search.svg);\r\n  background-repeat: no-repeat;\r\n  background-position: 35px;\r\n  color: #8e8e8e;\r\n  text-align: center;\r\n}\r\n\r\n.search__input {\r\n  padding: 4px 30px;\r\n  color: #8e8e8e;\r\n  border: 1px solid #dbdbdb;\r\n  border-radius: 3px;\r\n}\r\n\r\nhr.border {\r\n  border: 1px solid #dbdbdb;\r\n  margin: 0;\r\n}\r\n",
+                    "data": ".navigation__wrapper {\r\n  padding: 13px 0 0 8px;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  background-color: #fafafa;\r\n  flex-wrap: wrap;\r\n  min-width: 320px;\r\n}\r\n\r\n::placeholder {\r\n  background: url(../../../assets/Icons//Search.svg);\r\n  background-repeat: no-repeat;\r\n  background-position: 35px;\r\n  color: #8e8e8e;\r\n  text-align: center;\r\n}\r\n\r\n.search__input {\r\n  padding: 4px 30px;\r\n  color: #8e8e8e;\r\n  border: 1px solid #dbdbdb;\r\n  border-radius: 3px;\r\n}\r\n\r\nhr.border {\r\n  border: 1px solid #dbdbdb;\r\n  margin: 0;\r\n}\r\n",
                     "styleUrl": "./navigation.component.scss"
                 }
             ],
@@ -722,7 +773,7 @@
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": ".menu__buttons {\r\n  padding: 7px 0 7px 24px;\r\n  background-color: transparent;\r\n}\r\n\r\n.btn {\r\n  border: none;\r\n  cursor: pointer;\r\n  margin: 0 11px;\r\n  padding: 0;\r\n}\r\n\r\n.btn__home {\r\n  width: 22px;\r\n  height: 22px;\r\n  background: url(../../../assets/Icons/Home.svg);\r\n}\r\n\r\n.btn__home-active {\r\n  background: url(../../../assets/Icons/Home-fill.svg);\r\n}\r\n\r\n.btn__messenger {\r\n  width: 22px;\r\n  height: 22px;\r\n  background: url(../../../assets/Icons/Messenger.svg);\r\n}\r\n\r\n.btn__messenger-active {\r\n  background: url(../../../assets/Icons/Messenger-Fill.svg);\r\n}\r\n\r\n.btn__post {\r\n  width: 22px;\r\n  height: 22px;\r\n  background: url(../../../assets/Icons/NewPosts.svg);\r\n}\r\n\r\n.btn__activity {\r\n  width: 22px;\r\n  height: 22px;\r\n  background: url(../../../assets/Icons/ActivityFeed.svg);\r\n}\r\n\r\n.btn__activity-active {\r\n  background: url(../../../assets/Icons/ActivityFeed-Fiil.svg);\r\n}\r\n\r\n.btn__people {\r\n  width: 22px;\r\n  height: 22px;\r\n  background: url(../../../assets/Icons/FindPeople.svg);\r\n}\r\n\r\n.btn__people-active {\r\n  background: url(../../../assets/Icons/FindPeople-Fiil.svg);\r\n}\r\n\r\n.btn__my-profile {\r\n  width: 22px;\r\n  height: 22px;\r\n  background: url(../../../assets/Icons/Profile-Pic-S.svg);\r\n}\r\n\r\n.btn:last-child {\r\n  margin: 0 0 0 11px;\r\n}\r\n\r\n.btn:first-child {\r\n  margin: 0 11px 0 0;\r\n}\r\n",
+                    "data": ".menu__buttons {\r\n  padding: 7px 0 7px 24px;\r\n  background-color: transparent;\r\n  \r\n}\r\n\r\n.btn {\r\n  border: none;\r\n  cursor: pointer;\r\n  margin: 0 11px;\r\n  padding: 0;\r\n}\r\n\r\n.btn__home {\r\n  width: 22px;\r\n  height: 22px;\r\n  background: url(../../../assets/Icons/Home.svg);\r\n}\r\n\r\n.btn__home-active {\r\n  background: url(../../../assets/Icons/Home-fill.svg);\r\n}\r\n\r\n.btn__messenger {\r\n  width: 22px;\r\n  height: 22px;\r\n  background: url(../../../assets/Icons/Messenger.svg);\r\n}\r\n\r\n.btn__messenger-active {\r\n  background: url(../../../assets/Icons/Messenger-Fill.svg);\r\n}\r\n\r\n.btn__post {\r\n  width: 22px;\r\n  height: 22px;\r\n  background: url(../../../assets/Icons/NewPosts.svg);\r\n}\r\n\r\n.btn__activity {\r\n  width: 22px;\r\n  height: 22px;\r\n  background: url(../../../assets/Icons/ActivityFeed.svg);\r\n}\r\n\r\n.btn__activity-active {\r\n  background: url(../../../assets/Icons/ActivityFeed-Fiil.svg);\r\n}\r\n\r\n.btn__people {\r\n  width: 22px;\r\n  height: 22px;\r\n  background: url(../../../assets/Icons/FindPeople.svg);\r\n}\r\n\r\n.btn__people-active {\r\n  background: url(../../../assets/Icons/FindPeople-Fiil.svg);\r\n}\r\n\r\n.btn__my-profile {\r\n  width: 22px;\r\n  height: 22px;\r\n  background: url(../../../assets/Icons/Profile-Pic-S.svg);\r\n}\r\n\r\n.btn:last-child {\r\n  margin: 0 0 0 11px;\r\n}\r\n\r\n.btn:first-child {\r\n  margin: 0 11px 0 0;\r\n}\r\n",
                     "styleUrl": "./nav-menu.component.scss"
                 }
             ],
@@ -742,7 +793,7 @@
         },
         {
             "name": "PostComponent",
-            "id": "component-PostComponent-8b4108fac82457b2d279d8853b94d4c98df0a91c504412741387bd93315adb0ccd4aa802b94c021050a17f6f6b2290a3f7d045c85f66556d5df58dd06b496671",
+            "id": "component-PostComponent-951d0c461fd766f0d00be8c4eb82aa3364b60a0ac2cc728a48386fddbd746a32e18e12d8ff5af1c2543f544b892e8626b2427236727b09bc49adc05f4f233f88",
             "file": "src/app/components/post/post.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -756,6 +807,217 @@
             "styles": [],
             "templateUrl": [
                 "./post.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [
+                {
+                    "name": "users",
+                    "defaultValue": "UsersData",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 10
+                }
+            ],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component } from '@angular/core';\nimport UsersData from '../../../app/data/users';\n\n@Component({\n  selector: 'app-post',\n  templateUrl: './post.component.html',\n  styleUrls: ['./post.component.scss'],\n})\nexport class PostComponent {\n  users = UsersData;\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": ".post__wrapper {\r\n  max-width: 100%;\r\n  min-width: 320px;\r\n}\r\n",
+                    "styleUrl": "./post.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "templateData": "<div class=\"post__wrapper\" *ngFor=\"let user of users | slice: 1:5\">\n  <app-post-header [user]=\"user\"></app-post-header>\n\n  <div class=\"post__image\">\n    <img src=\"{{ user.image }}\" alt=\"\" />\n  </div>\n\n  <app-post-footer [user]=\"user\"></app-post-footer>\n</div>\n"
+        },
+        {
+            "name": "PostFooterComponent",
+            "id": "component-PostFooterComponent-c78716c6b8ab48539314b732557a0a0a9b2aecbbe933cb8c42f2bed26e7c0ac3ab258a1db22b88c65e4d0981aeae5d8dac3f17885ca292586ba1a839f481651d",
+            "file": "src/app/components/post-footer/post-footer.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-post-footer",
+            "styleUrls": [
+                "./post-footer.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./post-footer.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [
+                {
+                    "name": "user",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 11,
+                    "type": "User",
+                    "decorators": []
+                }
+            ],
+            "outputsClass": [],
+            "propertiesClass": [
+                {
+                    "name": "commentsCount",
+                    "defaultValue": "0",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "number",
+                    "optional": false,
+                    "description": "",
+                    "line": 15
+                },
+                {
+                    "name": "likes",
+                    "defaultValue": "0",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "number",
+                    "optional": false,
+                    "description": "",
+                    "line": 12
+                },
+                {
+                    "name": "postLiked",
+                    "defaultValue": "false",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 13
+                },
+                {
+                    "name": "postSaved",
+                    "defaultValue": "false",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 14
+                }
+            ],
+            "methodsClass": [
+                {
+                    "name": "clickLike",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 17,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                },
+                {
+                    "name": "clickSave",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 27,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, Input, OnInit } from '@angular/core';\nimport { User } from 'src/app/data/users';\n\n@Component({\n  selector: 'app-post-footer',\n  templateUrl: './post-footer.component.html',\n  styleUrls: ['./post-footer.component.scss'],\n})\nexport class PostFooterComponent {\n  @Input()\n  user!: User;\n  likes = 0;\n  postLiked = false;\n  postSaved = false;\n  commentsCount = 0;\n\n  clickLike(): void {\n    if (!this.postLiked) {\n      this.likes++;\n      this.postLiked = true;\n    } else {\n      this.likes--;\n      this.postLiked = false;\n    }\n  }\n\n  clickSave(): void {\n    this.postSaved = !this.postSaved;\n    console.log('butn works');\n  }\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": ".footer__wrapper {\r\n  padding: 8px 16px;\r\n  border: 1px solid #dbdbdb;\r\n}\r\n\r\n.icons {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  height: 54px;\r\n  align-items: center;\r\n}\r\n\r\n.btn {\r\n  border: none;\r\n}\r\n\r\n.icons--left {\r\n  display: flex;\r\n}\r\n\r\n.icon {\r\n  margin: 8px 8px 0 8px;\r\n  cursor: pointer;\r\n  width: 24px;\r\n  height: 24px;\r\n}\r\n\r\n.likes, .name {\r\n  font-weight: 900;\r\n  font-size: 14px;\r\n  line-height: 18px;\r\n  color: #262626;\r\n}\r\n\r\n.comment__counter {\r\n  color: #8e8e8e;\r\n  margin: 5px 0;\r\n  font-size: 14px;\r\n  line-height: 18px;\r\n}\r\n\r\n.time {\r\n  text-transform: uppercase;\r\n  color: #8e8e8e;\r\n  font-size: 10px;\r\n  line-height: 18px;\r\n  letter-spacing: 0.2px;\r\n}\r\n",
+                    "styleUrl": "./post-footer.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "templateData": "<div class=\"footer__wrapper\">\n  <div class=\"icons\">\n    <div class=\"icons--left\">\n      <img\n        *ngIf=\"!postLiked\"\n        class=\"icon\"\n        (click)=\"clickLike()\"\n        src=\"../../../assets/Icons/ActivityFeed.svg\"\n      />\n      <img\n        *ngIf=\"postLiked\"\n        class=\"icon\"\n        (click)=\"clickLike()\"\n        src=\"../../../assets/Icons/ActivityFeed-Fiil.svg\"\n      />\n      <img class=\"icon\" src=\"../../../assets/Icons/Comment.svg\" />\n      <img class=\"icon\" src=\"../../../assets/Icons/SharePosts.svg\" />\n    </div>\n    <div class=\"icons--right\">\n      <button *ngIf=\"postSaved\" (click)=\"clickSave()\" class=\"btn\">\n        <img class=\"icon\" src=\"../../../assets/Icons/Save.svg\" />\n      </button>\n      <button *ngIf=\"!postSaved\" (click)=\"clickSave()\" class=\"btn\">\n        <img class=\"icon\" src=\"../../../assets/Icons/icons8-save-64.png\" />\n      </button>\n    </div>\n  </div>\n  <div class=\"likes\">{{ likes }} likes</div>\n\n  <div class=\"comment__container\">\n    <span class=\"name\">{{ user.foolName }}</span>\n    <div class=\"comment__counter\">View all {{ commentsCount }} comments</div>\n    <div class=\"time\">1 hour ago</div>\n  </div>\n\n  <div class=\"comment__adder\">\n\n  </div>\n</div>\n"
+        },
+        {
+            "name": "PostHeaderComponent",
+            "id": "component-PostHeaderComponent-aeaedd19ec9bf659b9d0cf6fd145e299d5d23991ba707831f9e55aed6efb92709f9aa69ffcac450558e46d22896f9db4e6c50a9a0b1dfd8b749b011fabe13ada",
+            "file": "src/app/components/post-header/post-header.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-post-header",
+            "styleUrls": [
+                "./post-header.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./post-header.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [
+                {
+                    "name": "user",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 11,
+                    "type": "User",
+                    "decorators": []
+                }
+            ],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, Input } from '@angular/core';\nimport { User } from '../../data/users';\n\n@Component({\n  selector: 'app-post-header',\n  templateUrl: './post-header.component.html',\n  styleUrls: ['./post-header.component.scss'],\n})\nexport class PostHeaderComponent {\n  @Input()\n  user!: User;\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": ".post__header {\r\n  width: 100%;\r\n  display: flex;\r\n  flex-direction: row;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  border: 1px solid #dbdbdb;\r\n  padding: 9px 0 9px 9px;\r\n}\r\n\r\n.name__wrapper {\r\n  display: flex;\r\n  flex-direction: row;\r\n  align-items: center;\r\n}\r\n\r\n.avatar__cirkle {\r\n  padding-left: 16px;\r\n}\r\n\r\n.user__name {\r\n  font-weight: 900;\r\n  font-size: 14px;\r\n  line-height: 18px;\r\n  text-transform: lowercase;\r\n  color: #262626;\r\n  padding-left: 12px;\r\n}\r\n\r\n.more__options {\r\n  width: 48px;\r\n  height: 42px;\r\n  //   padding: 1px 8px 1px 0px;\r\n  background: url(../../../assets/Icons/More.svg);\r\n  background-repeat: no-repeat;\r\n  cursor: pointer;\r\n  border: none;\r\n  background-color: white;\r\n}\r\n",
+                    "styleUrl": "./post-header.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "templateData": "<header class=\"post__header\">\n  <div class=\"name__wrapper\">\n    <div class=\"avatar__cirkle\">\n      <img src=\"{{ user.avatar }}\" alt=\"Nav bildes\" />\n    </div>\n    <span class=\"user__name\">{{ user.foolName }}</span>\n  </div>\n\n  <button class=\"more__options\"></button>\n</header>\n"
+        },
+        {
+            "name": "PostSectionComponent",
+            "id": "component-PostSectionComponent-14ceb0fde9eb6e81dc74dd9bfeec89e51ab25bd63ce44cb6feb827471166f60bf1c004d4c9e6f20b5fabdbd346e32887e25704a0eb19387df239ac08b9e74f7a",
+            "file": "src/app/components/post-section/post-section.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-post-section",
+            "styleUrls": [
+                "./post-section.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./post-section.component.html"
             ],
             "viewProviders": [],
             "inputsClass": [],
@@ -780,12 +1042,12 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-post',\n  templateUrl: './post.component.html',\n  styleUrls: ['./post.component.scss']\n})\nexport class PostComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-post-section',\n  templateUrl: './post-section.component.html',\n  styleUrls: ['./post-section.component.scss']\n})\nexport class PostSectionComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": "",
-                    "styleUrl": "./post.component.scss"
+                    "data": ".wrapper{\r\n    min-width: 320px;\r\n}",
+                    "styleUrl": "./post-section.component.scss"
                 }
             ],
             "stylesData": "",
@@ -800,7 +1062,7 @@
             "implements": [
                 "OnInit"
             ],
-            "templateData": "<p>post works!</p>\n"
+            "templateData": "<div class=\"wrapper\">\n  <app-post></app-post>  \n</div>\n\n"
         },
         {
             "name": "PrimaryBlockComponent",
@@ -846,7 +1108,7 @@
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": "",
+                    "data": ".primary__block{\r\n   padding-right: 28px; \r\n}",
                     "styleUrl": "./primary-block.component.scss"
                 }
             ],
@@ -862,7 +1124,7 @@
             "implements": [
                 "OnInit"
             ],
-            "templateData": "<app-story-section></app-story-section> \n<app-post></app-post>\n"
+            "templateData": "<div class=\"primary__block\">\n  <app-story-section></app-story-section>\n  <app-post-section></app-post-section>\n</div>\n"
         },
         {
             "name": "ProfileComponent",
@@ -989,6 +1251,68 @@
             "templateData": "<app-profile></app-profile>\n<app-sugestions></app-sugestions>\n<app-follows></app-follows>\n<app-footer></app-footer>\n"
         },
         {
+            "name": "StoryBtnComponent",
+            "id": "component-StoryBtnComponent-6ca0cf2be245c404fe991a3b45938e7994a37c36d2ca0e2346c5afd9ff00f64406e610557f48e8f84c89f2c0cd7fb5b1bc66c7e187aa1775018dfa5f247bb2bb",
+            "file": "src/app/components/story-btn/story-btn.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-story-btn",
+            "styleUrls": [
+                "./story-btn.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./story-btn.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 12,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-story-btn',\n  templateUrl: './story-btn.component.html',\n  styleUrls: ['./story-btn.component.scss']\n})\nexport class StoryBtnComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": ".story__btn--wrapper {\r\n  position: absolute;\r\n  width: 44px;\r\n  height: 44px;\r\n  padding: 11px;\r\n  cursor: pointer;\r\n  right: 10px;\r\n  top: 20px;\r\n  background-color: transparent;\r\n}\r\n\r\n.story__btn {\r\n  cursor: pointer;\r\n  border: none;\r\n  background: url(../../../assets/Icons/Arrow.svg);\r\n  background-repeat: no-repeat;\r\n  background-color: white;\r\n  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);\r\n  border-radius: 22px;\r\n  transform: rotate(90deg);\r\n  width: 22px;\r\n  height: 22px;\r\n  color: #8e8e8e;\r\n}\r\n",
+                    "styleUrl": "./story-btn.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 8
+            },
+            "implements": [
+                "OnInit"
+            ],
+            "templateData": "<div class=\"story__btn--wrapper\">\n   <button class=\"story__btn\"></button> \n</div>\n"
+        },
+        {
             "name": "StoryComponent",
             "id": "component-StoryComponent-8f5a551c2d82c3e742230be205bcf09cbe8107d04f332deb60f3f1255acfa58270e3f03f82f05e1e91439159bcc580e9edf37bf8555119385676659e86904bc4",
             "file": "src/app/components/story/story.component.ts",
@@ -1030,7 +1354,7 @@
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": ".story__wrapper {\r\n  width: fit-content;\r\n  background-color: lightcoral;\r\n  padding: 11px 23px;\r\n  display: flex;\r\n  flex-direction: column;\r\n  text-align: center;\r\n}\r\n\r\n.story__image {\r\n  width: 77px;\r\n  height: 77px;\r\n}\r\n\r\n.story__tekst {\r\n  padding: 15px 11px 0px;\r\n  gap: 10px;\r\n}\r\n",
+                    "data": "\r\n\r\n.story__wrapper {\r\n  width: fit-content;\r\n  background-color: transparent;\r\n  padding: 11px 23px;\r\n  display: flex;\r\n  flex-direction: column;\r\n  text-align: center;\r\n}\r\n\r\n.story__image {\r\n  width: 77px;\r\n  height: 77px;\r\n}\r\n\r\n.story__tekst {\r\n  padding: 15px 11px 0px;\r\n  gap: 10px;\r\n}\r\n",
                     "styleUrl": "./story.component.scss"
                 }
             ],
@@ -1038,8 +1362,59 @@
             "templateData": "<div class=\"story__wrapper\">\n  <img class=\"story__image\" src=\"../../../assets/Icons/Avatar-Profile-Pic.svg\" alt=\"\">\n  <span class=\"story__tekst\">Made Us</span>\n</div>\n"
         },
         {
+            "name": "StoryItemComponent",
+            "id": "component-StoryItemComponent-d1f8cc34467dfbac89b88e6a55756b4a07573b89c50883feb0b1ea474685446283f7c1a4fdd2475147f39ba35fde7c3da471f05018833be77b69c8690d9eaa02",
+            "file": "src/app/components/story-item/story-item.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-story-item",
+            "styleUrls": [
+                "./story-item.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./story-item.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [
+                {
+                    "name": "users",
+                    "defaultValue": "UsersData",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 10
+                }
+            ],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component } from '@angular/core';\nimport UsersData from '../../../app/data/users';\n\n@Component({\n  selector: 'app-story-item',\n  templateUrl: './story-item.component.html',\n  styleUrls: ['./story-item.component.scss'],\n})\nexport class StoryItemComponent {\n  users = UsersData;\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": ".story__container {\r\n  display: flex;\r\n  flex-direction: row;\r\n  flex-wrap: nowrap;\r\n}\r\n\r\n.story__wrapper {\r\n  background-color: transparent;\r\n  padding: 0px 8px;\r\n  display: flex;\r\n  flex-direction: column;\r\n  text-align: center;\r\n  flex-wrap: nowrap;\r\n}\r\n\r\n.image__wrapper {\r\n  width: fit-content;\r\n  //   padding: 2.5px;\r\n  //   border-image-slice: 1;\r\n  //   border-image-source: linear-gradient(to bottom, #de0046 0%, #f7a34b 100%);\r\n  border-radius: 50%;\r\n  //   border-radius: 50px;\r\n  border: 2.5px solid transparent;\r\n  background: linear-gradient(to bottom, #de0046 0%, #f7a34b 100%) border-box;\r\n  //   -webkit-mask: /*4*/ linear-gradient(#fff 0 0) padding-box,\r\n  //     linear-gradient(#fff 0 0);\r\n  //   -webkit-mask-composite: xor; /*5'*/\r\n  //           mask-composite: exclude;\r\n}\r\n\r\n.image {\r\n  padding: 2.5px;\r\n  width: 56px;\r\n  height: 56px;\r\n  border-radius: 50%;\r\n  border: transparent;\r\n  //   background: black;\r\n}\r\n\r\n.story__text {\r\n  line-height: 16px;\r\n  text-align: center;\r\n  letter-spacing: 0.12px;\r\n  text-transform: lowercase;\r\n  color: #262626;\r\n}\r\n",
+                    "styleUrl": "./story-item.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "templateData": "<div class=\"story__container\">\n  <div *ngFor=\"let user of users | slice:0:7\">\n    <div class=\"story__wrapper\">\n      <div class=\"image__wrapper\">\n        <img class=\"image\" src=\"{{ user.avatar }}\" alt=\"\" />\n      </div>\n      <span class=\"story__text\">{{ user.name }}</span>\n    </div>\n  </div>\n</div>\n"
+        },
+        {
             "name": "StorySectionComponent",
-            "id": "component-StorySectionComponent-bb668b21d19c18d5a22cd5823b21aa653b48444c063b325614cbab7f64bbefe325f4ec5c6e3ea20bd47ac1abe1534252e6157b043488637b994b9aedb746da80",
+            "id": "component-StorySectionComponent-6a04371877ba9d50823a8337c69f5db46d6e0332cd06c57de6319baab151c51771d8b6b2b1cb30470c8782367e4d1d2850d9d57781119d516409ca42d83f03dc",
             "file": "src/app/components/story-section/story-section.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -1065,7 +1440,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 12,
+                    "line": 11,
                     "deprecated": false,
                     "deprecationMessage": ""
                 }
@@ -1077,11 +1452,11 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-story-section',\n  templateUrl: './story-section.component.html',\n  styleUrls: ['./story-section.component.scss']\n})\nexport class StorySectionComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-story-section',\n  templateUrl: './story-section.component.html',\n  styleUrls: ['./story-section.component.scss'],\n})\nexport class StorySectionComponent implements OnInit {\n  constructor() {}\n\n  ngOnInit(): void {}\n}\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": "",
+                    "data": ".story__section-wrapper {\r\n  min-width: 320px;\r\n  max-width: 100%;\r\n  padding: 60px 0px 0px;\r\n}\r\n\r\n.story__section {\r\n  // display: flex;\r\n  // flex-direction: row;\r\n  background: #ffffff;\r\n  border: 1px solid #dbdbdb;\r\n  padding: 17px 0px;\r\n  position: relative;\r\n}\r\n",
                     "styleUrl": "./story-section.component.scss"
                 }
             ],
@@ -1097,7 +1472,7 @@
             "implements": [
                 "OnInit"
             ],
-            "templateData": "<p>story-section works!</p>\n"
+            "templateData": "<div class=\"story__section-wrapper\">\n  <div class=\"story__section\">\n    <app-story-item></app-story-item>\n    <app-story-btn></app-story-btn>\n  </div>\n</div>\n"
         },
         {
             "name": "SugestionsComponent",
@@ -1227,13 +1602,13 @@
     "modules": [
         {
             "name": "AppModule",
-            "id": "module-AppModule-da126e9ccde743754612db6e5ea2851e9fb974f65fbda5f5da0eca7a1c19d3f235705f963269ee77ad9ebd49566b63ab0cd7d1b01d0a7b0326170814c0340858",
+            "id": "module-AppModule-7171b0cdc5b8b57217eb1eebe0684712b19d860e7ce4448c3c6556a70474944427006583f2027eccff1cdc1fd81828cfcbd12be61a93b94dad29715f6994bffe",
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
             "file": "src/app/app.module.ts",
             "methods": [],
-            "sourceCode": "import { NgModule } from '@angular/core';\nimport { BrowserModule } from '@angular/platform-browser';\n\nimport { AppRoutingModule } from './app-routing.module';\nimport { AppComponent } from './app.component';\nimport { StoryComponent } from './components/story/story.component';\nimport { NavigationComponent } from './components/navigation/navigation.component';\nimport { HomeComponent } from './pages/home/home.component';\nimport { MessengerComponent } from './pages/messenger/messenger.component';\nimport { MyProfileComponent } from './pages/my-profile/my-profile.component';\nimport { UserProfileComponent } from './pages/user-profile/user-profile.component';\nimport { ExploreComponent } from './pages/explore/explore.component';\nimport { FooterComponent } from './components/footer/footer.component';\nimport { LogoComponent } from './components/logo/logo.component';\nimport { NavMenuComponent } from './components/nav-menu/nav-menu.component';\nimport { LinksBlockComponent } from './components/links-block/links-block.component';\nimport { LanguagesListComponent } from './components/languages-list/languages-list.component';\nimport { PostComponent } from './components/post/post.component';\nimport { StorySectionComponent } from './components/story-section/story-section.component';\nimport { PrimaryBlockComponent } from './components/primary-block/primary-block.component';\nimport { SecondaryBlockComponent } from './components/secondary-block/secondary-block.component';\nimport { ProfileComponent } from './components/profile/profile.component';\nimport { SugestionsComponent } from './components/sugestions/sugestions.component';\nimport { FollowsComponent } from './components/follows/follows.component';\n\n@NgModule({\n  declarations: [\n    AppComponent,\n    StoryComponent,\n    NavigationComponent,\n    HomeComponent,\n    MessengerComponent,\n    MyProfileComponent,\n    UserProfileComponent,\n    ExploreComponent,\n    FooterComponent,\n    LogoComponent,\n    NavMenuComponent,\n    LinksBlockComponent,\n    LanguagesListComponent,\n    PostComponent,\n    StorySectionComponent,\n    PrimaryBlockComponent,\n    SecondaryBlockComponent,\n    ProfileComponent,\n    SugestionsComponent,\n    FollowsComponent\n  ],\n  imports: [\n    BrowserModule,\n    AppRoutingModule\n  ],\n  providers: [],\n  bootstrap: [AppComponent],\n})\nexport class AppModule { }\n",
+            "sourceCode": "import { NgModule } from '@angular/core';\nimport { BrowserModule } from '@angular/platform-browser';\n\nimport { AppRoutingModule } from './app-routing.module';\nimport { AppComponent } from './app.component';\nimport { StoryComponent } from './components/story/story.component';\nimport { NavigationComponent } from './components/navigation/navigation.component';\nimport { HomeComponent } from './pages/home/home.component';\nimport { MessengerComponent } from './pages/messenger/messenger.component';\nimport { MyProfileComponent } from './pages/my-profile/my-profile.component';\nimport { UserProfileComponent } from './pages/user-profile/user-profile.component';\nimport { ExploreComponent } from './pages/explore/explore.component';\nimport { FooterComponent } from './components/footer/footer.component';\nimport { LogoComponent } from './components/logo/logo.component';\nimport { NavMenuComponent } from './components/nav-menu/nav-menu.component';\nimport { LinksBlockComponent } from './components/links-block/links-block.component';\nimport { LanguagesListComponent } from './components/languages-list/languages-list.component';\nimport { PostComponent } from './components/post/post.component';\nimport { StorySectionComponent } from './components/story-section/story-section.component';\nimport { PrimaryBlockComponent } from './components/primary-block/primary-block.component';\nimport { SecondaryBlockComponent } from './components/secondary-block/secondary-block.component';\nimport { ProfileComponent } from './components/profile/profile.component';\nimport { SugestionsComponent } from './components/sugestions/sugestions.component';\nimport { FollowsComponent } from './components/follows/follows.component';\nimport { StoryBtnComponent } from './components/story-btn/story-btn.component';\nimport { StoryItemComponent } from './components/story-item/story-item.component';\nimport { PostSectionComponent } from './components/post-section/post-section.component';\nimport { PostFooterComponent } from './components/post-footer/post-footer.component';\nimport { PostHeaderComponent } from './components/post-header/post-header.component';\n\n@NgModule({\n  declarations: [\n    AppComponent,\n    StoryComponent,\n    NavigationComponent,\n    HomeComponent,\n    MessengerComponent,\n    MyProfileComponent,\n    UserProfileComponent,\n    ExploreComponent,\n    FooterComponent,\n    LogoComponent,\n    NavMenuComponent,\n    LinksBlockComponent,\n    LanguagesListComponent,\n    PostComponent,\n    StorySectionComponent,\n    PrimaryBlockComponent,\n    SecondaryBlockComponent,\n    ProfileComponent,\n    SugestionsComponent,\n    FollowsComponent,\n    StoryBtnComponent,\n    StoryItemComponent,\n    PostSectionComponent,\n    PostFooterComponent,\n    PostHeaderComponent\n  ],\n  imports: [\n    BrowserModule,\n    AppRoutingModule\n  ],\n  providers: [],\n  bootstrap: [AppComponent],\n})\nexport class AppModule { }\n",
             "children": [
                 {
                     "type": "providers",
@@ -1282,6 +1657,15 @@
                             "name": "PostComponent"
                         },
                         {
+                            "name": "PostFooterComponent"
+                        },
+                        {
+                            "name": "PostHeaderComponent"
+                        },
+                        {
+                            "name": "PostSectionComponent"
+                        },
+                        {
                             "name": "PrimaryBlockComponent"
                         },
                         {
@@ -1291,7 +1675,13 @@
                             "name": "SecondaryBlockComponent"
                         },
                         {
+                            "name": "StoryBtnComponent"
+                        },
+                        {
                             "name": "StoryComponent"
+                        },
+                        {
+                            "name": "StoryItemComponent"
                         },
                         {
                             "name": "StorySectionComponent"
@@ -1393,16 +1783,6 @@
                 "name": "Dark",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/story/story.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "",
-                "defaultValue": "Template.bind({})"
-            },
-            {
-                "name": "Dark",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/pages/home/home.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -1413,7 +1793,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/links-block/links-block.stories.ts",
+                "file": "src/app/components/languages-list/languages-list.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -1423,7 +1803,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/languages-list/languages-list.stories.ts",
+                "file": "src/app/components/links-block/links-block.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -1460,14 +1840,44 @@
                 "defaultValue": "Template.bind({})"
             },
             {
-                "name": "environment",
+                "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/environments/environment.ts",
+                "file": "src/app/components/story/story.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "object",
-                "defaultValue": "{\n  production: false\n}"
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/components/story-btn/story-btn.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/components/story-item/story-item.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/components/story-section/story-section.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
             },
             {
                 "name": "environment",
@@ -1480,14 +1890,14 @@
                 "defaultValue": "{\n  production: true\n}"
             },
             {
-                "name": "Light",
+                "name": "environment",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/story/story.stories.ts",
+                "file": "src/environments/environment.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "",
-                "defaultValue": "Template.bind({})"
+                "type": "object",
+                "defaultValue": "{\n  production: false\n}"
             },
             {
                 "name": "require",
@@ -1512,21 +1922,21 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/links-block/links-block.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story<LinksBlockComponent>",
-                "defaultValue": "(args: LinksBlockComponent) => ({\r\n  props: args,\r\n})"
-            },
-            {
-                "name": "Template",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/components/languages-list/languages-list.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story<LanguagesListComponent>",
                 "defaultValue": "(args: LanguagesListComponent) => ({\r\n  props: args,\r\n})"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/components/links-block/links-block.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<LinksBlockComponent>",
+                "defaultValue": "(args: LinksBlockComponent) => ({\r\n  props: args,\r\n})"
             },
             {
                 "name": "Template",
@@ -1572,11 +1982,51 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
+                "file": "src/app/components/story-btn/story-btn.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<StoryBtnComponent>",
+                "defaultValue": "(args: StoryBtnComponent) => ({\r\n  props: args,\r\n})"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/components/story-item/story-item.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<StoryItemComponent>",
+                "defaultValue": "(args: StoryItemComponent) => ({\r\n  props: args,\r\n})"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/components/story-section/story-section.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<StorySectionComponent>",
+                "defaultValue": "(args: StorySectionComponent) => ({\r\n  props: args,\r\n})"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
                 "file": "src/app/pages/home/home.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story<HomeComponent>",
                 "defaultValue": "(args: HomeComponent) => ({\r\n    props: args,\r\n})"
+            },
+            {
+                "name": "UsersData",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/data/users.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "User[]",
+                "defaultValue": "[\r\n  {\r\n    name: 'your story',\r\n    foolName: 'i.slimeeee____',\r\n    avatar: '../../../assets/Icons/Profile-Pic-S.svg',\r\n    // image:'',\r\n  },\r\n  {\r\n    name: 'tery',\r\n    foolName: 'terylucas',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-7.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-7.1.png',\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsint',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-2.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-2.1.png',\r\n  },\r\n  {\r\n    name: 'harry',\r\n    foolName: 'harryprescott',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-3.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-3.1.png',\r\n  },\r\n  {\r\n    name: 'edna',\r\n    foolName: 'ednamanz',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-4.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-4.1.png',\r\n  },\r\n  {\r\n    name: 'christina',\r\n    foolName: 'christinasterling',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-5.png',\r\n    // image:'',\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsant',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-1.png',\r\n    // image:'',\r\n  },\r\n  {\r\n    name: 'lorem m',\r\n    foolName: 'loremlorem',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-6.png',\r\n    // image:'',\r\n  },\r\n]"
             }
         ],
         "functions": [],
@@ -1626,38 +2076,6 @@
                     "defaultValue": "(args: FooterComponent) => ({\r\n    props: args,\r\n})"
                 }
             ],
-            "src/app/components/story/story.stories.ts": [
-                {
-                    "name": "Dark",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/components/story/story.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "Template.bind({})"
-                },
-                {
-                    "name": "Light",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/components/story/story.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "Template.bind({})"
-                },
-                {
-                    "name": "Template",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/components/story/story.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story<StoryComponent>",
-                    "defaultValue": "(args: StoryComponent) => ({\r\n  props: args,\r\n})"
-                }
-            ],
             "src/app/pages/home/home.stories.ts": [
                 {
                     "name": "Dark",
@@ -1680,28 +2098,6 @@
                     "defaultValue": "(args: HomeComponent) => ({\r\n    props: args,\r\n})"
                 }
             ],
-            "src/app/components/links-block/links-block.stories.ts": [
-                {
-                    "name": "Default",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/components/links-block/links-block.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "Template.bind({})"
-                },
-                {
-                    "name": "Template",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/components/links-block/links-block.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story<LinksBlockComponent>",
-                    "defaultValue": "(args: LinksBlockComponent) => ({\r\n  props: args,\r\n})"
-                }
-            ],
             "src/app/components/languages-list/languages-list.stories.ts": [
                 {
                     "name": "Default",
@@ -1722,6 +2118,28 @@
                     "deprecationMessage": "",
                     "type": "Story<LanguagesListComponent>",
                     "defaultValue": "(args: LanguagesListComponent) => ({\r\n  props: args,\r\n})"
+                }
+            ],
+            "src/app/components/links-block/links-block.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/links-block/links-block.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/links-block/links-block.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<LinksBlockComponent>",
+                    "defaultValue": "(args: LinksBlockComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
             "src/app/components/logo/logo.stories.ts": [
@@ -1790,16 +2208,92 @@
                     "defaultValue": "(args: NavigationComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
-            "src/environments/environment.ts": [
+            "src/app/components/story/story.stories.ts": [
                 {
-                    "name": "environment",
+                    "name": "Default",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/environments/environment.ts",
+                    "file": "src/app/components/story/story.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "object",
-                    "defaultValue": "{\n  production: false\n}"
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/story/story.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<StoryComponent>",
+                    "defaultValue": "(args: StoryComponent) => ({\r\n  props: args,\r\n})"
+                }
+            ],
+            "src/app/components/story-btn/story-btn.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/story-btn/story-btn.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/story-btn/story-btn.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<StoryBtnComponent>",
+                    "defaultValue": "(args: StoryBtnComponent) => ({\r\n  props: args,\r\n})"
+                }
+            ],
+            "src/app/components/story-item/story-item.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/story-item/story-item.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/story-item/story-item.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<StoryItemComponent>",
+                    "defaultValue": "(args: StoryItemComponent) => ({\r\n  props: args,\r\n})"
+                }
+            ],
+            "src/app/components/story-section/story-section.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/story-section/story-section.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/story-section/story-section.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<StorySectionComponent>",
+                    "defaultValue": "(args: StorySectionComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
             "src/environments/environment.prod.ts": [
@@ -1812,6 +2306,30 @@
                     "deprecationMessage": "",
                     "type": "object",
                     "defaultValue": "{\n  production: true\n}"
+                }
+            ],
+            "src/environments/environment.ts": [
+                {
+                    "name": "environment",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/environments/environment.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "object",
+                    "defaultValue": "{\n  production: false\n}"
+                }
+            ],
+            "src/app/data/users.ts": [
+                {
+                    "name": "UsersData",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/data/users.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "User[]",
+                    "defaultValue": "[\r\n  {\r\n    name: 'your story',\r\n    foolName: 'i.slimeeee____',\r\n    avatar: '../../../assets/Icons/Profile-Pic-S.svg',\r\n    // image:'',\r\n  },\r\n  {\r\n    name: 'tery',\r\n    foolName: 'terylucas',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-7.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-7.1.png',\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsint',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-2.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-2.1.png',\r\n  },\r\n  {\r\n    name: 'harry',\r\n    foolName: 'harryprescott',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-3.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-3.1.png',\r\n  },\r\n  {\r\n    name: 'edna',\r\n    foolName: 'ednamanz',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-4.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-4.1.png',\r\n  },\r\n  {\r\n    name: 'christina',\r\n    foolName: 'christinasterling',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-5.png',\r\n    // image:'',\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsant',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-1.png',\r\n    // image:'',\r\n  },\r\n  {\r\n    name: 'lorem m',\r\n    foolName: 'loremlorem',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-6.png',\r\n    // image:'',\r\n  },\r\n]"
                 }
             ]
         },
@@ -2061,12 +2579,39 @@
                 "status": "low"
             },
             {
+                "filePath": "src/app/components/post-footer/post-footer.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "PostFooterComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/8",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/post-header/post-header.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "PostHeaderComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/2",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/post-section/post-section.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "PostSectionComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
                 "filePath": "src/app/components/post/post.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "PostComponent",
                 "coveragePercent": 0,
-                "coverageCount": "0/3",
+                "coverageCount": "0/2",
                 "status": "low"
             },
             {
@@ -2097,12 +2642,90 @@
                 "status": "low"
             },
             {
+                "filePath": "src/app/components/story-btn/story-btn.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "StoryBtnComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/story-btn/story-btn.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/story-btn/story-btn.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Template",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/story-item/story-item.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "StoryItemComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/2",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/story-item/story-item.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/story-item/story-item.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Template",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
                 "filePath": "src/app/components/story-section/story-section.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "StorySectionComponent",
                 "coveragePercent": 0,
                 "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/story-section/story-section.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/story-section/story-section.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Template",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
                 "status": "low"
             },
             {
@@ -2119,17 +2742,7 @@
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
-                "name": "Dark",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/app/components/story/story.stories.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "Light",
+                "name": "Default",
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
                 "status": "low"
@@ -2151,6 +2764,25 @@
                 "name": "SugestionsComponent",
                 "coveragePercent": 0,
                 "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/data/users.ts",
+                "type": "interface",
+                "linktype": "interface",
+                "name": "User",
+                "coveragePercent": 0,
+                "coverageCount": "0/5",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/data/users.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "UsersData",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
                 "status": "low"
             },
             {

@@ -1,0 +1,27 @@
+.sugestions__title {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #8e8e8e;
+}
+
+.title__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.btn__see {
+  border: none;
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 16px;
+  color: #262626;
+}
+
+.sugestions__wrapper{
+    margin-bottom: 20px;
+}
+

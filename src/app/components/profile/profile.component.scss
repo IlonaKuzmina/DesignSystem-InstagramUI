@@ -1,0 +1,39 @@
+.profile__wrapper {
+  max-width: 100%;
+  padding: 78px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #0095f6;
+}
+
+.name__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.username {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 18px;
+  color: #262626;
+  margin: 4px 0;
+}
+
+.acountname{
+font-size: 14px;
+line-height: 18px;
+text-transform: capitalize;
+color: #8E8E8E;
+}

@@ -28,12 +28,20 @@
   <div class="likes">{{ likes }} likes</div>
 
   <div class="comment__container">
-    <span class="name">{{ user.foolName }}</span>
+    <span class="name">{{ user.foolName }}</span> <span>{{ comments }}</span>
     <div class="comment__counter">View all {{ commentsCount }} comments</div>
     <div class="time">1 hour ago</div>
   </div>
-
-  <div class="comment__adder">
-
-  </div>
+</div>
+<div class="comment__wrapper">
+  <img class="comment__emoji" src="../../../assets/Icons/Emoji.svg" />
+  <input
+    #comment
+    class="comment__input"
+    type="text"
+    name="text"
+    id="text"
+    placeholder="Add a comment.."
+  />
+  <button (click)="addComment(comment.value)" class="post__btn">Post</button>
 </div>

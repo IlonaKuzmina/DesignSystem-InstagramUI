@@ -7,12 +7,14 @@ import { User } from 'src/app/data/users';
   styleUrls: ['./post-footer.component.scss'],
 })
 export class PostFooterComponent {
-  @Input()
-  user!: User;
+  @Input() user!: User;
+
   likes = 0;
   postLiked = false;
   postSaved = false;
+  testcomment = '';
   commentsCount = 0;
+  comments: string[] = [];
 
   clickLike(): void {
     if (!this.postLiked) {
@@ -27,5 +29,10 @@ export class PostFooterComponent {
   clickSave(): void {
     this.postSaved = !this.postSaved;
     console.log('butn works');
+  }
+
+  addComment(comment: string): void {
+    this.comments = [...this.comments, comment];
+    this.commentsCount++;
   }
 }

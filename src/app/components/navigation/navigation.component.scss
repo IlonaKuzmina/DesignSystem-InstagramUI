@@ -7,6 +7,27 @@
   min-width: 320px;
 }
 
+@media screen and (max-width: 580px) {
+  .navigation__wrapper {
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navigation__wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 5px;
+    margin: 0 auto;
+    align-content: center;
+  }
+  .search__input {
+    width: 100%;
+    margin: 5px;
+  }
+}
+
 ::placeholder {
   background: url(../../../assets/Icons//Search.svg);
   background-repeat: no-repeat;

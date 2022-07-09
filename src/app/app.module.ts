@@ -27,6 +27,9 @@ import { StoryItemComponent } from './components/story-item/story-item.component
 import { PostSectionComponent } from './components/post-section/post-section.component';
 import { PostFooterComponent } from './components/post-footer/post-footer.component';
 import { PostHeaderComponent } from './components/post-header/post-header.component';
+import { ProfileHeaderComponent } from './components/profile-header/profile-header.component';
+import { ProfileToogleComponent } from './components/profile-toogle/profile-toogle.component';
+import { ProfileContentComponent } from './components/profile-content/profile-content.component';
 
 @NgModule({
   declarations: [
@@ -55,6 +58,9 @@ import { PostHeaderComponent } from './components/post-header/post-header.compon
     PostSectionComponent,
     PostFooterComponent,
     PostHeaderComponent,
+    ProfileHeaderComponent,
+    ProfileToogleComponent,
+    ProfileContentComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

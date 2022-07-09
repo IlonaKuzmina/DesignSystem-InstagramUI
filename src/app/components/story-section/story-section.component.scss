@@ -1,6 +1,6 @@
 .story__section-wrapper {
   min-width: 320px;
-  max-width: 100%;
+  // max-width: 100%;
   padding: 60px 0px 0px;
 }
 
@@ -9,4 +9,11 @@
   border: 1px solid #dbdbdb;
   padding: 17px 0px;
   position: relative;
+}
+
+@media screen and (max-width:1020px) {
+  .story__section-wrapper{
+    max-width: 614px;
+    margin:0 auto;
+  }
 }

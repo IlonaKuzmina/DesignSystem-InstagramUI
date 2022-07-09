@@ -1,0 +1,50 @@
+<div class="toogle__wrapper">
+  <div
+    class="btn__wrapper"
+    (click)="clickHandler('post')"
+    [ngClass]="selectedPost ? 'border' : ''"
+  >
+    <span>
+      <img
+        class="image"
+        [ngClass]="selectedPost ? '' : 'opacity'"
+        src="../../../assets/Icons/Posts.svg"
+      />
+    </span>
+
+    <button class="btn" [ngClass]="selectedPost ? 'active' : ''">posts</button>
+  </div>
+
+  <div
+    class="btn__wrapper"
+    (click)="clickHandler('save')"
+    [ngClass]="selectedSave ? 'border' : ''"
+  >
+    <span>
+      <img
+        class="image"
+        [ngClass]="selectedSave ? '' : 'opacity'"
+        src="../../../assets/Icons/Saved.svg"
+      />
+    </span>
+    <button [ngClass]="selectedSave ? 'active' : ''" class="btn">saved</button>
+  </div>
+
+  <div
+    id="tagged"
+    class="btn__wrapper"
+    (click)="clickHandler('tagged')"
+    [ngClass]="selectedTagged ? 'border' : ''"
+  >
+    <span>
+      <img
+        class="image"
+        [ngClass]="selectedTagged ? '' : 'opacity'"
+        src="../../../assets/Icons/Tagged.svg"
+      />
+    </span>
+    <button [ngClass]="selectedTagged ? 'active' : ''" class="btn">
+      tagged
+    </button>
+  </div>
+</div>

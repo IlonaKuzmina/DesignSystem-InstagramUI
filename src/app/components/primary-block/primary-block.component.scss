@@ -1,3 +1,10 @@
-.primary__block{
-   padding-right: 28px; 
+.primary__block {
+  padding-right: 28px;
+}
+
+@media only screen and (max-width: 1020px) {
+  .primary__block {
+    padding-right: 0px;
+    margin: 0 auto;
+  }
 }

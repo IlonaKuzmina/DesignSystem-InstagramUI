@@ -1,7 +1,6 @@
 .menu__buttons {
   padding: 7px 0 7px 24px;
   background-color: transparent;
-  
 }
 
 .btn {
@@ -69,4 +68,14 @@
 
 .btn:first-child {
   margin: 0 11px 0 0;
+}
+
+@media screen and (max-width: 590px) {
+  .menu__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 100%;
+  }
 }

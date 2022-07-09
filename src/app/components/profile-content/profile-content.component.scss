@@ -1,0 +1,40 @@
+.posts__title {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 18px;
+  color: #262626;
+}
+
+.posts__text {
+  font-size: 16px;
+  line-height: 18px;
+  color: #262626;
+  margin: 20px 0;
+}
+
+.app__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.images__container {
+  max-width: 400px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 1px;
+  column-gap: 1px;
+  margin: 20px auto;
+}
+
+.image {
+  background-color: rgb(173, 157, 157);
+}
+
+.right__box {
+  margin: 30px 40px;
+}
+
+.left__box {
+  margin: 20px auto;
+}

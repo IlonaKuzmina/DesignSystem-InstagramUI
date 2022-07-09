@@ -1,6 +1,12 @@
 .post__wrapper {
-  max-width: 100%;
+  max-width:max-content;
   min-width: 320px;
   background: #ffffff;
   margin-bottom: 24px;
+  margin: 0 auto;
+}
+
+.image{
+  max-width: 100%;
+  margin: 0 auto;
 }

@@ -15,6 +15,4 @@ const Template: Story<LogoComponent> = (args: LogoComponent) => ({
 });
 
 export const Default = Template.bind({});
-Default.args = {
-  color:"red"
-};
+Default.args = {};

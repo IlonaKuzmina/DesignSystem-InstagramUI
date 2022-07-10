@@ -1,0 +1,17 @@
+<div class="left__content--wrapper">
+  <div class="messenger__title">
+    <select class="name__selector" name="" id="">
+      <option *ngFor="let user of users" value="">{{ user.foolName }}</option>
+    </select>
+    <img src="../../../assets/Icons/NewMessages.svg" alt="" />
+  </div>
+  <div class="messenger__content--wrapper">
+    <div *ngFor="let user of users | slice: 2" class="messenger__content">
+      <img class="messenger__avatar" src="{{ user.avatar }}" alt="" />
+      <div>
+        <p class="messenger__name">{{ user.foolName }}</p>
+        <p class="messenger__text">{{ user.comment }}</p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,48 @@
+.left__content--wrapper {
+  text-align: center;
+  padding: 12px 20px;
+  margin: 22px 0;
+  border: 1px solid #dbdbdb;
+  height: 100%;
+}
+
+.messenger__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.name__selector {
+  border: none;
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: lowercase;
+  color: #262626;
+}
+
+.messenger__content {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.messenger__avatar {
+  margin-right: 12px;
+}
+
+.messenger__name,
+.messenger__text {
+  font-size: 14px;
+  line-height: 11px;
+  text-transform: lowercase;
+  color: #262626;
+  text-align: start;
+  padding: 4px 0;
+}
+
+.messenger__text {
+  color: #8e8e8e;
+}

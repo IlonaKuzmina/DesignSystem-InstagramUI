@@ -68,10 +68,17 @@
   background: #ffffff;
 }
 
+.new__comment {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
 .comment__input {
   width: 100%;
   height: 100%;
   border: none;
+  background: #ffffff;
   padding: 10px 0;
 }
 
@@ -83,8 +90,10 @@
   line-height: 18px;
   text-transform: capitalize;
   color: #0095f6;
+  background: #ffffff;
 }
 
 .comment__emoji {
   margin-right: 16px;
+  background: #ffffff;
 }

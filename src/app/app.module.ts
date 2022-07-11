@@ -32,6 +32,7 @@ import { ProfileToogleComponent } from './components/profile-toogle/profile-toog
 import { ProfileContentComponent } from './components/profile-content/profile-content.component';
 import { MessengerContentRightComponent } from './components/messenger-content-right/messenger-content-right.component';
 import { MessengerContentLeftComponent } from './components/messenger-content-left/messenger-content-left.component';
+import { UsersPostsComponent } from './components/users-posts/users-posts.component';
 
 @NgModule({
   declarations: [
@@ -65,6 +66,7 @@ import { MessengerContentLeftComponent } from './components/messenger-content-le
     ProfileContentComponent,
     MessengerContentRightComponent,
     MessengerContentLeftComponent,
+    UsersPostsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

@@ -1,6 +1,7 @@
 .story__container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   flex-wrap: nowrap;
   background: #ffffff;
 }
@@ -16,6 +17,8 @@
 }
 
 .image__wrapper {
+  background-color: transparent;
+  max-width:max-content;
   width: fit-content;
   border-radius: 50%;
   border: 2.5px solid transparent;
@@ -24,8 +27,8 @@
 
 .image {
   padding: 2.5px;
-  width: 56px;
-  height: 56px;
+  max-width: 56px;
+  max-height: 56px;
   border-radius: 50%;
   border: transparent;
 }

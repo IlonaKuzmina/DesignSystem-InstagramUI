@@ -31,9 +31,21 @@
   margin: 4px 0;
 }
 
-.acountname{
-font-size: 14px;
-line-height: 18px;
-text-transform: capitalize;
-color: #8E8E8E;
+.acountname {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #8e8e8e;
+}
+
+@media screen and(max-width:850px) {
+  .name__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile__wrapper {
+    display: flex;
+    justify-content: start;
+  }
 }

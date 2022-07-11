@@ -3,7 +3,7 @@
     <select class="name__selector" name="" id="">
       <option *ngFor="let user of users" value="">{{ user.foolName }}</option>
     </select>
-    <img src="../../../assets/Icons/NewMessages.svg" alt="" />
+    <img class="message__icon" src="../../../assets/Icons/NewMessages.svg" alt="" />
   </div>
   <div class="messenger__content--wrapper">
     <div *ngFor="let user of users | slice: 2" class="messenger__content">

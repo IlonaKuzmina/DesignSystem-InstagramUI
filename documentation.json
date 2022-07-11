@@ -3,12 +3,12 @@
     "interfaces": [
         {
             "name": "User",
-            "id": "interface-User-6766f532934eee5793b7c7874330bb5f8ca3640ebc289fe0faa9b781e4ce6fde10bbdbeff8d30c9464e95e902bbfec50ed7cb81e0d406947233fbfe812ddf07d",
+            "id": "interface-User-ec335725e2da89fcad590fe39652d535c5af2e98c624aed238331eee9d8a45c79cb1be2f83354d8680f9112699fbe4e6979a33eecfe3cdddc815c68f332ddd1f",
             "file": "src/app/data/users.ts",
             "deprecated": false,
             "deprecationMessage": "",
             "type": "interface",
-            "sourceCode": "export interface User {\r\n  name: string;\r\n  avatar:string\r\n  image?: string;\r\n  foolName: string;\r\n}\r\n\r\nconst UsersData: User[] = [\r\n  {\r\n    name: 'your story',\r\n    foolName: 'i.slimeeee____',\r\n    avatar: '../../../assets/Icons/Profile-Pic-S.svg',\r\n    // image:'',\r\n  },\r\n  {\r\n    name: 'tery',\r\n    foolName: 'terylucas',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-7.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-7.1.png',\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsint',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-2.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-2.1.png',\r\n  },\r\n  {\r\n    name: 'harry',\r\n    foolName: 'harryprescott',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-3.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-3.1.png',\r\n  },\r\n  {\r\n    name: 'edna',\r\n    foolName: 'ednamanz',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-4.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-4.1.png',\r\n  },\r\n  {\r\n    name: 'christina',\r\n    foolName: 'christinasterling',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-5.png',\r\n    // image:'',\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsant',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-1.png',\r\n    // image:'',\r\n  },\r\n  {\r\n    name: 'lorem m',\r\n    foolName: 'loremlorem',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-6.png',\r\n    // image:'',\r\n  },\r\n];\r\n\r\nexport default UsersData;\r\n",
+            "sourceCode": "export interface User {\r\n  name: string;\r\n  avatar:string\r\n  image?: string;\r\n  foolName: string;\r\n  comment?: string;\r\n}\r\n\r\nconst UsersData: User[] = [\r\n  {\r\n    name: 'your story',\r\n    foolName: 'i.slimeeee____',\r\n    avatar: '../../../assets/Icons/Profile-Pic-S.svg',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'tery',\r\n    foolName: 'terylucas',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-7.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-7.1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsint',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-2.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-2.1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'harry',\r\n    foolName: 'harryprescott',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-3.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-3.1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'edna',\r\n    foolName: 'ednamanz',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-4.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-4.1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'christina',\r\n    foolName: 'christinasterling',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-5.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsant',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'lorem m',\r\n    foolName: 'loremlorem',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-6.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n];\r\n\r\nexport default UsersData;\r\n",
             "properties": [
                 {
                     "name": "avatar",
@@ -18,6 +18,15 @@
                     "optional": false,
                     "description": "",
                     "line": 3
+                },
+                {
+                    "name": "comment",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "optional": true,
+                    "description": "",
+                    "line": 6
                 },
                 {
                     "name": "foolName",
@@ -102,7 +111,7 @@
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": ".app__wrapper {\r\n  max-width: 935px;\r\n  margin: 0 auto;\r\n  background-color: #fafafa;\r\n  min-height: 100%;\r\n  display: grid;\r\n  grid-template-rows: auto 1fr auto;\r\n}\r\n",
+                    "data": ".app__wrapper {\r\n  max-width: 935px;\r\n  margin: 0 auto;\r\n  background-color: #fafafa;\r\n  display: grid;\r\n  grid-template-rows: auto 1fr auto;\r\n  height: 100%;\r\n}\r\n",
                     "styleUrl": "./app.component.scss"
                 }
             ],
@@ -592,7 +601,120 @@
             "implements": [
                 "OnInit"
             ],
-            "templateData": "<p>messenger works!</p>\n"
+            "templateData": "<div class=\"row\">\n  <div class=\"col-xs-2 col-md-5\">\n    <app-messenger-content-left></app-messenger-content-left>\n  </div>\n  <div class=\"col-xs-10 col-md-7\">\n    <app-messenger-content-right></app-messenger-content-right>\n  </div>\n</div>\n"
+        },
+        {
+            "name": "MessengerContentLeftComponent",
+            "id": "component-MessengerContentLeftComponent-36542031008a85ad8521101cb1a81f9f449cfe61283e4bbc506f28f13b1531f104b05da68cb23f0550ce7ac10324119601867bca01aabf8dd1773642a16e8d01",
+            "file": "src/app/components/messenger-content-left/messenger-content-left.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-messenger-content-left",
+            "styleUrls": [
+                "./messenger-content-left.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./messenger-content-left.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [
+                {
+                    "name": "users",
+                    "defaultValue": "UsersData",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 10
+                }
+            ],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component } from '@angular/core';\nimport UsersData from '../../../app/data/users';\n\n@Component({\n  selector: 'app-messenger-content-left',\n  templateUrl: './messenger-content-left.component.html',\n  styleUrls: ['./messenger-content-left.component.scss'],\n})\nexport class MessengerContentLeftComponent {\n  users = UsersData;\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": ".left__content--wrapper {\r\n  text-align: center;\r\n  padding: 12px 20px;\r\n  margin: 22px 0;\r\n  border: 1px solid #dbdbdb;\r\n  height: 100%;\r\n}\r\n\r\n.messenger__title {\r\n  display: flex;\r\n  flex-direction: row;\r\n  justify-content: space-around;\r\n}\r\n\r\n.name__selector {\r\n  border: none;\r\n  cursor: pointer;\r\n  font-weight: 900;\r\n  font-size: 16px;\r\n  line-height: 24px;\r\n  text-transform: lowercase;\r\n  color: #262626;\r\n}\r\n\r\n.messenger__content {\r\n  display: flex;\r\n  flex-direction: row;\r\n  padding: 10px 0;\r\n  align-items: center;\r\n}\r\n\r\n.messenger__avatar {\r\n  margin-right: 12px;\r\n}\r\n\r\n.messenger__name,\r\n.messenger__text {\r\n  font-size: 14px;\r\n  line-height: 11px;\r\n  text-transform: lowercase;\r\n  color: #262626;\r\n  text-align: start;\r\n  padding: 4px 0;\r\n}\r\n\r\n.messenger__text {\r\n  color: #8e8e8e;\r\n}\r\n",
+                    "styleUrl": "./messenger-content-left.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "templateData": "<div class=\"left__content--wrapper\">\n  <div class=\"messenger__title\">\n    <select class=\"name__selector\" name=\"\" id=\"\">\n      <option *ngFor=\"let user of users\" value=\"\">{{ user.foolName }}</option>\n    </select>\n    <img src=\"../../../assets/Icons/NewMessages.svg\" alt=\"\" />\n  </div>\n  <div class=\"messenger__content--wrapper\">\n    <div *ngFor=\"let user of users | slice: 2\" class=\"messenger__content\">\n      <img class=\"messenger__avatar\" src=\"{{ user.avatar }}\" alt=\"\" />\n      <div>\n        <p class=\"messenger__name\">{{ user.foolName }}</p>\n        <p class=\"messenger__text\">{{ user.comment }}</p>\n      </div>\n    </div>\n  </div>\n</div>\n"
+        },
+        {
+            "name": "MessengerContentRightComponent",
+            "id": "component-MessengerContentRightComponent-5e7bd075c4b175dccb04db7ca7bd0dccbeb8d07f0b2dcf6e5f8297b59e27ee74261b3f124373e2e1005b908fe7e105ee6d332ceb1f3143a459622f675a54e818",
+            "file": "src/app/components/messenger-content-right/messenger-content-right.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-messenger-content-right",
+            "styleUrls": [
+                "./messenger-content-right.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./messenger-content-right.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 12,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-messenger-content-right',\n  templateUrl: './messenger-content-right.component.html',\n  styleUrls: ['./messenger-content-right.component.scss']\n})\nexport class MessengerContentRightComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": ".right__content--wrapper {\r\n  text-align: center;\r\n  padding: 100px 50px;\r\n  margin: 22px 0;\r\n  border: 1px solid #dbdbdb;\r\n  height: 100%;\r\n}\r\n\r\n.message__icon--wrapper {\r\n  display: inline-block;\r\n  width: 80px;\r\n  height: 80px;\r\n  border: 2px solid black;\r\n  border-radius: 50%;\r\n  background-image: url(../../../assets/Icons/SharePosts.svg);\r\n  background-repeat: no-repeat;\r\n  background-position: center;\r\n  background-size: 50%;\r\n}\r\n\r\n.message__icon {\r\n  border-radius: 50%;\r\n}\r\n\r\n.message__title {\r\n  font-weight: 900;\r\n  font-size: 22px;\r\n  line-height: 17px;\r\n  color: #262626;\r\n  padding: 15px 0 8px;\r\n}\r\n\r\n.message__text {\r\n  font-size: 14px;\r\n  line-height: 11px;\r\n  color: #8e8e8e;\r\n  padding: 15px 0 16px;\r\n}\r\n\r\n.message__btn {\r\n  background: #0095f6;\r\n  border-radius: 4px;\r\n  padding: 6px 9px;\r\n  font-weight: 900;\r\n  font-size: 14px;\r\n  line-height: 18px;\r\n  color: #ffffff;\r\n  border: none;\r\n  cursor: pointer;\r\n}\r\n",
+                    "styleUrl": "./messenger-content-right.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 8
+            },
+            "implements": [
+                "OnInit"
+            ],
+            "templateData": "<div class=\"right__content--wrapper\">\n  <div class=\"message__icon--wrapper\"></div>\n\n  <h1 class=\"message__title\">Your Messages</h1>\n  <p class=\"message__text\">\n    Send private photos and messages to a friend or group.\n  </p>\n  <button class=\"message__btn\">Send Message</button>\n</div>\n"
         },
         {
             "name": "MyProfileComponent",
@@ -678,7 +800,7 @@
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": ".navigation__wrapper {\r\n  padding: 13px 0 0 8px;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  background-color: #fafafa;\r\n  flex-wrap: wrap;\r\n  min-width: 320px;\r\n}\r\n\r\n@media screen and (max-width: 580px) {\r\n  .navigation__wrapper {\r\n    justify-content: space-evenly;\r\n  }\r\n}\r\n\r\n@media screen and (max-width: 400px) {\r\n  .navigation__wrapper {\r\n    display: flex;\r\n    flex-direction: column;\r\n    max-width: 100%;\r\n    padding: 5px;\r\n    margin: 0 auto;\r\n    align-content: center;\r\n  }\r\n  .search__input {\r\n    width: 100%;\r\n    margin: 5px;\r\n  }\r\n}\r\n\r\n::placeholder {\r\n  background: url(../../../assets/Icons//Search.svg);\r\n  background-repeat: no-repeat;\r\n  background-position: 35px;\r\n  color: #8e8e8e;\r\n  text-align: center;\r\n}\r\n\r\n.search__input {\r\n  padding: 4px 30px;\r\n  color: #8e8e8e;\r\n  border: 1px solid #dbdbdb;\r\n  border-radius: 3px;\r\n}\r\n\r\nhr.border {\r\n  border: 1px solid #dbdbdb;\r\n  margin: 0;\r\n}\r\n",
+                    "data": ".navigation__wrapper {\r\n  padding: 13px 0 0 8px;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  background-color: #fafafa;\r\n  flex-wrap: wrap;\r\n  min-width: 320px;\r\n  border-bottom: 1px solid #DBDBDB;\r\n}\r\n\r\n@media screen and (max-width: 580px) {\r\n  .navigation__wrapper {\r\n    justify-content: space-evenly;\r\n  }\r\n}\r\n\r\n@media screen and (max-width: 400px) {\r\n  .navigation__wrapper {\r\n    display: flex;\r\n    flex-direction: column;\r\n    max-width: 100%;\r\n    padding: 5px;\r\n    margin: 0 auto;\r\n    align-content: center;\r\n  }\r\n  .search__input {\r\n    width: 100%;\r\n    margin: 5px;\r\n  }\r\n}\r\n\r\n::placeholder {\r\n  background: url(../../../assets/Icons//Search.svg);\r\n  background-repeat: no-repeat;\r\n  background-position: 35px;\r\n  color: #8e8e8e;\r\n  text-align: center;\r\n}\r\n\r\n.search__input {\r\n  padding: 4px 30px;\r\n  color: #8e8e8e;\r\n  border: 1px solid #dbdbdb;\r\n  border-radius: 3px;\r\n}\r\n\r\nhr.border {\r\n  border: 1px solid #dbdbdb;\r\n  margin: 0;\r\n}\r\n",
                     "styleUrl": "./navigation.component.scss"
                 }
             ],
@@ -694,7 +816,7 @@
             "implements": [
                 "OnInit"
             ],
-            "templateData": "<div class=\"navigation__wrapper\">\n  <app-logo></app-logo>\n\n  <div class=\"search__wrapper\">\n    <input class=\"search__input\" type=\"text\" placeholder=\"Search\" />\n  </div>\n\n  <app-nav-menu></app-nav-menu>\n</div>\n<hr class=\"border\" />\n"
+            "templateData": "<div class=\"navigation__wrapper\">\n  <app-logo></app-logo>\n\n  <div class=\"search__wrapper\">\n    <input class=\"search__input\" type=\"text\" placeholder=\"Search\" />\n  </div>\n\n  <app-nav-menu></app-nav-menu>\n</div>\n"
         },
         {
             "name": "NavMenuComponent",
@@ -961,12 +1083,12 @@
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": ".footer__wrapper {\r\n  padding: 8px 16px;\r\n  border: 1px solid #dbdbdb;\r\n  background: #ffffff;\r\n}\r\n\r\n.comment__container {\r\n  background: #ffffff;\r\n}\r\n\r\n.icons {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  height: 54px;\r\n  align-items: center;\r\n  background: #ffffff;\r\n}\r\n\r\n.btn {\r\n  border: none;\r\n  background: #ffffff;\r\n}\r\n\r\n.icons--left {\r\n  display: flex;\r\n  background: #ffffff;\r\n}\r\n\r\n.icon {\r\n  margin: 8px 8px 0 8px;\r\n  cursor: pointer;\r\n  width: 24px;\r\n  height: 24px;\r\n  background: #ffffff;\r\n}\r\n\r\n.likes,\r\n.name {\r\n  font-weight: 900;\r\n  font-size: 14px;\r\n  line-height: 18px;\r\n  color: #262626;\r\n  background: #ffffff;\r\n}\r\n\r\n.comment__counter {\r\n  color: #8e8e8e;\r\n  margin: 5px 0;\r\n  font-size: 14px;\r\n  line-height: 18px;\r\n  background: #ffffff;\r\n}\r\n\r\n.time {\r\n  text-transform: uppercase;\r\n  color: #8e8e8e;\r\n  font-size: 10px;\r\n  line-height: 18px;\r\n  letter-spacing: 0.2px;\r\n  background: #ffffff;\r\n}\r\n\r\n.comment__wrapper {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  border: 1px solid #dbdbdb;\r\n  padding: 6px 16px;\r\n  background: #ffffff;\r\n}\r\n\r\n.comment__input {\r\n  width: 100%;\r\n  height: 100%;\r\n  border: none;\r\n  padding: 10px 0;\r\n}\r\n\r\n.post__btn {\r\n  border: none;\r\n  cursor: pointer;\r\n  font-weight: 900;\r\n  font-size: 14px;\r\n  line-height: 18px;\r\n  text-transform: capitalize;\r\n  color: #0095f6;\r\n}\r\n\r\n.comment__emoji {\r\n  margin-right: 16px;\r\n}\r\n",
+                    "data": ".footer__wrapper {\r\n  padding: 8px 16px;\r\n  border: 1px solid #dbdbdb;\r\n  background: #ffffff;\r\n}\r\n\r\n.comment__container {\r\n  background: #ffffff;\r\n}\r\n\r\n.icons {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  height: 54px;\r\n  align-items: center;\r\n  background: #ffffff;\r\n}\r\n\r\n.btn {\r\n  border: none;\r\n  background: #ffffff;\r\n}\r\n\r\n.icons--left {\r\n  display: flex;\r\n  background: #ffffff;\r\n}\r\n\r\n.icon {\r\n  margin: 8px 8px 0 8px;\r\n  cursor: pointer;\r\n  width: 24px;\r\n  height: 24px;\r\n  background: #ffffff;\r\n}\r\n\r\n.likes,\r\n.name {\r\n  font-weight: 900;\r\n  font-size: 14px;\r\n  line-height: 18px;\r\n  color: #262626;\r\n  background: #ffffff;\r\n}\r\n\r\n.comment__counter {\r\n  color: #8e8e8e;\r\n  margin: 5px 0;\r\n  font-size: 14px;\r\n  line-height: 18px;\r\n  background: #ffffff;\r\n}\r\n\r\n.time {\r\n  text-transform: uppercase;\r\n  color: #8e8e8e;\r\n  font-size: 10px;\r\n  line-height: 18px;\r\n  letter-spacing: 0.2px;\r\n  background: #ffffff;\r\n}\r\n\r\n.comment__wrapper {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  border: 1px solid #dbdbdb;\r\n  padding: 6px 16px;\r\n  background: #ffffff;\r\n}\r\n\r\n.new__comment {\r\n  background: #ffffff;\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.comment__input {\r\n  width: 100%;\r\n  height: 100%;\r\n  border: none;\r\n  background: #ffffff;\r\n  padding: 10px 0;\r\n}\r\n\r\n.post__btn {\r\n  border: none;\r\n  cursor: pointer;\r\n  font-weight: 900;\r\n  font-size: 14px;\r\n  line-height: 18px;\r\n  text-transform: capitalize;\r\n  color: #0095f6;\r\n  background: #ffffff;\r\n}\r\n\r\n.comment__emoji {\r\n  margin-right: 16px;\r\n  background: #ffffff;\r\n}\r\n",
                     "styleUrl": "./post-footer.component.scss"
                 }
             ],
             "stylesData": "",
-            "templateData": "<div class=\"footer__wrapper\">\n  <div class=\"icons\">\n    <div class=\"icons--left\">\n      <img\n        *ngIf=\"!postLiked\"\n        class=\"icon\"\n        (click)=\"clickLike()\"\n        src=\"../../../assets/Icons/ActivityFeed.svg\"\n      />\n      <img\n        *ngIf=\"postLiked\"\n        class=\"icon\"\n        (click)=\"clickLike()\"\n        src=\"../../../assets/Icons/ActivityFeed-Fiil.svg\"\n      />\n      <img class=\"icon\" src=\"../../../assets/Icons/Comment.svg\" />\n      <img class=\"icon\" src=\"../../../assets/Icons/SharePosts.svg\" />\n    </div>\n    <div class=\"icons--right\">\n      <button *ngIf=\"postSaved\" (click)=\"clickSave()\" class=\"btn\">\n        <img class=\"icon\" src=\"../../../assets/Icons/Save.svg\" />\n      </button>\n      <button *ngIf=\"!postSaved\" (click)=\"clickSave()\" class=\"btn\">\n        <img class=\"icon\" src=\"../../../assets/Icons/icons8-save-64.png\" />\n      </button>\n    </div>\n  </div>\n  <div class=\"likes\">{{ likes }} likes</div>\n\n  <div class=\"comment__container\">\n    <span class=\"name\">{{ user.foolName }}</span> <div>{{ comments }}</div>\n    <div class=\"comment__counter\">View all {{ commentsCount }} comments</div>\n    <div class=\"time\">1 hour ago</div>\n  </div>\n</div>\n<div class=\"comment__wrapper\">\n  <img class=\"comment__emoji\" src=\"../../../assets/Icons/Emoji.svg\" />\n  <input\n    #comment\n    class=\"comment__input\"\n    type=\"text\"\n    name=\"text\"\n    id=\"text\"\n    placeholder=\"Add a comment..\"\n  />\n  <button (click)=\"addComment(comment.value)\" class=\"post__btn\">Post</button>\n</div>\n"
+            "templateData": "<div class=\"footer__wrapper\">\n  <div class=\"icons\">\n    <div class=\"icons--left\">\n      <img\n        *ngIf=\"!postLiked\"\n        class=\"icon\"\n        (click)=\"clickLike()\"\n        src=\"../../../assets/Icons/ActivityFeed.svg\"\n      />\n      <img\n        *ngIf=\"postLiked\"\n        class=\"icon\"\n        (click)=\"clickLike()\"\n        src=\"../../../assets/Icons/ActivityFeed-Fiil.svg\"\n      />\n      <img class=\"icon\" src=\"../../../assets/Icons/Comment.svg\" />\n      <img class=\"icon\" src=\"../../../assets/Icons/SharePosts.svg\" />\n    </div>\n    <div class=\"icons--right\">\n      <button *ngIf=\"postSaved\" (click)=\"clickSave()\" class=\"btn\">\n        <img class=\"icon\" src=\"../../../assets/Icons/Save.svg\" />\n      </button>\n      <button *ngIf=\"!postSaved\" (click)=\"clickSave()\" class=\"btn\">\n        <img class=\"icon\" src=\"../../../assets/Icons/icons8-save-64.png\" />\n      </button>\n    </div>\n  </div>\n  <div class=\"likes\">{{ likes }} likes</div>\n\n  <div class=\"comment__container\">\n    <span class=\"name\">{{ user.foolName }}</span>\n    <div class=\"new__comment\">{{ comments }}</div>\n    <div class=\"comment__counter\">View all {{ commentsCount }} comments</div>\n    <div class=\"time\">1 hour ago</div>\n  </div>\n</div>\n<div class=\"comment__wrapper\">\n  <img class=\"comment__emoji\" src=\"../../../assets/Icons/Emoji.svg\" />\n  <input\n    #comment\n    class=\"comment__input\"\n    type=\"text\"\n    name=\"text\"\n    id=\"text\"\n    placeholder=\"Add a comment..\"\n  />\n  <button (click)=\"addComment(comment.value)\" class=\"post__btn\">Post</button>\n</div>\n"
         },
         {
             "name": "PostHeaderComponent",
@@ -1828,13 +1950,13 @@
     "modules": [
         {
             "name": "AppModule",
-            "id": "module-AppModule-437e3c3ef372b0a18d95762ee7cfc66347bb98bf988c55804a069c80b96e9cde50c5c373cfe850431903ffecf22727d88c929f9b30a446b64ae4dfed0ecba761",
+            "id": "module-AppModule-6f3e40a1dec164bb99d53b3adc01b1a45de2b017b24f712eea7e0b7c3c38604216cb40c8532c580bb4b9a6aa53bb327582e5e3d87fb4128b325cec3688829e95",
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
             "file": "src/app/app.module.ts",
             "methods": [],
-            "sourceCode": "import { NgModule } from '@angular/core';\nimport { BrowserModule } from '@angular/platform-browser';\n\nimport { AppRoutingModule } from './app-routing.module';\nimport { AppComponent } from './app.component';\nimport { StoryComponent } from './components/story/story.component';\nimport { NavigationComponent } from './components/navigation/navigation.component';\nimport { HomeComponent } from './pages/home/home.component';\nimport { MessengerComponent } from './pages/messenger/messenger.component';\nimport { MyProfileComponent } from './pages/my-profile/my-profile.component';\nimport { UserProfileComponent } from './pages/user-profile/user-profile.component';\nimport { ExploreComponent } from './pages/explore/explore.component';\nimport { FooterComponent } from './components/footer/footer.component';\nimport { LogoComponent } from './components/logo/logo.component';\nimport { NavMenuComponent } from './components/nav-menu/nav-menu.component';\nimport { LinksBlockComponent } from './components/links-block/links-block.component';\nimport { LanguagesListComponent } from './components/languages-list/languages-list.component';\nimport { PostComponent } from './components/post/post.component';\nimport { StorySectionComponent } from './components/story-section/story-section.component';\nimport { PrimaryBlockComponent } from './components/primary-block/primary-block.component';\nimport { SecondaryBlockComponent } from './components/secondary-block/secondary-block.component';\nimport { ProfileComponent } from './components/profile/profile.component';\nimport { SugestionsComponent } from './components/sugestions/sugestions.component';\nimport { FollowsComponent } from './components/follows/follows.component';\nimport { StoryBtnComponent } from './components/story-btn/story-btn.component';\nimport { StoryItemComponent } from './components/story-item/story-item.component';\nimport { PostSectionComponent } from './components/post-section/post-section.component';\nimport { PostFooterComponent } from './components/post-footer/post-footer.component';\nimport { PostHeaderComponent } from './components/post-header/post-header.component';\nimport { ProfileHeaderComponent } from './components/profile-header/profile-header.component';\nimport { ProfileToogleComponent } from './components/profile-toogle/profile-toogle.component';\nimport { ProfileContentComponent } from './components/profile-content/profile-content.component';\n\n@NgModule({\n  declarations: [\n    AppComponent,\n    StoryComponent,\n    NavigationComponent,\n    HomeComponent,\n    MessengerComponent,\n    MyProfileComponent,\n    UserProfileComponent,\n    ExploreComponent,\n    FooterComponent,\n    LogoComponent,\n    NavMenuComponent,\n    LinksBlockComponent,\n    LanguagesListComponent,\n    PostComponent,\n    StorySectionComponent,\n    PrimaryBlockComponent,\n    SecondaryBlockComponent,\n    ProfileComponent,\n    SugestionsComponent,\n    FollowsComponent,\n    StoryBtnComponent,\n    StoryItemComponent,\n    PostSectionComponent,\n    PostFooterComponent,\n    PostHeaderComponent,\n    ProfileHeaderComponent,\n    ProfileToogleComponent,\n    ProfileContentComponent,\n  ],\n  imports: [BrowserModule, AppRoutingModule],\n  providers: [],\n  bootstrap: [AppComponent],\n})\nexport class AppModule {}\n",
+            "sourceCode": "import { NgModule } from '@angular/core';\nimport { BrowserModule } from '@angular/platform-browser';\n\nimport { AppRoutingModule } from './app-routing.module';\nimport { AppComponent } from './app.component';\nimport { StoryComponent } from './components/story/story.component';\nimport { NavigationComponent } from './components/navigation/navigation.component';\nimport { HomeComponent } from './pages/home/home.component';\nimport { MessengerComponent } from './pages/messenger/messenger.component';\nimport { MyProfileComponent } from './pages/my-profile/my-profile.component';\nimport { UserProfileComponent } from './pages/user-profile/user-profile.component';\nimport { ExploreComponent } from './pages/explore/explore.component';\nimport { FooterComponent } from './components/footer/footer.component';\nimport { LogoComponent } from './components/logo/logo.component';\nimport { NavMenuComponent } from './components/nav-menu/nav-menu.component';\nimport { LinksBlockComponent } from './components/links-block/links-block.component';\nimport { LanguagesListComponent } from './components/languages-list/languages-list.component';\nimport { PostComponent } from './components/post/post.component';\nimport { StorySectionComponent } from './components/story-section/story-section.component';\nimport { PrimaryBlockComponent } from './components/primary-block/primary-block.component';\nimport { SecondaryBlockComponent } from './components/secondary-block/secondary-block.component';\nimport { ProfileComponent } from './components/profile/profile.component';\nimport { SugestionsComponent } from './components/sugestions/sugestions.component';\nimport { FollowsComponent } from './components/follows/follows.component';\nimport { StoryBtnComponent } from './components/story-btn/story-btn.component';\nimport { StoryItemComponent } from './components/story-item/story-item.component';\nimport { PostSectionComponent } from './components/post-section/post-section.component';\nimport { PostFooterComponent } from './components/post-footer/post-footer.component';\nimport { PostHeaderComponent } from './components/post-header/post-header.component';\nimport { ProfileHeaderComponent } from './components/profile-header/profile-header.component';\nimport { ProfileToogleComponent } from './components/profile-toogle/profile-toogle.component';\nimport { ProfileContentComponent } from './components/profile-content/profile-content.component';\nimport { MessengerContentRightComponent } from './components/messenger-content-right/messenger-content-right.component';\nimport { MessengerContentLeftComponent } from './components/messenger-content-left/messenger-content-left.component';\n\n@NgModule({\n  declarations: [\n    AppComponent,\n    StoryComponent,\n    NavigationComponent,\n    HomeComponent,\n    MessengerComponent,\n    MyProfileComponent,\n    UserProfileComponent,\n    ExploreComponent,\n    FooterComponent,\n    LogoComponent,\n    NavMenuComponent,\n    LinksBlockComponent,\n    LanguagesListComponent,\n    PostComponent,\n    StorySectionComponent,\n    PrimaryBlockComponent,\n    SecondaryBlockComponent,\n    ProfileComponent,\n    SugestionsComponent,\n    FollowsComponent,\n    StoryBtnComponent,\n    StoryItemComponent,\n    PostSectionComponent,\n    PostFooterComponent,\n    PostHeaderComponent,\n    ProfileHeaderComponent,\n    ProfileToogleComponent,\n    ProfileContentComponent,\n    MessengerContentRightComponent,\n    MessengerContentLeftComponent,\n  ],\n  imports: [BrowserModule, AppRoutingModule],\n  providers: [],\n  bootstrap: [AppComponent],\n})\nexport class AppModule {}\n",
             "children": [
                 {
                     "type": "providers",
@@ -1869,6 +1991,12 @@
                         },
                         {
                             "name": "MessengerComponent"
+                        },
+                        {
+                            "name": "MessengerContentLeftComponent"
+                        },
+                        {
+                            "name": "MessengerContentRightComponent"
                         },
                         {
                             "name": "MyProfileComponent"
@@ -2008,27 +2136,7 @@
                 "name": "Dark",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/pages/home/home.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "",
-                "defaultValue": "Template.bind({})"
-            },
-            {
-                "name": "Dark",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/components/footer/footer.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "",
-                "defaultValue": "Template.bind({})"
-            },
-            {
-                "name": "Default",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "src/app/components/links-block/links-block.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -2048,7 +2156,17 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/logo/logo.stories.ts",
+                "file": "src/app/components/links-block/links-block.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/components/messenger-content-right/messenger-content-right.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -2068,7 +2186,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/post-footer/post-footer.stories.ts",
+                "file": "src/app/components/logo/logo.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -2089,6 +2207,16 @@
                 "ctype": "miscellaneous",
                 "subtype": "variable",
                 "file": "src/app/components/navigation/navigation.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/components/post-footer/post-footer.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -2128,7 +2256,27 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
+                "file": "src/app/components/profile-content/profile-content.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
                 "file": "src/app/components/profile-toogle/profile-toogle.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/components/secondary-block/secondary-block.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -2148,6 +2296,16 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
+                "file": "src/app/components/story-item/story-item.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
                 "file": "src/app/components/story-btn/story-btn.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -2158,7 +2316,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/story-item/story-item.stories.ts",
+                "file": "src/app/components/sugestions/sugestions.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -2175,14 +2333,24 @@
                 "defaultValue": "Template.bind({})"
             },
             {
-                "name": "environment",
+                "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/environments/environment.prod.ts",
+                "file": "src/app/pages/home/home.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "object",
-                "defaultValue": "{\n  production: true\n}"
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/pages/messenger/messenger.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
             },
             {
                 "name": "environment",
@@ -2195,6 +2363,16 @@
                 "defaultValue": "{\n  production: false\n}"
             },
             {
+                "name": "environment",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/environments/environment.prod.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "object",
+                "defaultValue": "{\n  production: true\n}"
+            },
+            {
                 "name": "require",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
@@ -2202,16 +2380,6 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "literal type"
-            },
-            {
-                "name": "Template",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "src/app/pages/home/home.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story<HomeComponent>",
-                "defaultValue": "(args: HomeComponent) => ({\r\n    props: args,\r\n})"
             },
             {
                 "name": "Template",
@@ -2227,16 +2395,6 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/links-block/links-block.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story<LinksBlockComponent>",
-                "defaultValue": "(args: LinksBlockComponent) => ({\r\n  props: args,\r\n})"
-            },
-            {
-                "name": "Template",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/components/languages-list/languages-list.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -2247,11 +2405,21 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/logo/logo.stories.ts",
+                "file": "src/app/components/links-block/links-block.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Story<LogoComponent>",
-                "defaultValue": "(args: LogoComponent) => ({\r\n  props: args,\r\n})"
+                "type": "Story<LinksBlockComponent>",
+                "defaultValue": "(args: LinksBlockComponent) => ({\r\n  props: args,\r\n})"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/components/messenger-content-right/messenger-content-right.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<MessengerContentRightComponent>",
+                "defaultValue": "(args: MessengerContentRightComponent) => ({\r\n  props: args,\r\n})"
             },
             {
                 "name": "Template",
@@ -2267,11 +2435,11 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/post-footer/post-footer.stories.ts",
+                "file": "src/app/components/logo/logo.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Story<PostFooterComponent>",
-                "defaultValue": "(args: PostFooterComponent) => ({\r\n  props: args,\r\n})"
+                "type": "Story<LogoComponent>",
+                "defaultValue": "(args: LogoComponent) => ({\r\n  props: args,\r\n})"
             },
             {
                 "name": "Template",
@@ -2297,6 +2465,16 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
+                "file": "src/app/components/post-footer/post-footer.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<PostFooterComponent>",
+                "defaultValue": "(args: PostFooterComponent) => ({\r\n  props: args,\r\n})"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
                 "file": "src/app/components/post-header/post-header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -2311,7 +2489,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story<PrimaryBlockComponent>",
-                "defaultValue": "(args: PrimaryBlockComponent) => ({\r\n    props: args,\r\n  })"
+                "defaultValue": "(\r\n  args: PrimaryBlockComponent\r\n) => ({\r\n  props: args,\r\n})"
             },
             {
                 "name": "Template",
@@ -2327,11 +2505,31 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
+                "file": "src/app/components/profile-content/profile-content.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<ProfileContentComponent>",
+                "defaultValue": "(args: ProfileContentComponent) => ({\r\n  props: args,\r\n})"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
                 "file": "src/app/components/profile-toogle/profile-toogle.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story<ProfileToogleComponent>",
                 "defaultValue": "(\r\n  args: ProfileToogleComponent\r\n) => ({\r\n  props: args,\r\n})"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/components/secondary-block/secondary-block.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<SecondaryBlockComponent>",
+                "defaultValue": "(\r\n  args: SecondaryBlockComponent\r\n) => ({\r\n  props: args,\r\n})"
             },
             {
                 "name": "Template",
@@ -2347,6 +2545,16 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
+                "file": "src/app/components/story-item/story-item.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<StoryItemComponent>",
+                "defaultValue": "(args: StoryItemComponent) => ({\r\n  props: args,\r\n})"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
                 "file": "src/app/components/story-btn/story-btn.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -2357,11 +2565,11 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/story-item/story-item.stories.ts",
+                "file": "src/app/components/sugestions/sugestions.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Story<StoryItemComponent>",
-                "defaultValue": "(args: StoryItemComponent) => ({\r\n  props: args,\r\n})"
+                "type": "Story<SugestionsComponent>",
+                "defaultValue": "(\r\n    args: SugestionsComponent\r\n  ) => ({\r\n    props: args,\r\n  })"
             },
             {
                 "name": "Template",
@@ -2374,6 +2582,26 @@
                 "defaultValue": "(args: StorySectionComponent) => ({\r\n  props: args,\r\n})"
             },
             {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/pages/home/home.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<HomeComponent>",
+                "defaultValue": "(args: HomeComponent) => ({\r\n  props: args,\r\n})"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/pages/messenger/messenger.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<MessengerComponent>",
+                "defaultValue": "(args: MessengerComponent) => ({\r\n  props: args,\r\n})"
+            },
+            {
                 "name": "UsersData",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
@@ -2381,7 +2609,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "User[]",
-                "defaultValue": "[\r\n  {\r\n    name: 'your story',\r\n    foolName: 'i.slimeeee____',\r\n    avatar: '../../../assets/Icons/Profile-Pic-S.svg',\r\n    // image:'',\r\n  },\r\n  {\r\n    name: 'tery',\r\n    foolName: 'terylucas',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-7.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-7.1.png',\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsint',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-2.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-2.1.png',\r\n  },\r\n  {\r\n    name: 'harry',\r\n    foolName: 'harryprescott',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-3.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-3.1.png',\r\n  },\r\n  {\r\n    name: 'edna',\r\n    foolName: 'ednamanz',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-4.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-4.1.png',\r\n  },\r\n  {\r\n    name: 'christina',\r\n    foolName: 'christinasterling',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-5.png',\r\n    // image:'',\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsant',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-1.png',\r\n    // image:'',\r\n  },\r\n  {\r\n    name: 'lorem m',\r\n    foolName: 'loremlorem',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-6.png',\r\n    // image:'',\r\n  },\r\n]"
+                "defaultValue": "[\r\n  {\r\n    name: 'your story',\r\n    foolName: 'i.slimeeee____',\r\n    avatar: '../../../assets/Icons/Profile-Pic-S.svg',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'tery',\r\n    foolName: 'terylucas',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-7.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-7.1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsint',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-2.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-2.1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'harry',\r\n    foolName: 'harryprescott',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-3.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-3.1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'edna',\r\n    foolName: 'ednamanz',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-4.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-4.1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'christina',\r\n    foolName: 'christinasterling',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-5.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsant',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'lorem m',\r\n    foolName: 'loremlorem',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-6.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n]"
             }
         ],
         "functions": [],
@@ -2409,28 +2637,6 @@
                     "type": "literal type"
                 }
             ],
-            "src/app/pages/home/home.stories.ts": [
-                {
-                    "name": "Dark",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/pages/home/home.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "Template.bind({})"
-                },
-                {
-                    "name": "Template",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/pages/home/home.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story<HomeComponent>",
-                    "defaultValue": "(args: HomeComponent) => ({\r\n    props: args,\r\n})"
-                }
-            ],
             "src/app/components/footer/footer.stories.ts": [
                 {
                     "name": "Dark",
@@ -2451,28 +2657,6 @@
                     "deprecationMessage": "",
                     "type": "Story<FooterComponent>",
                     "defaultValue": "(args: FooterComponent) => ({\r\n    props: args,\r\n})"
-                }
-            ],
-            "src/app/components/links-block/links-block.stories.ts": [
-                {
-                    "name": "Default",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/components/links-block/links-block.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "Template.bind({})"
-                },
-                {
-                    "name": "Template",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/components/links-block/links-block.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story<LinksBlockComponent>",
-                    "defaultValue": "(args: LinksBlockComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
             "src/app/components/languages-list/languages-list.stories.ts": [
@@ -2497,12 +2681,12 @@
                     "defaultValue": "(args: LanguagesListComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
-            "src/app/components/logo/logo.stories.ts": [
+            "src/app/components/links-block/links-block.stories.ts": [
                 {
                     "name": "Default",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/app/components/logo/logo.stories.ts",
+                    "file": "src/app/components/links-block/links-block.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
@@ -2512,11 +2696,33 @@
                     "name": "Template",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/app/components/logo/logo.stories.ts",
+                    "file": "src/app/components/links-block/links-block.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "Story<LogoComponent>",
-                    "defaultValue": "(args: LogoComponent) => ({\r\n  props: args,\r\n})"
+                    "type": "Story<LinksBlockComponent>",
+                    "defaultValue": "(args: LinksBlockComponent) => ({\r\n  props: args,\r\n})"
+                }
+            ],
+            "src/app/components/messenger-content-right/messenger-content-right.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/messenger-content-right/messenger-content-right.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/messenger-content-right/messenger-content-right.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<MessengerContentRightComponent>",
+                    "defaultValue": "(args: MessengerContentRightComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
             "src/app/components/nav-menu/nav-menu.stories.ts": [
@@ -2541,12 +2747,12 @@
                     "defaultValue": "(args: NavMenuComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
-            "src/app/components/post-footer/post-footer.stories.ts": [
+            "src/app/components/logo/logo.stories.ts": [
                 {
                     "name": "Default",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/app/components/post-footer/post-footer.stories.ts",
+                    "file": "src/app/components/logo/logo.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
@@ -2556,11 +2762,11 @@
                     "name": "Template",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/app/components/post-footer/post-footer.stories.ts",
+                    "file": "src/app/components/logo/logo.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "Story<PostFooterComponent>",
-                    "defaultValue": "(args: PostFooterComponent) => ({\r\n  props: args,\r\n})"
+                    "type": "Story<LogoComponent>",
+                    "defaultValue": "(args: LogoComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
             "src/app/components/post/post.stories.ts": [
@@ -2607,6 +2813,28 @@
                     "defaultValue": "(args: NavigationComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
+            "src/app/components/post-footer/post-footer.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/post-footer/post-footer.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/post-footer/post-footer.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<PostFooterComponent>",
+                    "defaultValue": "(args: PostFooterComponent) => ({\r\n  props: args,\r\n})"
+                }
+            ],
             "src/app/components/post-header/post-header.stories.ts": [
                 {
                     "name": "Default",
@@ -2648,7 +2876,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story<PrimaryBlockComponent>",
-                    "defaultValue": "(args: PrimaryBlockComponent) => ({\r\n    props: args,\r\n  })"
+                    "defaultValue": "(\r\n  args: PrimaryBlockComponent\r\n) => ({\r\n  props: args,\r\n})"
                 }
             ],
             "src/app/components/profile-header/profile-header.stories.ts": [
@@ -2673,6 +2901,28 @@
                     "defaultValue": "(\r\n  args: ProfileHeaderComponent\r\n) => ({\r\n  props: args,\r\n})"
                 }
             ],
+            "src/app/components/profile-content/profile-content.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/profile-content/profile-content.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/profile-content/profile-content.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<ProfileContentComponent>",
+                    "defaultValue": "(args: ProfileContentComponent) => ({\r\n  props: args,\r\n})"
+                }
+            ],
             "src/app/components/profile-toogle/profile-toogle.stories.ts": [
                 {
                     "name": "Default",
@@ -2693,6 +2943,28 @@
                     "deprecationMessage": "",
                     "type": "Story<ProfileToogleComponent>",
                     "defaultValue": "(\r\n  args: ProfileToogleComponent\r\n) => ({\r\n  props: args,\r\n})"
+                }
+            ],
+            "src/app/components/secondary-block/secondary-block.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/secondary-block/secondary-block.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/secondary-block/secondary-block.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<SecondaryBlockComponent>",
+                    "defaultValue": "(\r\n  args: SecondaryBlockComponent\r\n) => ({\r\n  props: args,\r\n})"
                 }
             ],
             "src/app/components/story/story.stories.ts": [
@@ -2717,6 +2989,28 @@
                     "defaultValue": "(args: StoryComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
+            "src/app/components/story-item/story-item.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/story-item/story-item.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/story-item/story-item.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<StoryItemComponent>",
+                    "defaultValue": "(args: StoryItemComponent) => ({\r\n  props: args,\r\n})"
+                }
+            ],
             "src/app/components/story-btn/story-btn.stories.ts": [
                 {
                     "name": "Default",
@@ -2739,12 +3033,12 @@
                     "defaultValue": "(args: StoryBtnComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
-            "src/app/components/story-item/story-item.stories.ts": [
+            "src/app/components/sugestions/sugestions.stories.ts": [
                 {
                     "name": "Default",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/app/components/story-item/story-item.stories.ts",
+                    "file": "src/app/components/sugestions/sugestions.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
@@ -2754,11 +3048,11 @@
                     "name": "Template",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/app/components/story-item/story-item.stories.ts",
+                    "file": "src/app/components/sugestions/sugestions.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "Story<StoryItemComponent>",
-                    "defaultValue": "(args: StoryItemComponent) => ({\r\n  props: args,\r\n})"
+                    "type": "Story<SugestionsComponent>",
+                    "defaultValue": "(\r\n    args: SugestionsComponent\r\n  ) => ({\r\n    props: args,\r\n  })"
                 }
             ],
             "src/app/components/story-section/story-section.stories.ts": [
@@ -2783,16 +3077,48 @@
                     "defaultValue": "(args: StorySectionComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
-            "src/environments/environment.prod.ts": [
+            "src/app/pages/home/home.stories.ts": [
                 {
-                    "name": "environment",
+                    "name": "Default",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/environments/environment.prod.ts",
+                    "file": "src/app/pages/home/home.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "object",
-                    "defaultValue": "{\n  production: true\n}"
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/pages/home/home.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<HomeComponent>",
+                    "defaultValue": "(args: HomeComponent) => ({\r\n  props: args,\r\n})"
+                }
+            ],
+            "src/app/pages/messenger/messenger.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/pages/messenger/messenger.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/pages/messenger/messenger.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<MessengerComponent>",
+                    "defaultValue": "(args: MessengerComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
             "src/environments/environment.ts": [
@@ -2807,6 +3133,18 @@
                     "defaultValue": "{\n  production: false\n}"
                 }
             ],
+            "src/environments/environment.prod.ts": [
+                {
+                    "name": "environment",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/environments/environment.prod.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "object",
+                    "defaultValue": "{\n  production: true\n}"
+                }
+            ],
             "src/app/data/users.ts": [
                 {
                     "name": "UsersData",
@@ -2816,7 +3154,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "User[]",
-                    "defaultValue": "[\r\n  {\r\n    name: 'your story',\r\n    foolName: 'i.slimeeee____',\r\n    avatar: '../../../assets/Icons/Profile-Pic-S.svg',\r\n    // image:'',\r\n  },\r\n  {\r\n    name: 'tery',\r\n    foolName: 'terylucas',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-7.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-7.1.png',\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsint',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-2.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-2.1.png',\r\n  },\r\n  {\r\n    name: 'harry',\r\n    foolName: 'harryprescott',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-3.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-3.1.png',\r\n  },\r\n  {\r\n    name: 'edna',\r\n    foolName: 'ednamanz',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-4.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-4.1.png',\r\n  },\r\n  {\r\n    name: 'christina',\r\n    foolName: 'christinasterling',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-5.png',\r\n    // image:'',\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsant',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-1.png',\r\n    // image:'',\r\n  },\r\n  {\r\n    name: 'lorem m',\r\n    foolName: 'loremlorem',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-6.png',\r\n    // image:'',\r\n  },\r\n]"
+                    "defaultValue": "[\r\n  {\r\n    name: 'your story',\r\n    foolName: 'i.slimeeee____',\r\n    avatar: '../../../assets/Icons/Profile-Pic-S.svg',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'tery',\r\n    foolName: 'terylucas',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-7.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-7.1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsint',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-2.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-2.1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'harry',\r\n    foolName: 'harryprescott',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-3.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-3.1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'edna',\r\n    foolName: 'ednamanz',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-4.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-4.1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'christina',\r\n    foolName: 'christinasterling',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-5.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsant',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'lorem m',\r\n    foolName: 'loremlorem',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-6.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n]"
                 }
             ]
         },
@@ -2999,6 +3337,44 @@
             },
             {
                 "filePath": "src/app/components/logo/logo.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Template",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/messenger-content-left/messenger-content-left.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "MessengerContentLeftComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/2",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/messenger-content-right/messenger-content-right.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "MessengerContentRightComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/messenger-content-right/messenger-content-right.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/messenger-content-right/messenger-content-right.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -3200,6 +3576,26 @@
                 "status": "low"
             },
             {
+                "filePath": "src/app/components/profile-content/profile-content.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/profile-content/profile-content.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Template",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
                 "filePath": "src/app/components/profile-header/profile-header.component.ts",
                 "type": "component",
                 "linktype": "component",
@@ -3273,6 +3669,26 @@
                 "name": "SecondaryBlockComponent",
                 "coveragePercent": 0,
                 "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/secondary-block/secondary-block.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/secondary-block/secondary-block.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Template",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
                 "status": "low"
             },
             {
@@ -3401,12 +3817,32 @@
                 "status": "low"
             },
             {
+                "filePath": "src/app/components/sugestions/sugestions.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/sugestions/sugestions.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Template",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
                 "filePath": "src/app/data/users.ts",
                 "type": "interface",
                 "linktype": "interface",
                 "name": "User",
                 "coveragePercent": 0,
-                "coverageCount": "0/5",
+                "coverageCount": "0/6",
                 "status": "low"
             },
             {
@@ -3442,7 +3878,7 @@
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
-                "name": "Dark",
+                "name": "Default",
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
                 "status": "low"
@@ -3464,6 +3900,26 @@
                 "name": "MessengerComponent",
                 "coveragePercent": 0,
                 "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/pages/messenger/messenger.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/pages/messenger/messenger.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Template",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
                 "status": "low"
             },
             {

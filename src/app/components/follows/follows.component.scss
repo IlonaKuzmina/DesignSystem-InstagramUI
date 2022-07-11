@@ -1,45 +1,60 @@
-
 .profile__wrapper {
-    max-width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5px 0;
-  }
-  
-  .btn {
-    border: none;
-    cursor: pointer;
-    font-weight: 900;
-    font-size: 12px;
-    line-height: 16px;
-    text-transform: capitalize;
-    color: #0095f6;
-  }
-  
-  .name__wrapper {
-    display: flex;
-    align-items: center;
-  }
-  
-  .username {
-    font-weight: 900;
-    font-size: 14px;
-    line-height: 18px;
-    color: #262626;
-    margin: 4px 0;
-  }
-  
-  .acountname{
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  // flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #0095f6;
+}
+
+.name__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.username {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 18px;
+  color: #262626;
+  margin: 4px 0;
+}
+
+.acountname {
   font-size: 12px;
   line-height: 11px;
   text-transform: capitalize;
-  color: #8E8E8E;
+  color: #8e8e8e;
+}
+
+.image {
+  width: 32px;
+  margin-right: 12px;
+}
+
+@media screen and( max-width:900px) {
+  .acountname {
+    display: none;
   }
 
-  .image{
-    width: 32px;
-    margin-right: 12px;
+  .name__wrapper {
+    font-size: 12px;
+    padding-left: 5px;
   }
+
+  .profile__wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

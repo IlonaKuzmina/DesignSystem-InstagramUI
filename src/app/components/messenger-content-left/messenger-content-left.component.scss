@@ -46,3 +46,38 @@
 .messenger__text {
   color: #8e8e8e;
 }
+
+@media screen and (max-width: 780px) {
+  .messenger__text {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .messenger__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left__content--wrapper {
+    padding: 7px 5px;
+  }
+
+  .name__selector {
+    font-size: 12px;
+  }
+
+  .message__icon {
+    width: 12px;
+  }
+
+  .messenger__name,
+  .messenger__text {
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: lowercase;
+    color: #262626;
+    text-align: start;
+    padding: 4px 0;
+  }
+}

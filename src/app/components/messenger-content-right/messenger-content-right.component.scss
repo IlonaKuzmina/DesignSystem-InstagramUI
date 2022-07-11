@@ -48,3 +48,25 @@
   border: none;
   cursor: pointer;
 }
+
+@media screen and (max-width: 780px) {
+  .message__icon--wrapper {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-image: url(../../../assets/Icons/SharePosts.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+  }
+
+  .right__content--wrapper {
+    text-align: center;
+    padding: 80px 5px;
+    margin: 22px 0;
+    border: 1px solid #dbdbdb;
+    height: 100%;
+  }
+}

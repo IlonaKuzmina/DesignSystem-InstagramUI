@@ -1,0 +1,23 @@
+.images__container {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 28px;
+  column-gap: 28px;
+  margin: 20px auto;
+}
+
+.image {
+  background-color: #ae9e9e;
+}
+
+.image__wrapper {
+  position: relative;
+}
+
+.image__icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+}

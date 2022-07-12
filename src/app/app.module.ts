@@ -33,6 +33,15 @@ import { ProfileContentComponent } from './components/profile-content/profile-co
 import { MessengerContentRightComponent } from './components/messenger-content-right/messenger-content-right.component';
 import { MessengerContentLeftComponent } from './components/messenger-content-left/messenger-content-left.component';
 import { UsersPostsComponent } from './components/users-posts/users-posts.component';
+import { ProfilePostsComponent } from './components/profile-posts/profile-posts.component';
+import { ProfileSavedComponent } from './components/profile-saved/profile-saved.component';
+import { ProfileTaggedComponent } from './components/profile-tagged/profile-tagged.component';
+import { UserToogleComponent } from './components/user-toogle/user-toogle.component';
+import { UserPostsComponent } from './components/user-posts/user-posts.component';
+import { UserGuidesComponent } from './components/user-guides/user-guides.component';
+import { UserReelsComponent } from './components/user-reels/user-reels.component';
+import { UserVideosComponent } from './components/user-videos/user-videos.component';
+import { UserTaggedComponent } from './components/user-tagged/user-tagged.component';
 
 @NgModule({
   declarations: [
@@ -67,6 +76,15 @@ import { UsersPostsComponent } from './components/users-posts/users-posts.compon
     MessengerContentRightComponent,
     MessengerContentLeftComponent,
     UsersPostsComponent,
+    ProfilePostsComponent,
+    ProfileSavedComponent,
+    ProfileTaggedComponent,
+    UserToogleComponent,
+    UserPostsComponent,
+    UserGuidesComponent,
+    UserReelsComponent,
+    UserVideosComponent,
+    UserTaggedComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

@@ -1,0 +1,91 @@
+<div class="toogle__wrapper">
+  <div
+    routerLink="user-posts"
+    class="btn__wrapper"
+    (click)="clickHandler('post')"
+    [ngClass]="selectedPost ? 'border' : ''"
+  >
+    <span>
+      <img
+        class="image"
+        [ngClass]="selectedPost ? '' : 'opacity'"
+        src="../../../assets/Icons/Posts.svg"
+      />
+    </span>
+
+    <button class="btn" [ngClass]="selectedPost ? 'active' : ''">posts</button>
+  </div>
+
+  <div
+    routerLink="user-guides"
+    class="btn__wrapper"
+    (click)="clickHandler('guides')"
+    [ngClass]="selectedGuides ? 'border' : ''"
+  >
+    <span>
+      <img
+        class="image"
+        [ngClass]="selectedGuides ? '' : 'opacity'"
+        src="../../../assets/Icons/Guides.svg"
+      />
+    </span>
+    <button [ngClass]="selectedGuides ? 'active' : ''" class="btn">
+      guides
+    </button>
+  </div>
+
+  <div
+    routerLink="user-reels"
+    id="tagged"
+    class="btn__wrapper"
+    (click)="clickHandler('reels')"
+    [ngClass]="selectedReels ? 'border' : ''"
+  >
+    <span>
+      <img
+        class="image"
+        [ngClass]="selectedReels ? '' : 'opacity'"
+        src="../../../assets/Icons/Reels.svg"
+      />
+    </span>
+    <button [ngClass]="selectedReels ? 'active' : ''" class="btn">reels</button>
+  </div>
+
+  <div
+    routerLink="user-videos"
+    id="tagged"
+    class="btn__wrapper"
+    (click)="clickHandler('videos')"
+    [ngClass]="selectedVideos ? 'border' : ''"
+  >
+    <span>
+      <img
+        class="image"
+        [ngClass]="selectedVideos ? '' : 'opacity'"
+        src="../../../assets/Icons/Video.svg"
+      />
+    </span>
+    <button [ngClass]="selectedVideos ? 'active' : ''" class="btn">
+      videos
+    </button>
+  </div>
+
+  <div
+    routerLink="user-tagged"
+    id="tagged"
+    class="btn__wrapper"
+    (click)="clickHandler('tagged')"
+    [ngClass]="selectedTagged ? 'border' : ''"
+  >
+    <span>
+      <img
+        class="image"
+        [ngClass]="selectedTagged ? '' : 'opacity'"
+        src="../../../assets/Icons/Tagged.svg"
+      />
+    </span>
+    <button [ngClass]="selectedTagged ? 'active' : ''" class="btn">
+      tagged
+    </button>
+  </div>
+</div>

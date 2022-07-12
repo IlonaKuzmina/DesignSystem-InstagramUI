@@ -1,5 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ProfilePostsComponent } from './components/profile-posts/profile-posts.component';
+import { ProfileSavedComponent } from './components/profile-saved/profile-saved.component';
+import { ProfileTaggedComponent } from './components/profile-tagged/profile-tagged.component';
+import { UserGuidesComponent } from './components/user-guides/user-guides.component';
+import { UserPostsComponent } from './components/user-posts/user-posts.component';
+import { UserReelsComponent } from './components/user-reels/user-reels.component';
+import { UserTaggedComponent } from './components/user-tagged/user-tagged.component';
+import { UserVideosComponent } from './components/user-videos/user-videos.component';
 import { ExploreComponent } from './pages/explore/explore.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MessengerComponent } from './pages/messenger/messenger.component';
@@ -19,6 +27,21 @@ const routes: Routes = [
   {
     path: 'my-profile',
     component: MyProfileComponent,
+    children: [
+      { path: '', redirectTo: 'profile-posts', pathMatch: 'full' },
+      {
+        path: 'profile-posts',
+        component: ProfilePostsComponent,
+      },
+      {
+        path: 'profile-saved',
+        component: ProfileSavedComponent,
+      },
+      {
+        path: 'profile-tagged',
+        component: ProfileTaggedComponent,
+      },
+    ],
   },
   {
     path: 'explore',
@@ -31,6 +54,29 @@ const routes: Routes = [
   {
     path: 'user-profile',
     component: UserProfileComponent,
+    children: [
+      { path: '', redirectTo: 'user-posts', pathMatch: 'full' },
+      {
+        path: 'user-posts',
+        component: UserPostsComponent,
+      },
+      {
+        path: 'user-guides',
+        component: UserGuidesComponent,
+      },
+      {
+        path: 'user-reels',
+        component: UserReelsComponent,
+      },
+      {
+        path: 'user-videos',
+        component: UserVideosComponent,
+      },
+      {
+        path: 'user-tagged',
+        component: UserTaggedComponent,
+      },
+    ],
   },
   {
     path: '**',
@@ -41,6 +87,6 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

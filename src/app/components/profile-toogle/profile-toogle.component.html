@@ -1,5 +1,6 @@
 <div class="toogle__wrapper">
   <div
+    routerLink="profile-posts"
     class="btn__wrapper"
     (click)="clickHandler('post')"
     [ngClass]="selectedPost ? 'border' : ''"
@@ -16,6 +17,7 @@
   </div>
 
   <div
+    routerLink="profile-saved"
     class="btn__wrapper"
     (click)="clickHandler('save')"
     [ngClass]="selectedSave ? 'border' : ''"
@@ -31,6 +33,7 @@
   </div>
 
   <div
+    routerLink="profile-tagged"
     id="tagged"
     class="btn__wrapper"
     (click)="clickHandler('tagged')"
@@ -47,4 +50,5 @@
       tagged
     </button>
   </div>
+  
 </div>

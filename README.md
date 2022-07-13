@@ -13,7 +13,7 @@ This responsive project is a design reproduction from [Figma community project](
 
 ### Deployed project:
 
-[LINK](https://dancing-chimera-2c9083.netlify.app/home)
+[LINK](https://dancing-chimera-2c9083.netlify.app)
 
 ### Depoyed StoryBook:
 

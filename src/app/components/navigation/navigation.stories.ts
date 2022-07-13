@@ -18,7 +18,7 @@ export default {
       imports: [CommonModule],
     }),
     //👇 Wraps our stories with a decorator
-    componentWrapperDecorator((storys: any) => `<div style="margin: 3em">${storys}</div>`),
+    componentWrapperDecorator((storys: any) => `<div>${storys}</div>`),
   ],
   component: NavigationComponent,
   argTypes: {

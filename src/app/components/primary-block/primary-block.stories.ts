@@ -30,7 +30,7 @@ export default {
     }),
     //👇 Wraps our stories with a decorator
     componentWrapperDecorator(
-      (storys: any) => `<div style="margin: 3em">${storys}</div>`
+      (storys: any) => `<div style=" maxWidth:max-content;">${storys}</div>`
     ),
   ],
   component: PrimaryBlockComponent,

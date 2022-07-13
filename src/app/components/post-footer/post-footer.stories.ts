@@ -17,10 +17,6 @@ export default {
       declarations: [PostHeaderComponent, PostFooterComponent],
       imports: [CommonModule],
     }),
-    //👇 Wraps our stories with a decorator
-    componentWrapperDecorator(
-      (storys: any) => `<div style="margin: 3em">${storys}</div>`
-    ),
   ],
   component: PostFooterComponent,
   argTypes: {

@@ -27,7 +27,6 @@ import { PostFooterComponent } from './components/post-footer/post-footer.compon
 import { PostHeaderComponent } from './components/post-header/post-header.component';
 import { ProfileHeaderComponent } from './components/profile-header/profile-header.component';
 import { ProfileToogleComponent } from './components/profile-toogle/profile-toogle.component';
-import { ProfileContentComponent } from './components/profile-content/profile-content.component';
 import { MessengerContentRightComponent } from './components/messenger-content-right/messenger-content-right.component';
 import { MessengerContentLeftComponent } from './components/messenger-content-left/messenger-content-left.component';
 import { UsersPostsComponent } from './components/users-posts/users-posts.component';
@@ -69,7 +68,6 @@ import { NextBtnDirective } from './next-btn.directive';
     PostHeaderComponent,
     ProfileHeaderComponent,
     ProfileToogleComponent,
-    ProfileContentComponent,
     MessengerContentRightComponent,
     MessengerContentLeftComponent,
     UsersPostsComponent,

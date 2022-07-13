@@ -21,7 +21,7 @@ import { FollowsComponent } from '../follows/follows.component';
       }),
       //👇 Wraps our stories with a decorator
       componentWrapperDecorator(
-        (storys: any) => `<div style="margin: 3em">${storys}</div>`
+        (storys: any) => `<div style="display:inline-block">${storys}</div>`
       ),
     ],
     component: SugestionsComponent,

@@ -16,10 +16,12 @@
   flex-direction: row;
   align-items: center;
   background: #ffffff;
+  // min-width:min-content;
 }
 
 .avatar__cirkle {
   padding-left: 16px;
+  background: #ffffff;
 }
 
 .user__name {

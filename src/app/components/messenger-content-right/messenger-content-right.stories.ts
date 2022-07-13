@@ -1,3 +1,4 @@
+import { componentWrapperDecorator } from '@storybook/angular';
 import { Meta, Story } from '@storybook/angular/types-6-0';
 import { MessengerContentRightComponent } from './messenger-content-right.component';
 
@@ -9,7 +10,9 @@ export default {
   },
 } as Meta;
 
-const Template: Story<MessengerContentRightComponent> = (args: MessengerContentRightComponent) => ({
+const Template: Story<MessengerContentRightComponent> = (
+  args: MessengerContentRightComponent
+) => ({
   props: args,
 });
 

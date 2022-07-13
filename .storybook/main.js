@@ -8,10 +8,11 @@ module.exports = {
   "addons": [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
-    "@storybook/addon-interactions"
+    "@storybook/addon-interactions",
+    "storybook-addon-angular-router"
   ],
   "framework": "@storybook/angular",
   "core": {
     "builder": "@storybook/builder-webpack5"
-  }
+  },
 }

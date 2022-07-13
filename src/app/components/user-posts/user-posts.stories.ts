@@ -6,27 +6,21 @@ import {
 } from '@storybook/angular';
 import { CommonModule } from '@angular/common';
 
-import { SecondaryBlockComponent } from './secondary-block.component';
-import { ProfileComponent } from '../profile/profile.component';
-import { SugestionsComponent } from '../sugestions/sugestions.component';
+import { UserPostsComponent } from './user-posts.component';
 import { FooterComponent } from '../footer/footer.component';
-import { FollowsComponent } from '../follows/follows.component';
 import { LanguagesListComponent } from '../languages-list/languages-list.component';
 import { LinksBlockComponent } from '../links-block/links-block.component';
 
 export default {
-  title: 'Instagram UI/Organisms/SecondaryBlockComponent',
+  title: 'Instagram UI/Organisms/UserPostsComponent',
   decorators: [
     moduleMetadata({
       //👇 Imports both components to allow component composition with Storybook
       declarations: [
-        SecondaryBlockComponent,
-        ProfileComponent,
-        SugestionsComponent,
+        UserPostsComponent,
         FooterComponent,
-        FollowsComponent,
+        LinksBlockComponent,
         LanguagesListComponent,
-        LinksBlockComponent
       ],
       imports: [CommonModule],
     }),
@@ -35,15 +29,13 @@ export default {
       (storys: any) => `<div style="display:inline-block">${storys}</div>`
     ),
   ],
-  component: SecondaryBlockComponent,
+  component: UserPostsComponent,
   argTypes: {
     backgroundColor: { control: 'color' },
   },
 } as Meta;
 
-const Template: Story<SecondaryBlockComponent> = (
-  args: SecondaryBlockComponent
-) => ({
+const Template: Story<UserPostsComponent> = (args: UserPostsComponent) => ({
   props: args,
 });
 

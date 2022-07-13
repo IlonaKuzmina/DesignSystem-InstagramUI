@@ -409,7 +409,7 @@
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": "@media (max-width: 700px) {\r\n  .secondary__block {\r\n    display: none;\r\n  }\r\n\r\n  .primary__block {\r\n    margin: 0 auto;\r\n  }\r\n}\r\n",
+                    "data": "@media (max-width: 700px) {\r\n  .secondary__block {\r\n    display: none;\r\n  }\r\n}\r\n",
                     "styleUrl": "./home.component.scss"
                 }
             ],
@@ -1317,7 +1317,7 @@
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": ".primary__block {\r\n  padding: 70px 28px 50px 0px;\r\n  padding-right: 28px;\r\n}\r\n\r\n@media only screen and (max-width: 1020px) {\r\n  .primary__block {\r\n    padding-right: 0px;\r\n    margin: 0 auto;\r\n  }\r\n}\r\n",
+                    "data": ".primary__block {\r\n  padding: 70px 28px 50px 0px;\r\n  padding-right: 28px;\r\n}\r\n\r\n@media only screen and (max-width: 770px) {\r\n  .primary__block {\r\n    padding: 0;\r\n    margin: 0 auto;\r\n  }\r\n}\r\n",
                     "styleUrl": "./primary-block.component.scss"
                 }
             ],
@@ -1379,7 +1379,7 @@
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": ".profile__wrapper {\r\n  max-width: 100%;\r\n  padding: 78px 0px 10px;\r\n  display: flex;\r\n  flex-direction: row;\r\n  flex-wrap: nowrap;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n}\r\n\r\n.btn {\r\n  border: none;\r\n  cursor: pointer;\r\n  font-weight: 900;\r\n  font-size: 12px;\r\n  line-height: 16px;\r\n  text-transform: capitalize;\r\n  color: #0095f6;\r\n}\r\n\r\n.name__wrapper {\r\n  display: flex;\r\n  align-items: center;\r\n}\r\n\r\n.username {\r\n  font-weight: 900;\r\n  font-size: 14px;\r\n  line-height: 18px;\r\n  color: #262626;\r\n  margin: 4px 0;\r\n}\r\n\r\n.acountname {\r\n  font-size: 14px;\r\n  line-height: 18px;\r\n  text-transform: capitalize;\r\n  color: #8e8e8e;\r\n}\r\n\r\n@media screen and(max-width:850px) {\r\n  .name__wrapper {\r\n    display: flex;\r\n    flex-direction: column;\r\n  }\r\n\r\n  .profile__wrapper {\r\n    display: flex;\r\n    justify-content: start;\r\n  }\r\n}\r\n",
+                    "data": ".profile__wrapper {\r\n  max-width: 100%;\r\n  padding: 78px 0px 10px;\r\n  display: flex;\r\n  flex-direction: row;\r\n  flex-wrap: nowrap;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n}\r\n\r\n.btn {\r\n  border: none;\r\n  cursor: pointer;\r\n  font-weight: 900;\r\n  font-size: 12px;\r\n  line-height: 16px;\r\n  text-transform: capitalize;\r\n  color: #0095f6;\r\n}\r\n\r\n.name__wrapper {\r\n  display: flex;\r\n  align-items: center;\r\n}\r\n\r\n.username {\r\n  font-weight: 900;\r\n  font-size: 14px;\r\n  line-height: 18px;\r\n  color: #262626;\r\n  margin: 4px 0;\r\n}\r\n\r\n.acountname {\r\n  font-size: 14px;\r\n  line-height: 18px;\r\n  text-transform: capitalize;\r\n  color: #8e8e8e;\r\n}\r\n\r\n@media screen and(max-width:850px) {\r\n  .name__wrapper {\r\n    display: flex;\r\n    flex-direction: column;\r\n  }\r\n\r\n  .profile__wrapper {\r\n    display: flex;\r\n    justify-content: start;\r\n  }\r\n}\r\n\r\n// @media screen and(max-width:770px) {\r\n//   .profile__wrapper {\r\n//     padding: 5px 0px 10px;\r\n//   }\r\n// }\r\n",
                     "styleUrl": "./profile.component.scss"
                 }
             ],
@@ -1957,7 +1957,7 @@
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": ".container__fluid {\r\n  min-width: 320px;\r\n  max-width: 100%;\r\n  border: 1px solid #dbdbdb;\r\n  background: #ffffff;\r\n  padding: 17px 0px;\r\n}\r\n\r\n.slider__wrapper {\r\n  position: relative;\r\n  overflow: hidden;\r\n  height: 80px;\r\n}\r\n\r\n.slider__main {\r\n  position: absolute;\r\n  width: 200%;\r\n}\r\n\r\n.item {\r\n  display: inline-block;\r\n  height: 50px;\r\n  position: relative;\r\n  margin: 0 auto;\r\n  background: #ffffff;\r\n  text-align: center;\r\n  padding: 5px 5px;\r\n}\r\n\r\n.text {\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 50%;\r\n  transform: translate(-50%, -50%);\r\n  font-size: 20px;\r\n  background: #ffffff;\r\n}\r\n\r\n.btn__area {\r\n  width: 44px;\r\n  height: 44px;\r\n  padding: 11px;\r\n  cursor: pointer;\r\n  background-color: transparent;\r\n}\r\n\r\n.next__btn {\r\n  position: absolute;\r\n  right: 35px;\r\n  top: 50%;\r\n  transform: translate(-50%, -50%);\r\n  cursor: pointer;\r\n  border: none;\r\n  background: url(../../../assets/Icons/Arrow.svg);\r\n  background-repeat: no-repeat;\r\n  background-color: white;\r\n  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);\r\n  border-radius: 22px;\r\n  transform: rotate(90deg);\r\n  width: 22px;\r\n  height: 22px;\r\n  color: #8e8e8e;\r\n}\r\n\r\n.image__wrapper {\r\n  background-color: transparent;\r\n  width: fit-content;\r\n  border-radius: 50%;\r\n  border: 2.5px solid transparent;\r\n  background: linear-gradient(to bottom, #de0046 0%, #f7a34b 100%) border-box;\r\n  margin: 0 auto;\r\n}\r\n\r\n.image {\r\n  padding: 2.5px;\r\n  max-width: 56px;\r\n  max-height: 56px;\r\n  border-radius: 50%;\r\n  border: transparent;\r\n}\r\n\r\n.story__text {\r\n  line-height: 16px;\r\n  text-align: center;\r\n  letter-spacing: 0.12px;\r\n  text-transform: lowercase;\r\n  color: #262626;\r\n  background: #ffffff;\r\n}\r\n\r\n@media screen and (max-width: 501px) {\r\n  //   .story__section-wrapper {\r\n  //     max-width: 614px;\r\n  //     margin: 0 auto;\r\n  //   }\r\n  .slider__main {\r\n    display: flex;\r\n    flex-wrap: nowrap;\r\n  }\r\n}\r\n",
+                    "data": ".container__fluid {\r\n  min-width: 320px;\r\n  max-width: 100%;\r\n  border: 1px solid #dbdbdb;\r\n  background: #ffffff;\r\n  padding: 17px 0px;\r\n}\r\n\r\n.slider__wrapper {\r\n  position: relative;\r\n  overflow: hidden;\r\n  height: 80px;\r\n  background: #ffffff;\r\n}\r\n\r\n.slider__main {\r\n  position: absolute;\r\n  width: 200%;\r\n  background: #ffffff;\r\n}\r\n\r\n.item {\r\n  display: inline-block;\r\n  height: 50px;\r\n  position: relative;\r\n  margin: 0 auto;\r\n  background: #ffffff;\r\n  text-align: center;\r\n  padding: 5px 5px;\r\n}\r\n\r\n.text {\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 50%;\r\n  transform: translate(-50%, -50%);\r\n  font-size: 20px;\r\n  background: #ffffff;\r\n}\r\n\r\n.btn__area {\r\n  width: 44px;\r\n  height: 44px;\r\n  padding: 11px;\r\n  cursor: pointer;\r\n}\r\n\r\n.next__btn {\r\n  position: absolute;\r\n  right: 15px;\r\n  top: 50%;\r\n  transform: translate(-50%, -50%);\r\n  cursor: pointer;\r\n  border: none;\r\n  background: url(../../../assets/Icons/Arrow.svg);\r\n  background-repeat: no-repeat;\r\n  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);\r\n  border-radius: 22px;\r\n  transform: rotate(90deg);\r\n  width: 22px;\r\n  height: 22px;\r\n}\r\n\r\n.image__wrapper {\r\n  background-color: transparent;\r\n  width: fit-content;\r\n  border-radius: 50%;\r\n  border: 2.5px solid transparent;\r\n  background: linear-gradient(to bottom, #de0046 0%, #f7a34b 100%) border-box;\r\n  margin: 0 auto;\r\n}\r\n\r\n.image {\r\n  padding: 2.5px;\r\n  max-width: 56px;\r\n  max-height: 56px;\r\n  border-radius: 50%;\r\n  border: transparent;\r\n  background: #ffffff;\r\n}\r\n\r\n.story__text {\r\n  line-height: 16px;\r\n  text-align: center;\r\n  letter-spacing: 0.12px;\r\n  text-transform: lowercase;\r\n  color: #262626;\r\n  background: #ffffff;\r\n}\r\n\r\n@media screen and (max-width: 501px) {\r\n  //   .story__section-wrapper {\r\n  //     max-width: 614px;\r\n  //     margin: 0 auto;\r\n  //   }\r\n  .slider__main {\r\n    display: flex;\r\n    flex-wrap: nowrap;\r\n    background: #ffffff;\r\n  }\r\n}\r\n",
                     "styleUrl": "./story-section.component.scss"
                 }
             ],
@@ -2817,16 +2817,6 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/links-block/links-block.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "",
-                "defaultValue": "Template.bind({})"
-            },
-            {
-                "name": "Default",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/components/logo/logo.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -2837,7 +2827,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/navigation/navigation.stories.ts",
+                "file": "src/app/components/links-block/links-block.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -2867,7 +2857,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/post/post.stories.ts",
+                "file": "src/app/components/navigation/navigation.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -2887,7 +2877,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/primary-block/primary-block.stories.ts",
+                "file": "src/app/components/post-header/post-header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -2897,7 +2887,17 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/post-header/post-header.stories.ts",
+                "file": "src/app/components/post/post.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/components/primary-block/primary-block.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -2927,7 +2927,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/secondary-block/secondary-block.stories.ts",
+                "file": "src/app/components/profile-toogle/profile-toogle.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -2937,7 +2937,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/profile-toogle/profile-toogle.stories.ts",
+                "file": "src/app/components/secondary-block/secondary-block.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -2957,7 +2957,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/story-section/story-section.stories.ts",
+                "file": "src/app/components/sugestions/sugestions.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -2967,7 +2967,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/sugestions/sugestions.stories.ts",
+                "file": "src/app/components/story-section/story-section.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -3026,16 +3026,6 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/footer/footer.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story<FooterComponent>",
-                "defaultValue": "(args: FooterComponent) => ({\r\n    props: args,\r\n})"
-            },
-            {
-                "name": "Template",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/components/languages-list/languages-list.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -3046,11 +3036,11 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/links-block/links-block.stories.ts",
+                "file": "src/app/components/footer/footer.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Story<LinksBlockComponent>",
-                "defaultValue": "(args: LinksBlockComponent) => ({\r\n  props: args,\r\n})"
+                "type": "Story<FooterComponent>",
+                "defaultValue": "(args: FooterComponent) => ({\r\n    props: args,\r\n})"
             },
             {
                 "name": "Template",
@@ -3066,11 +3056,11 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/navigation/navigation.stories.ts",
+                "file": "src/app/components/links-block/links-block.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Story<NavigationComponent>",
-                "defaultValue": "(args: NavigationComponent) => ({\r\n  props: args,\r\n})"
+                "type": "Story<LinksBlockComponent>",
+                "defaultValue": "(args: LinksBlockComponent) => ({\r\n  props: args,\r\n})"
             },
             {
                 "name": "Template",
@@ -3096,11 +3086,11 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/post/post.stories.ts",
+                "file": "src/app/components/navigation/navigation.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Story<PostComponent>",
-                "defaultValue": "(args: PostComponent) => ({\r\n    props: args,\r\n  })"
+                "type": "Story<NavigationComponent>",
+                "defaultValue": "(args: NavigationComponent) => ({\r\n  props: args,\r\n})"
             },
             {
                 "name": "Template",
@@ -3116,21 +3106,31 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/primary-block/primary-block.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story<PrimaryBlockComponent>",
-                "defaultValue": "(\r\n  args: PrimaryBlockComponent\r\n) => ({\r\n  props: args,\r\n})"
-            },
-            {
-                "name": "Template",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/components/post-header/post-header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story<PostHeaderComponent>",
                 "defaultValue": "(args: PostHeaderComponent) => ({\r\n  props: args,\r\n})"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/components/post/post.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<PostComponent>",
+                "defaultValue": "(args: PostComponent) => ({\r\n    props: args,\r\n  })"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/components/primary-block/primary-block.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<PrimaryBlockComponent>",
+                "defaultValue": "(\r\n  args: PrimaryBlockComponent\r\n) => ({\r\n  props: args,\r\n})"
             },
             {
                 "name": "Template",
@@ -3156,21 +3156,21 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/secondary-block/secondary-block.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story<SecondaryBlockComponent>",
-                "defaultValue": "(\r\n  args: SecondaryBlockComponent\r\n) => ({\r\n  props: args,\r\n})"
-            },
-            {
-                "name": "Template",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/components/profile-toogle/profile-toogle.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story<ProfileToogleComponent>",
                 "defaultValue": "(\r\n  args: ProfileToogleComponent\r\n) => ({\r\n  props: args,\r\n})"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/components/secondary-block/secondary-block.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<SecondaryBlockComponent>",
+                "defaultValue": "(\r\n  args: SecondaryBlockComponent\r\n) => ({\r\n  props: args,\r\n})"
             },
             {
                 "name": "Template",
@@ -3186,21 +3186,21 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/story-section/story-section.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story<StorySectionComponent>",
-                "defaultValue": "(args: StorySectionComponent) => ({\r\n  props: args,\r\n})"
-            },
-            {
-                "name": "Template",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/components/sugestions/sugestions.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story<SugestionsComponent>",
                 "defaultValue": "(\r\n    args: SugestionsComponent\r\n  ) => ({\r\n    props: args,\r\n  })"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/components/story-section/story-section.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<StorySectionComponent>",
+                "defaultValue": "(args: StorySectionComponent) => ({\r\n  props: args,\r\n})"
             },
             {
                 "name": "Template",
@@ -3302,28 +3302,6 @@
                     "defaultValue": "(args: LanguagesListComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
-            "src/app/components/links-block/links-block.stories.ts": [
-                {
-                    "name": "Default",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/components/links-block/links-block.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "Template.bind({})"
-                },
-                {
-                    "name": "Template",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/components/links-block/links-block.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story<LinksBlockComponent>",
-                    "defaultValue": "(args: LinksBlockComponent) => ({\r\n  props: args,\r\n})"
-                }
-            ],
             "src/app/components/logo/logo.stories.ts": [
                 {
                     "name": "Default",
@@ -3346,12 +3324,12 @@
                     "defaultValue": "(args: LogoComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
-            "src/app/components/navigation/navigation.stories.ts": [
+            "src/app/components/links-block/links-block.stories.ts": [
                 {
                     "name": "Default",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/app/components/navigation/navigation.stories.ts",
+                    "file": "src/app/components/links-block/links-block.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
@@ -3361,11 +3339,11 @@
                     "name": "Template",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/app/components/navigation/navigation.stories.ts",
+                    "file": "src/app/components/links-block/links-block.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "Story<NavigationComponent>",
-                    "defaultValue": "(args: NavigationComponent) => ({\r\n  props: args,\r\n})"
+                    "type": "Story<LinksBlockComponent>",
+                    "defaultValue": "(args: LinksBlockComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
             "src/app/components/messenger-content-right/messenger-content-right.stories.ts": [
@@ -3412,12 +3390,12 @@
                     "defaultValue": "(args: NavMenuComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
-            "src/app/components/post/post.stories.ts": [
+            "src/app/components/navigation/navigation.stories.ts": [
                 {
                     "name": "Default",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/app/components/post/post.stories.ts",
+                    "file": "src/app/components/navigation/navigation.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
@@ -3427,11 +3405,11 @@
                     "name": "Template",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/app/components/post/post.stories.ts",
+                    "file": "src/app/components/navigation/navigation.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "Story<PostComponent>",
-                    "defaultValue": "(args: PostComponent) => ({\r\n    props: args,\r\n  })"
+                    "type": "Story<NavigationComponent>",
+                    "defaultValue": "(args: NavigationComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
             "src/app/components/post-footer/post-footer.stories.ts": [
@@ -3456,28 +3434,6 @@
                     "defaultValue": "(args: PostFooterComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
-            "src/app/components/primary-block/primary-block.stories.ts": [
-                {
-                    "name": "Default",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/components/primary-block/primary-block.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "Template.bind({})"
-                },
-                {
-                    "name": "Template",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/components/primary-block/primary-block.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story<PrimaryBlockComponent>",
-                    "defaultValue": "(\r\n  args: PrimaryBlockComponent\r\n) => ({\r\n  props: args,\r\n})"
-                }
-            ],
             "src/app/components/post-header/post-header.stories.ts": [
                 {
                     "name": "Default",
@@ -3498,6 +3454,50 @@
                     "deprecationMessage": "",
                     "type": "Story<PostHeaderComponent>",
                     "defaultValue": "(args: PostHeaderComponent) => ({\r\n  props: args,\r\n})"
+                }
+            ],
+            "src/app/components/post/post.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/post/post.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/post/post.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<PostComponent>",
+                    "defaultValue": "(args: PostComponent) => ({\r\n    props: args,\r\n  })"
+                }
+            ],
+            "src/app/components/primary-block/primary-block.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/primary-block/primary-block.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/primary-block/primary-block.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<PrimaryBlockComponent>",
+                    "defaultValue": "(\r\n  args: PrimaryBlockComponent\r\n) => ({\r\n  props: args,\r\n})"
                 }
             ],
             "src/app/components/profile-content/profile-content.stories.ts": [
@@ -3544,28 +3544,6 @@
                     "defaultValue": "(\r\n  args: ProfileHeaderComponent\r\n) => ({\r\n  props: args,\r\n})"
                 }
             ],
-            "src/app/components/secondary-block/secondary-block.stories.ts": [
-                {
-                    "name": "Default",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/components/secondary-block/secondary-block.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "Template.bind({})"
-                },
-                {
-                    "name": "Template",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/components/secondary-block/secondary-block.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story<SecondaryBlockComponent>",
-                    "defaultValue": "(\r\n  args: SecondaryBlockComponent\r\n) => ({\r\n  props: args,\r\n})"
-                }
-            ],
             "src/app/components/profile-toogle/profile-toogle.stories.ts": [
                 {
                     "name": "Default",
@@ -3586,6 +3564,28 @@
                     "deprecationMessage": "",
                     "type": "Story<ProfileToogleComponent>",
                     "defaultValue": "(\r\n  args: ProfileToogleComponent\r\n) => ({\r\n  props: args,\r\n})"
+                }
+            ],
+            "src/app/components/secondary-block/secondary-block.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/secondary-block/secondary-block.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/secondary-block/secondary-block.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<SecondaryBlockComponent>",
+                    "defaultValue": "(\r\n  args: SecondaryBlockComponent\r\n) => ({\r\n  props: args,\r\n})"
                 }
             ],
             "src/app/components/story/story.stories.ts": [
@@ -3610,28 +3610,6 @@
                     "defaultValue": "(args: StoryComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
-            "src/app/components/story-section/story-section.stories.ts": [
-                {
-                    "name": "Default",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/components/story-section/story-section.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "Template.bind({})"
-                },
-                {
-                    "name": "Template",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/components/story-section/story-section.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story<StorySectionComponent>",
-                    "defaultValue": "(args: StorySectionComponent) => ({\r\n  props: args,\r\n})"
-                }
-            ],
             "src/app/components/sugestions/sugestions.stories.ts": [
                 {
                     "name": "Default",
@@ -3652,6 +3630,28 @@
                     "deprecationMessage": "",
                     "type": "Story<SugestionsComponent>",
                     "defaultValue": "(\r\n    args: SugestionsComponent\r\n  ) => ({\r\n    props: args,\r\n  })"
+                }
+            ],
+            "src/app/components/story-section/story-section.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/story-section/story-section.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/story-section/story-section.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<StorySectionComponent>",
+                    "defaultValue": "(args: StorySectionComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
             "src/app/pages/home/home.stories.ts": [

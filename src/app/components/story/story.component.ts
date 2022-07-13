@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { User } from 'src/app/data/users';
 
 @Component({
   selector: 'app-story',
@@ -8,4 +9,6 @@ import { Component, Input } from '@angular/core';
 export class StoryComponent {
   @Input()
   backgroundColor?: string;
+
+  @Input() user!: User;
 }

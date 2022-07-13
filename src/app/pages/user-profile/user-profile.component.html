@@ -1,10 +1,7 @@
 <app-profile-header></app-profile-header>
 <div class="row">
   <div class="story__container">
-    <app-story></app-story>
-    <app-story></app-story>
-    <app-story></app-story>
-    <app-story></app-story>
+    <app-story *ngFor="let user of users | slice:2" [user]="user"></app-story>
   </div>
 </div>
 <app-user-toogle></app-user-toogle>

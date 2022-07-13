@@ -2,9 +2,22 @@
 
 This responsive project is a design reproduction from [Figma community project](https://www.figma.com/community/file/1039921953318471355) with basic functionality: router link, nested router, multiple image slider, counter, comment adder, etc.
 
-Deployed project [HERE](https://dancing-chimera-2c9083.netlify.app/home).
+### Instagram__Browser:
 
-Depoyed StoryBook [HERE]()
+![Instagram_Browser](https://user-images.githubusercontent.com/98387598/178837383-bcf1617b-ef62-4f94-8ce3-27d363117425.gif)
+
+
+### Instagram__Responsive:
+
+![Instagram_Responsive](https://user-images.githubusercontent.com/98387598/178837423-0d7370e0-5bcc-433e-a0fa-f35ca754d3f9.gif)
+
+### Deployed project:
+
+[LINK](https://dancing-chimera-2c9083.netlify.app/home).
+
+### Depoyed StoryBook:
+
+[LINK]()
 
 
 

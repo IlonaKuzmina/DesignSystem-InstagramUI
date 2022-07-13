@@ -3,12 +3,12 @@
     "interfaces": [
         {
             "name": "User",
-            "id": "interface-User-ec335725e2da89fcad590fe39652d535c5af2e98c624aed238331eee9d8a45c79cb1be2f83354d8680f9112699fbe4e6979a33eecfe3cdddc815c68f332ddd1f",
+            "id": "interface-User-7a6acfdf2fb76e2eecdc5a521d0b1ee89e021a30a66a4b67873e8dee734a712fb037cb1dbdb4b4ed84a473f2d2f6b5057f0288deb4ebca409b7ea38b2e95ca14",
             "file": "src/app/data/users.ts",
             "deprecated": false,
             "deprecationMessage": "",
             "type": "interface",
-            "sourceCode": "export interface User {\r\n  name: string;\r\n  avatar:string\r\n  image?: string;\r\n  foolName: string;\r\n  comment?: string;\r\n}\r\n\r\nconst UsersData: User[] = [\r\n  {\r\n    name: 'your story',\r\n    foolName: 'i.slimeeee____',\r\n    avatar: '../../../assets/Icons/Profile-Pic-S.svg',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'tery',\r\n    foolName: 'terylucas',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-7.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-7.1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsint',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-2.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-2.1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'harry',\r\n    foolName: 'harryprescott',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-3.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-3.1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'edna',\r\n    foolName: 'ednamanz',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-4.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-4.1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'christina',\r\n    foolName: 'christinasterling',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-5.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsant',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'lorem m',\r\n    foolName: 'loremlorem',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-6.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n];\r\n\r\nexport default UsersData;\r\n",
+            "sourceCode": "export interface User {\r\n  name: string;\r\n  avatar: string;\r\n  image?: string;\r\n  foolName: string;\r\n  comment?: string;\r\n}\r\n\r\nconst UsersData: User[] = [\r\n  {\r\n    name: 'your story',\r\n    foolName: 'i.slimeeee____',\r\n    avatar: '../../../assets/Icons/Profile-Pic-S.svg',\r\n    comment: 'Imperdiet in sit rhokfvodvj jrifvjiviriggu...',\r\n  },\r\n  {\r\n    name: 'tery',\r\n    foolName: 'terylucas',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-7.png',\r\n    image: '../../../assets/Images/Profile-Pic-S-7.1.png',\r\n    comment: 'Imperdiet in sit rhokfvodvj jrifvjiviriggu...',\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsint',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-2.png',\r\n    image: '../../../assets/Images/Profile-Pic-S-2.1.png',\r\n    comment: 'Imperdiet in sit rhokfvodvj jrifvjiviriggu...',\r\n  },\r\n  {\r\n    name: 'harry',\r\n    foolName: 'harryprescott',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-3.png',\r\n    image: '../../../assets/Images/Profile-Pic-S-3.1.png',\r\n    comment: 'Imperdiet in sit rhokfvodvj jrifvjiviriggu...',\r\n  },\r\n  {\r\n    name: 'edna',\r\n    foolName: 'ednamanz',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-4.png',\r\n    image: '../../../assets/Images/Profile-Pic-S-4.1.png',\r\n    comment: 'Imperdiet in sit rhokfvodvj jrifvjiviriggu...',\r\n  },\r\n  {\r\n    name: 'christina',\r\n    foolName: 'christinasterling',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-5.png',\r\n    comment: 'Imperdiet in sit rhokfvodvj jrifvjiviriggu...',\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsant',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-1.png',\r\n    comment: 'Imperdiet in sit rhokfvodvj jrifvjiviriggu...',\r\n  },\r\n  {\r\n    name: 'lorem m',\r\n    foolName: 'loremlorem',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-6.png',\r\n    comment: 'Imperdiet in sit rhokfvodvj jrifvjiviriggu...',\r\n  },\r\n];\r\n\r\nexport default UsersData;\r\n",
             "properties": [
                 {
                     "name": "avatar",
@@ -65,7 +65,79 @@
     "guards": [],
     "interceptors": [],
     "classes": [],
-    "directives": [],
+    "directives": [
+        {
+            "name": "NextBtnDirective",
+            "id": "directive-NextBtnDirective-1404d8e5cbc8ec4c42c330bd3de71cfb9203be1e1a1fb630796901ba25fd84f2f74947f4d85f0665dbbdc1c6b03658a576c6db114945c0f05452c1f1ba107968",
+            "file": "src/app/next-btn.directive.ts",
+            "type": "directive",
+            "description": "",
+            "rawdescription": "\n",
+            "sourceCode": "import { Directive, ElementRef, HostListener } from '@angular/core';\n\n@Directive({\n  selector: '[appNextBtn]',\n})\nexport class NextBtnDirective {\n  constructor(private el: ElementRef) {}\n\n  @HostListener('click') nextClickHandler() {\n    const elm = this.el.nativeElement.parentElement.parentElement.children[0];\n    const item = elm.getElementsByClassName('item');\n    elm.append(item[0]);\n  }\n}\n",
+            "selector": "[appNextBtn]",
+            "providers": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [
+                {
+                    "name": "click",
+                    "args": [],
+                    "argsDecorator": [],
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 9
+                }
+            ],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "nextClickHandler",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 9,
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "decorators": [
+                        {
+                            "name": "HostListener",
+                            "stringifiedArguments": "'click'"
+                        }
+                    ]
+                }
+            ],
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [
+                    {
+                        "name": "el",
+                        "type": "ElementRef",
+                        "deprecated": false,
+                        "deprecationMessage": ""
+                    }
+                ],
+                "line": 6,
+                "jsdoctags": [
+                    {
+                        "name": "el",
+                        "type": "ElementRef",
+                        "deprecated": false,
+                        "deprecationMessage": "",
+                        "tagName": {
+                            "text": "param"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
     "components": [
         {
             "name": "AppComponent",
@@ -111,7 +183,7 @@
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": ".app__wrapper {\r\n  max-width: 935px;\r\n  margin: 0 auto;\r\n  background-color: #fafafa;\r\n  display: grid;\r\n  grid-template-rows: auto 1fr auto;\r\n  height: 100%;\r\n}\r\n",
+                    "data": ".app__wrapper {\r\n  max-width: 935px;\r\n  margin: 0 auto;\r\n  background-color: #fafafa;\r\n  display: grid;\r\n  grid-template-rows: auto 1fr auto;\r\n  min-height: 100%;\r\n}\r\n",
                     "styleUrl": "./app.component.scss"
                 }
             ],
@@ -162,7 +234,7 @@
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": "",
+                    "data": ".wrapper {\r\n  min-height: 100%;\r\n}\r\n",
                     "styleUrl": "./explore.component.scss"
                 }
             ],
@@ -178,7 +250,7 @@
             "implements": [
                 "OnInit"
             ],
-            "templateData": "<p>explore works!</p>\n<app-footer></app-footer>\n"
+            "templateData": "<div class=\"wrapper\">\n  <p>explore works!</p>\n</div>\n<app-footer></app-footer>\n"
         },
         {
             "name": "FollowsComponent",
@@ -415,7 +487,7 @@
             "implements": [
                 "OnInit"
             ],
-            "templateData": "  <select class=\"language__selector\" name=\"languages\" id=\"languages\">\n    <option class=\"language__option\" value=\"english\">English</option>\n    <option class=\"language__option\" value=\"latvian\">Latvian</option>\n    <option class=\"language__option\" value=\"russian\">Russian</option>\n  </select>\n"
+            "templateData": "  <select class=\"language__selector\" name=\"languages\" id=\"languages\">\n    <option class=\"language__option\" value=\"english\">Language</option>\n    <option class=\"language__option\" value=\"english\">English</option>\n    <option class=\"language__option\" value=\"latvian\">Latvian</option>\n    <option class=\"language__option\" value=\"russian\">Russian</option>\n  </select>\n"
         },
         {
             "name": "LinksBlockComponent",
@@ -749,12 +821,12 @@
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": "\r\n",
+                    "data": "",
                     "styleUrl": "./my-profile.component.scss"
                 }
             ],
             "stylesData": "",
-            "templateData": "  <app-profile-header></app-profile-header>\n  <app-profile-toogle></app-profile-toogle>\n  <app-profile-content></app-profile-content>\n  <app-footer></app-footer>\n"
+            "templateData": "<app-profile-header></app-profile-header>\n<app-profile-toogle></app-profile-toogle>\n<router-outlet></router-outlet>\n"
         },
         {
             "name": "NavigationComponent",
@@ -924,7 +996,7 @@
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": ".post__wrapper {\r\n  // max-width:max-content;\r\n  max-width:100%;\r\n  min-width: 320px;\r\n  background: #ffffff;\r\n  margin-bottom: 24px;\r\n  margin: 0 auto;\r\n}\r\n\r\n.post__image {\r\nwidth: 100%;\r\n}\r\n\r\n.image{\r\n  max-width: 100%;\r\n  margin: 0 auto;\r\n}",
+                    "data": ".post__wrapper {\r\n  max-width: 100%;\r\n  min-width: 320px;\r\n  background: #ffffff;\r\n  margin-bottom: 24px;\r\n  margin: 0 auto;\r\n}\r\n\r\n.post__image {\r\n  width: 100%;\r\n}\r\n\r\n.image {\r\n  max-width: 100%;\r\n  margin: 0 auto;\r\n}\r\n",
                     "styleUrl": "./post.component.scss"
                 }
             ],
@@ -1132,7 +1204,7 @@
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": ".post__header {\r\n  width: 100%;\r\n  display: flex;\r\n  flex-direction: row;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  border: 1px solid #dbdbdb;\r\n  padding: 9px 0 9px 9px;\r\n  background: #ffffff;\r\n}\r\n\r\n.name__wrapper {\r\n  display: flex;\r\n  flex-direction: row;\r\n  align-items: center;\r\n  background: #ffffff;\r\n}\r\n\r\n.avatar__cirkle {\r\n  padding-left: 16px;\r\n}\r\n\r\n.user__name {\r\n  font-weight: 900;\r\n  font-size: 14px;\r\n  line-height: 18px;\r\n  text-transform: lowercase;\r\n  color: #262626;\r\n  padding-left: 12px;\r\n  background: #ffffff;\r\n}\r\n\r\n.more__options {\r\n  width: 48px;\r\n  height: 42px;\r\n  //   padding: 1px 8px 1px 0px;\r\n  background: url(../../../assets/Icons/More.svg);\r\n  background-repeat: no-repeat;\r\n  cursor: pointer;\r\n  border: none;\r\n  background-color: white;\r\n}\r\n",
+                    "data": ".post__header {\r\n  width: 100%;\r\n  display: flex;\r\n  flex-direction: row;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  border: 1px solid #dbdbdb;\r\n  padding: 9px 0 9px 9px;\r\n  background: #ffffff;\r\n  min-width: 320px;\r\n  max-width: 100%;\r\n}\r\n\r\n.name__wrapper {\r\n  display: flex;\r\n  flex-direction: row;\r\n  align-items: center;\r\n  background: #ffffff;\r\n}\r\n\r\n.avatar__cirkle {\r\n  padding-left: 16px;\r\n}\r\n\r\n.user__name {\r\n  font-weight: 900;\r\n  font-size: 14px;\r\n  line-height: 18px;\r\n  text-transform: lowercase;\r\n  color: #262626;\r\n  padding-left: 12px;\r\n  background: #ffffff;\r\n}\r\n\r\n.more__options {\r\n  width: 48px;\r\n  height: 42px;\r\n  background: url(../../../assets/Icons/More.svg);\r\n  background-repeat: no-repeat;\r\n  cursor: pointer;\r\n  border: none;\r\n  background-color: white;\r\n}\r\n\r\n@media screen and (max-width: 1020px) {\r\n  .post__header {\r\n    margin: 0 auto;\r\n  }\r\n}\r\n",
                     "styleUrl": "./post-header.component.scss"
                 }
             ],
@@ -1245,7 +1317,7 @@
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": ".primary__block {\r\n  padding-right: 28px;\r\n}\r\n\r\n@media only screen and (max-width: 1020px) {\r\n  .primary__block {\r\n    padding-right: 0px;\r\n    margin: 0 auto;\r\n  }\r\n}\r\n",
+                    "data": ".primary__block {\r\n  padding: 70px 28px 50px 0px;\r\n  padding-right: 28px;\r\n}\r\n\r\n@media only screen and (max-width: 1020px) {\r\n  .primary__block {\r\n    padding-right: 0px;\r\n    margin: 0 auto;\r\n  }\r\n}\r\n",
                     "styleUrl": "./primary-block.component.scss"
                 }
             ],
@@ -1429,7 +1501,7 @@
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": ".profile__header--wrapper {\r\n  margin-top: 20px;\r\n  background-color: #fafafa;\r\n  margin-bottom: 30px;\r\n}\r\n\r\n.bold__span {\r\n  font-weight: 900;\r\n  font-size: 16px;\r\n  line-height: 24px;\r\n  color: #262626;\r\n}\r\n\r\n.box {\r\n  display: flex;\r\n  flex-direction: column;\r\n  margin-top: 14px;\r\n  max-width: fit-content;\r\n}\r\n\r\n.box__title,\r\n.box__content {\r\n  display: flex;\r\n  flex-direction: row;\r\n}\r\n\r\n.box__content {\r\n  margin: 20px 0;\r\n}\r\n\r\n.title {\r\n  font-weight: 900;\r\n  font-size: 28px;\r\n  line-height: 32px;\r\n  color: #262626;\r\n}\r\n\r\n.edit__btn {\r\n  font-weight: 900;\r\n  font-size: 14px;\r\n  line-height: 18px;\r\n  border: 1px solid #dbdbdb;\r\n  border-radius: 4px;\r\n  color: #262626;\r\n  padding: 6px 10px;\r\n  margin: 0 20px;\r\n}\r\n\r\n.box__content div {\r\n  margin-right: 40px;\r\n}\r\n\r\n@media screen and (max-width: 790px) {\r\n  .box__content {\r\n    flex-direction: column;\r\n    margin: 0;\r\n    justify-content: space-between;\r\n  }\r\n\r\n  .box__title {\r\n    flex-direction: column;\r\n    margin-right: 15px;\r\n  }\r\n\r\n  .edit__btn {\r\n    margin: 10px 0;\r\n  }\r\n\r\n  .box {\r\n    flex-direction: row;\r\n    margin-top: 14px;\r\n    max-width: fit-content;\r\n  }\r\n}\r\n\r\n@media screen and (max-width: 430px) {\r\n  .box__content {\r\n    flex-direction: column;\r\n    margin: 0 auto;\r\n    justify-content: space-between;\r\n  }\r\n\r\n  .title {\r\n    font-size: 18px;\r\n  }\r\n\r\n  .bold__span {\r\n    font-size: 12px;\r\n  }\r\n}",
+                    "data": ".profile__header--wrapper {\r\n  margin-top: 20px;\r\n  background-color: #fafafa;\r\n  margin-bottom: 30px;\r\n  width: 100%;\r\n}\r\n\r\n.bold__span {\r\n  font-weight: 900;\r\n  font-size: 16px;\r\n  line-height: 24px;\r\n  color: #262626;\r\n}\r\n\r\n.box {\r\n  display: flex;\r\n  flex-direction: column;\r\n  margin-top: 14px;\r\n  max-width: fit-content;\r\n}\r\n\r\n.box__title,\r\n.box__content {\r\n  display: flex;\r\n  flex-direction: row;\r\n}\r\n\r\n.box__content {\r\n  margin: 20px 0;\r\n}\r\n\r\n.title {\r\n  font-weight: 900;\r\n  font-size: 28px;\r\n  line-height: 32px;\r\n  color: #262626;\r\n}\r\n\r\n.edit__btn {\r\n  font-weight: 900;\r\n  font-size: 14px;\r\n  line-height: 18px;\r\n  border: 1px solid #dbdbdb;\r\n  border-radius: 4px;\r\n  color: #262626;\r\n  padding: 6px 10px;\r\n  margin: 0 20px;\r\n}\r\n\r\n.box__content div {\r\n  margin-right: 40px;\r\n}\r\n\r\n@media screen and (max-width: 790px) {\r\n  .box__content {\r\n    flex-direction: column;\r\n    margin: 0;\r\n    justify-content: space-between;\r\n  }\r\n\r\n  .box__title {\r\n    flex-direction: column;\r\n    margin-right: 15px;\r\n  }\r\n\r\n  .edit__btn {\r\n    margin: 10px 0;\r\n  }\r\n\r\n  .box {\r\n    flex-direction: row;\r\n    margin-top: 14px;\r\n    max-width: fit-content;\r\n  }\r\n}\r\n\r\n@media screen and (max-width: 430px) {\r\n  .box__content {\r\n    flex-direction: column;\r\n    margin: 0 auto;\r\n    justify-content: space-between;\r\n  }\r\n\r\n  .title {\r\n    font-size: 18px;\r\n  }\r\n\r\n  .bold__span {\r\n    font-size: 12px;\r\n  }\r\n}\r\n",
                     "styleUrl": "./profile-header.component.scss"
                 }
             ],
@@ -1446,6 +1518,192 @@
                 "OnInit"
             ],
             "templateData": "<div class=\"profile__header--wrapper\">\n  <div class=\"row center-xs\">\n    <div class=\"col-xs-10\">\n      <div class=\"row start-xs\">\n        <div class=\"col-xs-4\">\n          <div class=\"box\">\n            <img src=\"../../../assets/Icons/Profile-Pic-SP.png\" />\n          </div>\n        </div>\n        <div class=\"col-xs-8\">\n          <div class=\"box\">\n            <div class=\"box__title\">\n              <div><span class=\"title\">i.slimeee___</span></div>\n              <div><button class=\"edit__btn\">Edit Profile</button></div>\n              <div><img src=\"../../../assets/Icons/Options.svg\" /></div>\n            </div>\n            <div class=\"box__content\">\n              <div><span class=\"bold__span\">0</span><span> posts</span></div>\n              <div>\n                <span class=\"bold__span\">91.7k</span><span> followers</span>\n              </div>\n              <div>\n                <span class=\"bold__span\">500</span>\n                <span> following</span>\n              </div>\n            </div>\n          </div>\n          <span class=\"bold__span\">Maxwell</span>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
+        },
+        {
+            "name": "ProfilePostsComponent",
+            "id": "component-ProfilePostsComponent-afa4069ae1b3f2e56c1fb0444c6342458b7e7beea8f690cd291ea0918d7307b86f49747def4c0af0c7abe55b7f11b65fb0f3e706fcaad90dfa88d922924972a1",
+            "file": "src/app/components/profile-posts/profile-posts.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-profile-posts",
+            "styleUrls": [
+                "./profile-posts.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./profile-posts.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 12,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-profile-posts',\n  templateUrl: './profile-posts.component.html',\n  styleUrls: ['./profile-posts.component.scss']\n})\nexport class ProfilePostsComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": ".posts {\r\n  min-height: 100%;\r\n}\r\n\r\n.posts__title {\r\n  font-weight: 900;\r\n  font-size: 18px;\r\n  line-height: 18px;\r\n  color: #262626;\r\n}\r\n\r\n.posts__text {\r\n  font-size: 16px;\r\n  line-height: 18px;\r\n  color: #262626;\r\n  // margin: 20px 0;\r\n}\r\n\r\n.app__wrapper {\r\n  display: flex;\r\n  flex-direction: row;\r\n  justify-content: center;\r\n}\r\n\r\n.images__container {\r\n  max-width: 400px;\r\n  display: grid;\r\n  grid-template-columns: auto auto auto;\r\n  row-gap: 1px;\r\n  column-gap: 1px;\r\n  margin: 20px auto;\r\n}\r\n\r\n.image {\r\n  background-color: rgb(173, 157, 157);\r\n}\r\n\r\n.right__box {\r\n  margin: 30px 40px 5px;\r\n}\r\n\r\n.left__box {\r\n  margin: 20px auto 5px;\r\n}\r\n",
+                    "styleUrl": "./profile-posts.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 8
+            },
+            "implements": [
+                "OnInit"
+            ],
+            "templateData": "<div class=\"posts\">\n  <div class=\"row middle-xs center-xs\">\n    <div class=\"col-xs-12 col-md-6\">\n      <div class=\"left__box\">\n        <div class=\"images__container\">\n          <img\n            class=\"image\"\n            src=\"../../../assets/Images/Profile-Pic-S-2.1.png\"\n          />\n          <img\n            class=\"image\"\n            src=\"../../../assets/Images/Profile-Pic-S-3.1.png\"\n          />\n          <img\n            class=\"image\"\n            src=\"../../../assets/Images/Posts/Small-Post.png\"\n          />\n          <img\n            class=\"image\"\n            src=\"../../../assets/Images/Profile-Pic-S-7.1.png\"\n          />\n          <img class=\"image\" src=\"\" />\n          <img\n            class=\"image\"\n            src=\"../../../assets/Images/Profile-Pic-S-3.1.png\"\n          />\n          <img class=\"image\" src=\"\" />\n          <img\n            class=\"image\"\n            src=\"../../../assets/Images/Profile-Pic-S-2.1.png\"\n          />\n          <img class=\"image\" src=\"\" />\n        </div>\n      </div>\n    </div>\n    <div class=\"col-xs-12 col-md-6\">\n      <div class=\"right__box\">\n        <h1 class=\"posts__title\">Start capturing and sharing your moments</h1>\n        <p class=\"posts__text\">\n          Get the app to share your first photo or video\n        </p>\n        <div class=\"app__wrapper\">\n          <img src=\"../../../assets/Images/GooglePlay-Banned.svg\" alt=\"\" />\n          <img src=\"../../../assets/Images/AppStore-Banned.svg\" alt=\"\" />\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<app-footer class=\"page-footer\"></app-footer>\n"
+        },
+        {
+            "name": "ProfileSavedComponent",
+            "id": "component-ProfileSavedComponent-66e9dde2bd9f0274c3b668eaa28614851a8bd665f6395c84026303cdac3eb305048f5c08d92b1b8f18b67092f94e337ebb4f893ee71faf030b8182a41d85b01b",
+            "file": "src/app/components/profile-saved/profile-saved.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-profile-saved",
+            "styleUrls": [
+                "./profile-saved.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./profile-saved.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 12,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-profile-saved',\n  templateUrl: './profile-saved.component.html',\n  styleUrls: ['./profile-saved.component.scss']\n})\nexport class ProfileSavedComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": ".saved__wrapper {\r\n  height: 100%;\r\n  font-size: 25px;\r\n  font-weight: 900;\r\n  text-align: center;\r\n  padding: 100px 0 50px;\r\n}\r\n",
+                    "styleUrl": "./profile-saved.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 8
+            },
+            "implements": [
+                "OnInit"
+            ],
+            "templateData": "<div class=\"saved__wrapper\">Profile-saved works!</div>\n<app-footer></app-footer>\n"
+        },
+        {
+            "name": "ProfileTaggedComponent",
+            "id": "component-ProfileTaggedComponent-4330804f0c2ce56b3cd985db4cb4852b847b168467f27fc2fea4e03db88e393e155da8e97262b936bd7f9b11aa1ce33cb489a7d950bcbeda97a08800abe2aa99",
+            "file": "src/app/components/profile-tagged/profile-tagged.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-profile-tagged",
+            "styleUrls": [
+                "./profile-tagged.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./profile-tagged.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 12,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-profile-tagged',\n  templateUrl: './profile-tagged.component.html',\n  styleUrls: ['./profile-tagged.component.scss']\n})\nexport class ProfileTaggedComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": ".tagged__wrapper {\r\n  height: 100%;\r\n  font-size: 25PX;\r\n  font-weight: 900;\r\n  text-align: center;\r\n  padding: 100px 0 50px;\r\n}\r\n",
+                    "styleUrl": "./profile-tagged.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 8
+            },
+            "implements": [
+                "OnInit"
+            ],
+            "templateData": "<div class=\"tagged__wrapper\">Profile-tagged works!</div>\n<app-footer></app-footer>\n"
         },
         {
             "name": "ProfileToogleComponent",
@@ -1545,7 +1803,7 @@
                 }
             ],
             "stylesData": "",
-            "templateData": "<div class=\"toogle__wrapper\">\n  <div\n    class=\"btn__wrapper\"\n    (click)=\"clickHandler('post')\"\n    [ngClass]=\"selectedPost ? 'border' : ''\"\n  >\n    <span>\n      <img\n        class=\"image\"\n        [ngClass]=\"selectedPost ? '' : 'opacity'\"\n        src=\"../../../assets/Icons/Posts.svg\"\n      />\n    </span>\n\n    <button class=\"btn\" [ngClass]=\"selectedPost ? 'active' : ''\">posts</button>\n  </div>\n\n  <div\n    class=\"btn__wrapper\"\n    (click)=\"clickHandler('save')\"\n    [ngClass]=\"selectedSave ? 'border' : ''\"\n  >\n    <span>\n      <img\n        class=\"image\"\n        [ngClass]=\"selectedSave ? '' : 'opacity'\"\n        src=\"../../../assets/Icons/Saved.svg\"\n      />\n    </span>\n    <button [ngClass]=\"selectedSave ? 'active' : ''\" class=\"btn\">saved</button>\n  </div>\n\n  <div\n    id=\"tagged\"\n    class=\"btn__wrapper\"\n    (click)=\"clickHandler('tagged')\"\n    [ngClass]=\"selectedTagged ? 'border' : ''\"\n  >\n    <span>\n      <img\n        class=\"image\"\n        [ngClass]=\"selectedTagged ? '' : 'opacity'\"\n        src=\"../../../assets/Icons/Tagged.svg\"\n      />\n    </span>\n    <button [ngClass]=\"selectedTagged ? 'active' : ''\" class=\"btn\">\n      tagged\n    </button>\n  </div>\n</div>\n"
+            "templateData": "<div class=\"toogle__wrapper\">\n  <div\n    routerLink=\"profile-posts\"\n    class=\"btn__wrapper\"\n    (click)=\"clickHandler('post')\"\n    [ngClass]=\"selectedPost ? 'border' : ''\"\n  >\n    <span>\n      <img\n        class=\"image\"\n        [ngClass]=\"selectedPost ? '' : 'opacity'\"\n        src=\"../../../assets/Icons/Posts.svg\"\n      />\n    </span>\n\n    <button class=\"btn\" [ngClass]=\"selectedPost ? 'active' : ''\">posts</button>\n  </div>\n\n  <div\n    routerLink=\"profile-saved\"\n    class=\"btn__wrapper\"\n    (click)=\"clickHandler('save')\"\n    [ngClass]=\"selectedSave ? 'border' : ''\"\n  >\n    <span>\n      <img\n        class=\"image\"\n        [ngClass]=\"selectedSave ? '' : 'opacity'\"\n        src=\"../../../assets/Icons/Saved.svg\"\n      />\n    </span>\n    <button [ngClass]=\"selectedSave ? 'active' : ''\" class=\"btn\">saved</button>\n  </div>\n\n  <div\n    routerLink=\"profile-tagged\"\n    id=\"tagged\"\n    class=\"btn__wrapper\"\n    (click)=\"clickHandler('tagged')\"\n    [ngClass]=\"selectedTagged ? 'border' : ''\"\n  >\n    <span>\n      <img\n        class=\"image\"\n        [ngClass]=\"selectedTagged ? '' : 'opacity'\"\n        src=\"../../../assets/Icons/Tagged.svg\"\n      />\n    </span>\n    <button [ngClass]=\"selectedTagged ? 'active' : ''\" class=\"btn\">\n      tagged\n    </button>\n  </div>\n  \n</div>\n"
         },
         {
             "name": "SecondaryBlockComponent",
@@ -1610,70 +1868,8 @@
             "templateData": "<app-profile></app-profile>\n<app-sugestions></app-sugestions>\n<app-footer></app-footer>\n"
         },
         {
-            "name": "StoryBtnComponent",
-            "id": "component-StoryBtnComponent-6ca0cf2be245c404fe991a3b45938e7994a37c36d2ca0e2346c5afd9ff00f64406e610557f48e8f84c89f2c0cd7fb5b1bc66c7e187aa1775018dfa5f247bb2bb",
-            "file": "src/app/components/story-btn/story-btn.component.ts",
-            "encapsulation": [],
-            "entryComponents": [],
-            "inputs": [],
-            "outputs": [],
-            "providers": [],
-            "selector": "app-story-btn",
-            "styleUrls": [
-                "./story-btn.component.scss"
-            ],
-            "styles": [],
-            "templateUrl": [
-                "./story-btn.component.html"
-            ],
-            "viewProviders": [],
-            "inputsClass": [],
-            "outputsClass": [],
-            "propertiesClass": [],
-            "methodsClass": [
-                {
-                    "name": "ngOnInit",
-                    "args": [],
-                    "optional": false,
-                    "returnType": "void",
-                    "typeParameters": [],
-                    "line": 12,
-                    "deprecated": false,
-                    "deprecationMessage": ""
-                }
-            ],
-            "deprecated": false,
-            "deprecationMessage": "",
-            "hostBindings": [],
-            "hostListeners": [],
-            "description": "",
-            "rawdescription": "\n",
-            "type": "component",
-            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-story-btn',\n  templateUrl: './story-btn.component.html',\n  styleUrls: ['./story-btn.component.scss']\n})\nexport class StoryBtnComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
-            "assetsDirs": [],
-            "styleUrlsData": [
-                {
-                    "data": ".story__btn--wrapper {\r\n  position: absolute;\r\n  width: 44px;\r\n  height: 44px;\r\n  padding: 11px;\r\n  cursor: pointer;\r\n  right: 10px;\r\n  top: 20px;\r\n  background-color: transparent;\r\n}\r\n\r\n.story__btn {\r\n  cursor: pointer;\r\n  border: none;\r\n  background: url(../../../assets/Icons/Arrow.svg);\r\n  background-repeat: no-repeat;\r\n  background-color: white;\r\n  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);\r\n  border-radius: 22px;\r\n  transform: rotate(90deg);\r\n  width: 22px;\r\n  height: 22px;\r\n  color: #8e8e8e;\r\n}\r\n",
-                    "styleUrl": "./story-btn.component.scss"
-                }
-            ],
-            "stylesData": "",
-            "constructorObj": {
-                "name": "constructor",
-                "description": "",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "args": [],
-                "line": 8
-            },
-            "implements": [
-                "OnInit"
-            ],
-            "templateData": "<div class=\"story__btn--wrapper\">\n   <button class=\"story__btn\"></button> \n</div>\n"
-        },
-        {
             "name": "StoryComponent",
-            "id": "component-StoryComponent-8f5a551c2d82c3e742230be205bcf09cbe8107d04f332deb60f3f1255acfa58270e3f03f82f05e1e91439159bcc580e9edf37bf8555119385676659e86904bc4",
+            "id": "component-StoryComponent-fd99c4d21fc03262f735db08f7226fc58b33f21d061e3a646a482352cf50825c2c235eb4647f950b28575e6ff0caf3d1b299ce619881beb2787b1e356cf80cba",
             "file": "src/app/components/story/story.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -1694,8 +1890,16 @@
                     "name": "backgroundColor",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 10,
+                    "line": 11,
                     "type": "string",
+                    "decorators": []
+                },
+                {
+                    "name": "user",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 13,
+                    "type": "User",
                     "decorators": []
                 }
             ],
@@ -1709,7 +1913,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input } from '@angular/core';\n\n@Component({\n  selector: 'app-story',\n  templateUrl: './story.component.html',\n  styleUrls: ['./story.component.scss'],\n})\nexport class StoryComponent {\n  @Input()\n  backgroundColor?: string;\n}\n",
+            "sourceCode": "import { Component, Input } from '@angular/core';\nimport { User } from 'src/app/data/users';\n\n@Component({\n  selector: 'app-story',\n  templateUrl: './story.component.html',\n  styleUrls: ['./story.component.scss'],\n})\nexport class StoryComponent {\n  @Input()\n  backgroundColor?: string;\n\n  @Input() user!: User;\n}\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
@@ -1718,62 +1922,11 @@
                 }
             ],
             "stylesData": "",
-            "templateData": "<div class=\"story__wrapper\">\n  <img class=\"story__image\" src=\"../../../assets/Icons/Avatar-Profile-Pic.svg\" alt=\"\">\n  <span class=\"story__text\">Made Us</span>\n</div>\n"
-        },
-        {
-            "name": "StoryItemComponent",
-            "id": "component-StoryItemComponent-d1f8cc34467dfbac89b88e6a55756b4a07573b89c50883feb0b1ea474685446283f7c1a4fdd2475147f39ba35fde7c3da471f05018833be77b69c8690d9eaa02",
-            "file": "src/app/components/story-item/story-item.component.ts",
-            "encapsulation": [],
-            "entryComponents": [],
-            "inputs": [],
-            "outputs": [],
-            "providers": [],
-            "selector": "app-story-item",
-            "styleUrls": [
-                "./story-item.component.scss"
-            ],
-            "styles": [],
-            "templateUrl": [
-                "./story-item.component.html"
-            ],
-            "viewProviders": [],
-            "inputsClass": [],
-            "outputsClass": [],
-            "propertiesClass": [
-                {
-                    "name": "users",
-                    "defaultValue": "UsersData",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "optional": false,
-                    "description": "",
-                    "line": 10
-                }
-            ],
-            "methodsClass": [],
-            "deprecated": false,
-            "deprecationMessage": "",
-            "hostBindings": [],
-            "hostListeners": [],
-            "description": "",
-            "rawdescription": "\n",
-            "type": "component",
-            "sourceCode": "import { Component } from '@angular/core';\nimport UsersData from '../../../app/data/users';\n\n@Component({\n  selector: 'app-story-item',\n  templateUrl: './story-item.component.html',\n  styleUrls: ['./story-item.component.scss'],\n})\nexport class StoryItemComponent {\n  users = UsersData;\n}\n",
-            "assetsDirs": [],
-            "styleUrlsData": [
-                {
-                    "data": ".story__container {\r\n  display: flex;\r\n  flex-direction: row;\r\n  flex-wrap: wrap;\r\n  flex-wrap: nowrap;\r\n  background: #ffffff;\r\n}\r\n\r\n.story__wrapper {\r\n  background-color: transparent;\r\n  padding: 0px 8px;\r\n  display: flex;\r\n  flex-direction: column;\r\n  text-align: center;\r\n  flex-wrap: nowrap;\r\n  background: #ffffff;\r\n}\r\n\r\n.image__wrapper {\r\n  background-color: transparent;\r\n  max-width:max-content;\r\n  width: fit-content;\r\n  border-radius: 50%;\r\n  border: 2.5px solid transparent;\r\n  background: linear-gradient(to bottom, #de0046 0%, #f7a34b 100%) border-box;\r\n}\r\n\r\n.image {\r\n  padding: 2.5px;\r\n  max-width: 56px;\r\n  max-height: 56px;\r\n  border-radius: 50%;\r\n  border: transparent;\r\n}\r\n\r\n.story__text {\r\n  line-height: 16px;\r\n  text-align: center;\r\n  letter-spacing: 0.12px;\r\n  text-transform: lowercase;\r\n  color: #262626;\r\n  background: #ffffff;\r\n}\r\n",
-                    "styleUrl": "./story-item.component.scss"
-                }
-            ],
-            "stylesData": "",
-            "templateData": "<div class=\"story__container\">\n  <div class=\"story__wrapper\" *ngFor=\"let user of users | slice: 2:9\">\n    <div class=\"image__wrapper\">\n      <img class=\"image\" src=\"{{ user.avatar }}\" alt=\"\" />\n    </div>\n    <span class=\"story__text\">{{ user.name }}</span>\n  </div>\n</div>\n"
+            "templateData": "<div class=\"story__wrapper\">\n  <img class=\"story__image\" src=\"{{ user.avatar }}\" alt=\"\" />\n  <span class=\"story__text\">{{ user.name | titlecase }}</span>\n</div>\n"
         },
         {
             "name": "StorySectionComponent",
-            "id": "component-StorySectionComponent-6a04371877ba9d50823a8337c69f5db46d6e0332cd06c57de6319baab151c51771d8b6b2b1cb30470c8782367e4d1d2850d9d57781119d516409ca42d83f03dc",
+            "id": "component-StorySectionComponent-47bb71f2421198c6456863a0462ba1387c9c202fd8d53e03dfd6016e638d6fabe96c1db171ce5eccc6e69880769aa33ef261908a2e84ed075423d9550a06e99c",
             "file": "src/app/components/story-section/story-section.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -1792,18 +1945,7 @@
             "inputsClass": [],
             "outputsClass": [],
             "propertiesClass": [],
-            "methodsClass": [
-                {
-                    "name": "ngOnInit",
-                    "args": [],
-                    "optional": false,
-                    "returnType": "void",
-                    "typeParameters": [],
-                    "line": 11,
-                    "deprecated": false,
-                    "deprecationMessage": ""
-                }
-            ],
+            "methodsClass": [],
             "deprecated": false,
             "deprecationMessage": "",
             "hostBindings": [],
@@ -1811,27 +1953,16 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-story-section',\n  templateUrl: './story-section.component.html',\n  styleUrls: ['./story-section.component.scss'],\n})\nexport class StorySectionComponent implements OnInit {\n  constructor() {}\n\n  ngOnInit(): void {}\n}\n",
+            "sourceCode": "import { Component } from '@angular/core';\r\nimport UsersData from 'src/app/data/users';\r\n\r\n@Component({\r\n  selector: 'app-story-section',\r\n  templateUrl: './story-section.component.html',\r\n  styleUrls: ['./story-section.component.scss'],\r\n})\r\nexport class StorySectionComponent {\r\n\r\n}\r\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": ".story__section-wrapper {\r\n  min-width: 320px;\r\n  max-width: 100%;\r\n  padding: 60px 0px 0px;\r\n  background: #ffffff;\r\n  border: 1px solid #dbdbdb;\r\n  padding: 17px 0px;\r\n  position: relative;\r\n}\r\n\r\n// .story__section {\r\n\r\n// }\r\n\r\n@media screen and (max-width: 1020px) {\r\n  .story__section-wrapper {\r\n    max-width: 614px;\r\n    margin: 0 auto;\r\n  }\r\n}\r\n",
+                    "data": ".container__fluid {\r\n  min-width: 320px;\r\n  max-width: 100%;\r\n  border: 1px solid #dbdbdb;\r\n  background: #ffffff;\r\n  padding: 17px 0px;\r\n}\r\n\r\n.slider__wrapper {\r\n  position: relative;\r\n  overflow: hidden;\r\n  height: 80px;\r\n}\r\n\r\n.slider__main {\r\n  position: absolute;\r\n  width: 200%;\r\n}\r\n\r\n.item {\r\n  display: inline-block;\r\n  height: 50px;\r\n  position: relative;\r\n  margin: 0 auto;\r\n  background: #ffffff;\r\n  text-align: center;\r\n  padding: 5px 5px;\r\n}\r\n\r\n.text {\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 50%;\r\n  transform: translate(-50%, -50%);\r\n  font-size: 20px;\r\n  background: #ffffff;\r\n}\r\n\r\n.btn__area {\r\n  width: 44px;\r\n  height: 44px;\r\n  padding: 11px;\r\n  cursor: pointer;\r\n  background-color: transparent;\r\n}\r\n\r\n.next__btn {\r\n  position: absolute;\r\n  right: 35px;\r\n  top: 50%;\r\n  transform: translate(-50%, -50%);\r\n  cursor: pointer;\r\n  border: none;\r\n  background: url(../../../assets/Icons/Arrow.svg);\r\n  background-repeat: no-repeat;\r\n  background-color: white;\r\n  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);\r\n  border-radius: 22px;\r\n  transform: rotate(90deg);\r\n  width: 22px;\r\n  height: 22px;\r\n  color: #8e8e8e;\r\n}\r\n\r\n.image__wrapper {\r\n  background-color: transparent;\r\n  width: fit-content;\r\n  border-radius: 50%;\r\n  border: 2.5px solid transparent;\r\n  background: linear-gradient(to bottom, #de0046 0%, #f7a34b 100%) border-box;\r\n  margin: 0 auto;\r\n}\r\n\r\n.image {\r\n  padding: 2.5px;\r\n  max-width: 56px;\r\n  max-height: 56px;\r\n  border-radius: 50%;\r\n  border: transparent;\r\n}\r\n\r\n.story__text {\r\n  line-height: 16px;\r\n  text-align: center;\r\n  letter-spacing: 0.12px;\r\n  text-transform: lowercase;\r\n  color: #262626;\r\n  background: #ffffff;\r\n}\r\n\r\n@media screen and (max-width: 501px) {\r\n  //   .story__section-wrapper {\r\n  //     max-width: 614px;\r\n  //     margin: 0 auto;\r\n  //   }\r\n  .slider__main {\r\n    display: flex;\r\n    flex-wrap: nowrap;\r\n  }\r\n}\r\n",
                     "styleUrl": "./story-section.component.scss"
                 }
             ],
             "stylesData": "",
-            "constructorObj": {
-                "name": "constructor",
-                "description": "",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "args": [],
-                "line": 8
-            },
-            "implements": [
-                "OnInit"
-            ],
-            "templateData": "<div class=\"story__section-wrapper\">\n  <app-story-item></app-story-item>\n  <app-story-btn></app-story-btn>\n</div>\n"
+            "templateData": "<section class=\"product\">\n  <div class=\"container__fluid\">\n    <div class=\"slider__wrapper\">\n      <div class=\"slider__main\">\n        <div class=\"item\">\n          <div class=\"image__wrapper\">\n            <img\n              class=\"image\"\n              src=\"../../../assets/Icons/Avatar-Profile-Pic.svg\"\n              alt=\"\"\n            />\n          </div>\n          <span class=\"story__text\">YOUR STORY</span>\n        </div>\n\n        <div class=\"item\">\n          <div class=\"image__wrapper\">\n            <img\n              class=\"image\"\n              src=\"../../../assets/Images/Profile-Pic-S-4.png\"\n              alt=\"\"\n            />\n          </div>\n          <span class=\"story__text\">edna</span>\n        </div>\n        <div class=\"item\">\n          <div class=\"image__wrapper\">\n            <img\n              class=\"image\"\n              src=\"../../../assets/Images/Profile-Pic-S-5.png\"\n              alt=\"\"\n            />\n          </div>\n          <span class=\"story__text\">christina</span>\n        </div>\n        <div class=\"item\">\n          <div class=\"image__wrapper\">\n            <img\n              class=\"image\"\n              src=\"../../../assets/Images/Profile-Pic-S-6.png\"\n              alt=\"\"\n            />\n          </div>\n          <span class=\"story__text\">lorem</span>\n        </div>\n        <div class=\"item\">\n          <div class=\"image__wrapper\">\n            <img\n              class=\"image\"\n              src=\"../../../assets/Images/Profile-Pic-S-1.png\"\n              alt=\"\"\n            />\n          </div>\n          <span class=\"story__text\">lorem</span>\n        </div>\n        <div class=\"item\">\n          <div class=\"image__wrapper\">\n            <img\n              class=\"image\"\n              src=\"../../../assets/Images/Profile-Pic-S-2.png\"\n              alt=\"\"\n            />\n          </div>\n          <span class=\"story__text\">lorem</span>\n        </div>\n        <div class=\"item\">\n          <div class=\"image__wrapper\">\n            <img\n              class=\"image\"\n              src=\"../../../assets/Images/Profile-Pic-S-3.png\"\n              alt=\"\"\n            />\n          </div>\n          <span class=\"story__text\">harry</span>\n        </div>\n        <div class=\"item\">\n          <div class=\"image__wrapper\">\n            <img\n              class=\"image\"\n              src=\"../../../assets/Images/Profile-Pic-S-4.png\"\n              alt=\"\"\n            />\n          </div>\n          <span class=\"story__text\">edna</span>\n        </div>\n        <div class=\"item\">\n          <div class=\"image__wrapper\">\n            <img\n              class=\"image\"\n              src=\"../../../assets/Images/Profile-Pic-S-5.png\"\n              alt=\"\"\n            />\n          </div>\n          <span class=\"story__text\">christina</span>\n        </div>\n      </div>\n      <div class=\"btn__area\">\n        <button class=\"next__btn\" appNextBtn></button>\n      </div>\n    </div>\n  </div>\n</section>\n"
         },
         {
             "name": "SugestionsComponent",
@@ -1885,21 +2016,21 @@
             "templateData": "<div class=\"sugestions__wrapper\">\n  <div class=\"title__wrapper\">\n    <h3 class=\"sugestions__title\">Suggestions for you</h3>\n    <button class=\"btn__see\">See All</button>\n  </div>\n\n  <app-follows></app-follows>\n</div>\n"
         },
         {
-            "name": "UserProfileComponent",
-            "id": "component-UserProfileComponent-ba195bff0c07a34d06a1d26b856279d7701085bda2d632b5fa6529aabf0aae5cfbca05e4dd9c96e509564436c25040a0d084ca76aebd1526140df1c56b3a4508",
-            "file": "src/app/pages/user-profile/user-profile.component.ts",
+            "name": "UserGuidesComponent",
+            "id": "component-UserGuidesComponent-73eaacc17e2bf7815774784502a22ffa683c712f56f534c07160e4b3a3c8de29c05b4675d9f522e65ef92aa6c339e12e3c9f5c572ea83111d5cff1f8fe278a9a",
+            "file": "src/app/components/user-guides/user-guides.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
             "outputs": [],
             "providers": [],
-            "selector": "app-user-profile",
+            "selector": "app-user-guides",
             "styleUrls": [
-                "./user-profile.component.scss"
+                "./user-guides.component.scss"
             ],
             "styles": [],
             "templateUrl": [
-                "./user-profile.component.html"
+                "./user-guides.component.html"
             ],
             "viewProviders": [],
             "inputsClass": [],
@@ -1924,12 +2055,12 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-user-profile',\n  templateUrl: './user-profile.component.html',\n  styleUrls: ['./user-profile.component.scss']\n})\nexport class UserProfileComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-user-guides',\n  templateUrl: './user-guides.component.html',\n  styleUrls: ['./user-guides.component.scss']\n})\nexport class UserGuidesComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": ".story__container{\r\n    display: flex;\r\n    flex-direction: row;\r\n}",
-                    "styleUrl": "./user-profile.component.scss"
+                    "data": ".guides__wrapper {\r\n  min-height: 75%;\r\n  font-size: 25px;\r\n  font-weight: 900;\r\n  text-align: center;\r\n  padding-top: 100px;\r\n}\r\n",
+                    "styleUrl": "./user-guides.component.scss"
                 }
             ],
             "stylesData": "",
@@ -1944,7 +2075,204 @@
             "implements": [
                 "OnInit"
             ],
-            "templateData": "<app-profile-header></app-profile-header>\n<div class=\"row\">\n  <div class=\"story__container\">\n    <app-story></app-story>\n    <app-story></app-story>\n    <app-story></app-story>\n    <app-story></app-story>\n  </div>\n</div>\n<app-profile-toogle></app-profile-toogle>\n<app-users-posts></app-users-posts>\n<app-footer></app-footer>\n"
+            "templateData": "<div class=\"guides__wrapper\">\nUser guides page!\n</div>\n<app-footer></app-footer>\n"
+        },
+        {
+            "name": "UserPostsComponent",
+            "id": "component-UserPostsComponent-c7f580573fc72a77d7ffee68b261a769c95a1bd63acf9a4beb9aed187e3bf44dc80c2a76c1ee6b2fadf63992a697147b619f83087516c79b5bc4c96409acf4ee",
+            "file": "src/app/components/user-posts/user-posts.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-user-posts",
+            "styleUrls": [
+                "./user-posts.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./user-posts.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 12,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-user-posts',\n  templateUrl: './user-posts.component.html',\n  styleUrls: ['./user-posts.component.scss']\n})\nexport class UserPostsComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": ".images__container {\r\n  max-width: 100%;\r\n  display: grid;\r\n  grid-template-columns: auto auto auto;\r\n  row-gap: 25px;\r\n  column-gap: 25px;\r\n  margin: 20px auto;\r\n}\r\n\r\n.image {\r\n  background-color: white;\r\n  width: 100%;\r\n  height: 100%;\r\n  padding: 3px;\r\n}\r\n\r\n.image__wrapper {\r\n  position: relative;\r\n}\r\n\r\n.image__icon {\r\n  position: absolute;\r\n  top: 10px;\r\n  right: 10px;\r\n  background-color: transparent;\r\n}\r\n\r\n@media screen and (max-width: 800px) {\r\n  .images__container {\r\n    row-gap: 5px;\r\n    column-gap: 5px;\r\n  }\r\n}\r\n\r\n@media screen and (max-width: 500px) {\r\n  .images__container {\r\n    row-gap: 2px;\r\n    column-gap: 2px;\r\n  }\r\n}\r\n",
+                    "styleUrl": "./user-posts.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 8
+            },
+            "implements": [
+                "OnInit"
+            ],
+            "templateData": "<div class=\"images__container\">\n  <div class=\"image__wrapper\">\n    <img class=\"image\" src=\"../../../assets/Images/Posts/My-Post1.png\" />\n    <span\n      ><img class=\"image__icon\" src=\"../../../assets/Icons/Reels.svg\" alt=\"\"\n    /></span>\n  </div>\n\n  <div class=\"image__wrapper\">\n    <img class=\"image\" src=\"../../../assets/Images/Posts/My-Post5.png\" />\n    <span\n      ><img class=\"image__icon\" src=\"../../../assets/Icons/Reels.svg\" alt=\"\"\n    /></span>\n  </div>\n\n  <div class=\"image__wrapper\">\n    <img class=\"image\" src=\"../../../assets/Images/Posts/My-Post6.png\" />\n    <span\n      ><img class=\"image__icon\" src=\"../../../assets/Icons/Carousel.svg\" alt=\"\"\n    /></span>\n  </div>\n\n  <div class=\"image__wrapper\">\n    <img\n      class=\"image\"\n      src=\"../../../assets/Images/Posts/Profile-Pic-S-2.1.png\"\n    />\n    <span><img class=\"image__icon\" src=\"\" alt=\"\" /></span>\n  </div>\n\n  <div class=\"image__wrapper\">\n    <img\n      class=\"image\"\n      src=\"../../../assets/Images/Posts/Profile-Pic-S-3.1.png\"\n    />\n    <span\n      ><img class=\"image__icon\" src=\"../../../assets/Icons/Reels.svg\" alt=\"\"\n    /></span>\n  </div>\n\n  <div class=\"image__wrapper\">\n    <img\n      class=\"image\"\n      src=\"../../../assets/Images/Posts/Profile-Pic-S-7.1.png\"\n    />\n    <span\n      ><img class=\"image__icon\" src=\"../../../assets/Icons/Carousel.svg\" alt=\"\"\n    /></span>\n  </div>\n\n  <div class=\"image__wrapper\">\n    <img class=\"image\" src=\"../../../assets/Images/Posts/Small-Post.png\" />\n    <span\n      ><img class=\"image__icon\" src=\"../../../assets/Icons/Reels.svg\" alt=\"\"\n    /></span>\n  </div>\n\n  <div class=\"image__wrapper\">\n    <img class=\"image\" src=\"../../../assets/Images/Posts/Small-Post1.png\" />\n    <span\n      ><img class=\"image__icon\" src=\"../../../assets/Icons/Reels.svg\" alt=\"\"\n    /></span>\n  </div>\n\n  <div class=\"image__wrapper\">\n    <img class=\"image\" src=\"../../../assets/Images/Posts/Small-Post3.png\" />\n    <span\n      ><img class=\"image__icon\" src=\"../../../assets/Icons/Carousel.svg\" alt=\"\"\n    /></span>\n  </div>\n\n  <div class=\"image__wrapper\">\n    <img class=\"image\" src=\"../../../assets/Images/Posts/Small-Post4.png\" />\n    <span\n      ><img class=\"image__icon\" src=\"../../../assets/Icons/Reels.svg\" alt=\"\"\n    /></span>\n  </div>\n\n  <div class=\"image__wrapper\">\n    <img\n      class=\"image\"\n      src=\"../../../assets/Images/Posts/Profile-Pic-S-3.1.png\"\n    />\n    <span\n      ><img class=\"image__icon\" src=\"../../../assets/Icons/Reels.svg\" alt=\"\"\n    /></span>\n  </div>\n\n  <div class=\"image__wrapper\">\n    <img class=\"image\" src=\"../../../assets/Images/Posts/My-Post1.png\" />\n    <span\n      ><img class=\"image__icon\" src=\"../../../assets/Icons/Reels.svg\" alt=\"\"\n    /></span>\n  </div>\n</div>\n<app-footer></app-footer>\n"
+        },
+        {
+            "name": "UserProfileComponent",
+            "id": "component-UserProfileComponent-14426ae406e06d621b36706edc1ae9f9527b71d2332d6bc474a9396ec71259ae505fd53fbbc78d2d752c347ef532f4badda2212526603ea49edb071d5f50e3b8",
+            "file": "src/app/pages/user-profile/user-profile.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-user-profile",
+            "styleUrls": [
+                "./user-profile.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./user-profile.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [
+                {
+                    "name": "users",
+                    "defaultValue": "UsersData",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 10
+                }
+            ],
+            "methodsClass": [
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 14,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\nimport UsersData from 'src/app/data/users';\n\n@Component({\n  selector: 'app-user-profile',\n  templateUrl: './user-profile.component.html',\n  styleUrls: ['./user-profile.component.scss']\n})\nexport class UserProfileComponent implements OnInit {\nusers = UsersData;\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": ".story__container{\r\n    display: flex;\r\n    flex-direction: row;\r\n}",
+                    "styleUrl": "./user-profile.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 10
+            },
+            "implements": [
+                "OnInit"
+            ],
+            "templateData": "<app-profile-header></app-profile-header>\n<div class=\"row\">\n  <div class=\"story__container\">\n    <app-story *ngFor=\"let user of users | slice:2\" [user]=\"user\"></app-story>\n  </div>\n</div>\n<app-user-toogle></app-user-toogle>\n<router-outlet></router-outlet>\n"
+        },
+        {
+            "name": "UserReelsComponent",
+            "id": "component-UserReelsComponent-b766e63b1dc7cedda66da1fd0e01b840355a7683747a8901e67a3271070422cd0cb41e67ea1bf79556709e93e2c8a0207cbe844bea462bbe2f9d6f607ee79ce6",
+            "file": "src/app/components/user-reels/user-reels.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-user-reels",
+            "styleUrls": [
+                "./user-reels.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./user-reels.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 12,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-user-reels',\n  templateUrl: './user-reels.component.html',\n  styleUrls: ['./user-reels.component.scss']\n})\nexport class UserReelsComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": ".reels__wrapper {\r\n  min-height: 75%;\r\n  font-size: 25px;\r\n  font-weight: 900;\r\n  text-align: center;\r\n  padding-top: 100px;\r\n}\r\n",
+                    "styleUrl": "./user-reels.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 8
+            },
+            "implements": [
+                "OnInit"
+            ],
+            "templateData": "<div class=\"reels__wrapper\">\nUser reels page!\n</div>\n<app-footer></app-footer>\n"
         },
         {
             "name": "UsersPostsComponent",
@@ -2007,18 +2335,262 @@
                 "OnInit"
             ],
             "templateData": "<div class=\"images__container\">\n  <div class=\"image__wrapper\">\n    <img class=\"image\" src=\"../../../assets/Images/Profile-Pic-S-2.1.png\" />\n    <span\n      ><img class=\"image__icon\" src=\"../../../assets/Icons/Reels.svg\" alt=\"\"\n    /></span>\n  </div>\n\n  <img class=\"image\" src=\"../../../assets/Images/Profile-Pic-S-3.1.png\" />\n  <img class=\"image\" src=\"\" />\n  <img class=\"image\" src=\"../../../assets/Images/Profile-Pic-S-7.1.png\" />\n  <img class=\"image\" src=\"\" />\n  <img class=\"image\" src=\"../../../assets/Images/Profile-Pic-S-3.1.png\" />\n  <img class=\"image\" src=\"\" />\n  <img class=\"image\" src=\"../../../assets/Images/Profile-Pic-S-2.1.png\" />\n  <img class=\"image\" src=\"\" />\n  <img class=\"image\" src=\"../../../assets/Images/Profile-Pic-S-7.1.png\" />\n  <img class=\"image\" src=\"\" />\n  <img class=\"image\" src=\"../../../assets/Images/Profile-Pic-S-3.1.png\" />\n  <img class=\"image\" src=\"\" />\n  <img class=\"image\" src=\"../../../assets/Images/Profile-Pic-S-2.1.png\" />\n  <img class=\"image\" src=\"\" />\n</div>\n"
+        },
+        {
+            "name": "UserTaggedComponent",
+            "id": "component-UserTaggedComponent-d3fbf516130e62706289313f9fc8e8fe7143e5a423e350766584bd7a666e4c92a156d9b250b204e6ffd9b1596766efc07417c7119483d3c0c353b1fe2a8dfdde",
+            "file": "src/app/components/user-tagged/user-tagged.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-user-tagged",
+            "styleUrls": [
+                "./user-tagged.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./user-tagged.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 12,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-user-tagged',\n  templateUrl: './user-tagged.component.html',\n  styleUrls: ['./user-tagged.component.scss']\n})\nexport class UserTaggedComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": ".tagged__wrapper {\r\n  min-height: 75%;\r\n  font-size: 25px;\r\n  font-weight: 900;\r\n  text-align: center;\r\n  padding-top: 100px;\r\n}\r\n",
+                    "styleUrl": "./user-tagged.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 8
+            },
+            "implements": [
+                "OnInit"
+            ],
+            "templateData": "<div class=\"tagged__wrapper\">User tagged page!</div>\n<app-footer></app-footer>\n"
+        },
+        {
+            "name": "UserToogleComponent",
+            "id": "component-UserToogleComponent-c24e60c32ca9f53612c50a5c5e4809548a8a3394f36beeef60f93ab27fc6735aae1ac0d97a2d0e499ca6746b48099479ddab172021fc5d8579d84a3674874441",
+            "file": "src/app/components/user-toogle/user-toogle.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-user-toogle",
+            "styleUrls": [
+                "./user-toogle.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./user-toogle.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [
+                {
+                    "name": "selectedGuides",
+                    "defaultValue": "false",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 10
+                },
+                {
+                    "name": "selectedPost",
+                    "defaultValue": "true",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 9
+                },
+                {
+                    "name": "selectedReels",
+                    "defaultValue": "false",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 11
+                },
+                {
+                    "name": "selectedTagged",
+                    "defaultValue": "false",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 13
+                },
+                {
+                    "name": "selectedVideos",
+                    "defaultValue": "false",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 12
+                }
+            ],
+            "methodsClass": [
+                {
+                    "name": "clickHandler",
+                    "args": [
+                        {
+                            "name": "a",
+                            "type": "string",
+                            "deprecated": false,
+                            "deprecationMessage": ""
+                        }
+                    ],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 15,
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "jsdoctags": [
+                        {
+                            "name": "a",
+                            "type": "string",
+                            "deprecated": false,
+                            "deprecationMessage": "",
+                            "tagName": {
+                                "text": "param"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-user-toogle',\n  templateUrl: './user-toogle.component.html',\n  styleUrls: ['./user-toogle.component.scss'],\n})\nexport class UserToogleComponent {\n  selectedPost = true;\n  selectedGuides = false;\n  selectedReels = false;\n  selectedVideos = false;\n  selectedTagged = false;\n\n  clickHandler(a: string): void {\n    if (a === 'post') {\n      this.selectedPost = true;\n      this.selectedGuides = false;\n      this.selectedReels = false;\n      this.selectedVideos = false;\n      this.selectedTagged = false;\n    } else if (a === 'guides') {\n      this.selectedPost = false;\n      this.selectedGuides = true;\n      this.selectedReels = false;\n      this.selectedVideos = false;\n      this.selectedTagged = false;\n    } else if (a === 'reels') {\n      this.selectedPost = false;\n      this.selectedGuides = false;\n      this.selectedReels = true;\n      this.selectedVideos = false;\n      this.selectedTagged = false;\n    } else if (a === 'videos') {\n      this.selectedPost = false;\n      this.selectedGuides = false;\n      this.selectedReels = false;\n      this.selectedVideos = true;\n      this.selectedTagged = false;\n    } else {\n      this.selectedPost = false;\n      this.selectedGuides = false;\n      this.selectedReels = false;\n      this.selectedVideos = false;\n      this.selectedTagged = true;\n    }\n  }\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": ".toogle__wrapper {\r\n  display: flex;\r\n  flex-direction: row;\r\n  justify-content: center;\r\n  border-top: #dbdbdb 1px solid;\r\n}\r\n\r\n.btn__wrapper {\r\n  display: flex;\r\n  flex-direction: row;\r\n  align-items: center;\r\n  padding: 17px 0px;\r\n  cursor: pointer;\r\n  margin-right: 50px;\r\n}\r\n\r\n.btn {\r\n  padding: 0px 0px 0px 6px;\r\n  font-size: 12px;\r\n  line-height: 18px;\r\n  color: #8e8e8e;\r\n  text-transform: uppercase;\r\n  font-weight: 900;\r\n  border: none;\r\n  cursor: pointer;\r\n}\r\n\r\n.active {\r\n  color: #262626;\r\n}\r\n\r\n.opacity {\r\n  opacity: 0.5;\r\n}\r\n\r\n.image {\r\n  width: 17px;\r\n}\r\n\r\n.border {\r\n  border-top: black 1px solid;\r\n}\r\n\r\n@media screen and (max-width: 500px) {\r\n  .btn__wrapper {\r\n    margin: 0 20px;\r\n    flex-direction: column;\r\n  }\r\n}\r\n",
+                    "styleUrl": "./user-toogle.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "templateData": "<div class=\"toogle__wrapper\">\n  <div\n    routerLink=\"user-posts\"\n    class=\"btn__wrapper\"\n    (click)=\"clickHandler('post')\"\n    [ngClass]=\"selectedPost ? 'border' : ''\"\n  >\n    <span>\n      <img\n        class=\"image\"\n        [ngClass]=\"selectedPost ? '' : 'opacity'\"\n        src=\"../../../assets/Icons/Posts.svg\"\n      />\n    </span>\n\n    <button class=\"btn\" [ngClass]=\"selectedPost ? 'active' : ''\">posts</button>\n  </div>\n\n  <div\n    routerLink=\"user-guides\"\n    class=\"btn__wrapper\"\n    (click)=\"clickHandler('guides')\"\n    [ngClass]=\"selectedGuides ? 'border' : ''\"\n  >\n    <span>\n      <img\n        class=\"image\"\n        [ngClass]=\"selectedGuides ? '' : 'opacity'\"\n        src=\"../../../assets/Icons/Guides.svg\"\n      />\n    </span>\n    <button [ngClass]=\"selectedGuides ? 'active' : ''\" class=\"btn\">\n      guides\n    </button>\n  </div>\n\n  <div\n    routerLink=\"user-reels\"\n    id=\"tagged\"\n    class=\"btn__wrapper\"\n    (click)=\"clickHandler('reels')\"\n    [ngClass]=\"selectedReels ? 'border' : ''\"\n  >\n    <span>\n      <img\n        class=\"image\"\n        [ngClass]=\"selectedReels ? '' : 'opacity'\"\n        src=\"../../../assets/Icons/Reels - Copy.svg\"\n      />\n    </span>\n    <button [ngClass]=\"selectedReels ? 'active' : ''\" class=\"btn\">reels</button>\n  </div>\n\n  <div\n    routerLink=\"user-videos\"\n    id=\"tagged\"\n    class=\"btn__wrapper\"\n    (click)=\"clickHandler('videos')\"\n    [ngClass]=\"selectedVideos ? 'border' : ''\"\n  >\n    <span>\n      <img\n        class=\"image\"\n        [ngClass]=\"selectedVideos ? '' : 'opacity'\"\n        src=\"../../../assets/Icons/Video.svg\"\n      />\n    </span>\n    <button [ngClass]=\"selectedVideos ? 'active' : ''\" class=\"btn\">\n      videos\n    </button>\n  </div>\n\n  <div\n    routerLink=\"user-tagged\"\n    id=\"tagged\"\n    class=\"btn__wrapper\"\n    (click)=\"clickHandler('tagged')\"\n    [ngClass]=\"selectedTagged ? 'border' : ''\"\n  >\n    <span>\n      <img\n        class=\"image\"\n        [ngClass]=\"selectedTagged ? '' : 'opacity'\"\n        src=\"../../../assets/Icons/Tagged.svg\"\n      />\n    </span>\n    <button [ngClass]=\"selectedTagged ? 'active' : ''\" class=\"btn\">\n      tagged\n    </button>\n  </div>\n</div>\n"
+        },
+        {
+            "name": "UserVideosComponent",
+            "id": "component-UserVideosComponent-19daccc290b8078afe1f12eaca86dfc36d41554943df0e0ee9efa6db39cd299e0b940fda65a16dcd24fee71bd8374d637cc26e425d71422cded753cd0ff2d64e",
+            "file": "src/app/components/user-videos/user-videos.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-user-videos",
+            "styleUrls": [
+                "./user-videos.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./user-videos.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 12,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-user-videos',\n  templateUrl: './user-videos.component.html',\n  styleUrls: ['./user-videos.component.scss']\n})\nexport class UserVideosComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": ".videos__wrapper {\r\n  min-height: 75%;\r\n  font-size: 25px;\r\n  font-weight: 900;\r\n  text-align: center;\r\n  padding-top: 100px;\r\n}\r\n",
+                    "styleUrl": "./user-videos.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 8
+            },
+            "implements": [
+                "OnInit"
+            ],
+            "templateData": "<div class=\"videos__wrapper\">User videos page!</div>\n\n<app-footer></app-footer>\n"
         }
     ],
     "modules": [
         {
             "name": "AppModule",
-            "id": "module-AppModule-800bbe5f83908e7d22672476cffe826f8247478d96dc2a76b6c473c868b4b8799f9a8e3df016a0967eb67582ef0e1540056dba9bfb421db971068f94811fc8b9",
+            "id": "module-AppModule-c8c31849ec9f301b5e1f0bdc19fbc66bbc950eb0a6050cc7d0715014238c133b286b42cd8bda0f6124b86f4ec01a7112c201bc3fb8dd3815428489d7208f7f9b",
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
             "file": "src/app/app.module.ts",
             "methods": [],
-            "sourceCode": "import { NgModule } from '@angular/core';\nimport { BrowserModule } from '@angular/platform-browser';\n\nimport { AppRoutingModule } from './app-routing.module';\nimport { AppComponent } from './app.component';\nimport { StoryComponent } from './components/story/story.component';\nimport { NavigationComponent } from './components/navigation/navigation.component';\nimport { HomeComponent } from './pages/home/home.component';\nimport { MessengerComponent } from './pages/messenger/messenger.component';\nimport { MyProfileComponent } from './pages/my-profile/my-profile.component';\nimport { UserProfileComponent } from './pages/user-profile/user-profile.component';\nimport { ExploreComponent } from './pages/explore/explore.component';\nimport { FooterComponent } from './components/footer/footer.component';\nimport { LogoComponent } from './components/logo/logo.component';\nimport { NavMenuComponent } from './components/nav-menu/nav-menu.component';\nimport { LinksBlockComponent } from './components/links-block/links-block.component';\nimport { LanguagesListComponent } from './components/languages-list/languages-list.component';\nimport { PostComponent } from './components/post/post.component';\nimport { StorySectionComponent } from './components/story-section/story-section.component';\nimport { PrimaryBlockComponent } from './components/primary-block/primary-block.component';\nimport { SecondaryBlockComponent } from './components/secondary-block/secondary-block.component';\nimport { ProfileComponent } from './components/profile/profile.component';\nimport { SugestionsComponent } from './components/sugestions/sugestions.component';\nimport { FollowsComponent } from './components/follows/follows.component';\nimport { StoryBtnComponent } from './components/story-btn/story-btn.component';\nimport { StoryItemComponent } from './components/story-item/story-item.component';\nimport { PostSectionComponent } from './components/post-section/post-section.component';\nimport { PostFooterComponent } from './components/post-footer/post-footer.component';\nimport { PostHeaderComponent } from './components/post-header/post-header.component';\nimport { ProfileHeaderComponent } from './components/profile-header/profile-header.component';\nimport { ProfileToogleComponent } from './components/profile-toogle/profile-toogle.component';\nimport { ProfileContentComponent } from './components/profile-content/profile-content.component';\nimport { MessengerContentRightComponent } from './components/messenger-content-right/messenger-content-right.component';\nimport { MessengerContentLeftComponent } from './components/messenger-content-left/messenger-content-left.component';\nimport { UsersPostsComponent } from './components/users-posts/users-posts.component';\n\n@NgModule({\n  declarations: [\n    AppComponent,\n    StoryComponent,\n    NavigationComponent,\n    HomeComponent,\n    MessengerComponent,\n    MyProfileComponent,\n    UserProfileComponent,\n    ExploreComponent,\n    FooterComponent,\n    LogoComponent,\n    NavMenuComponent,\n    LinksBlockComponent,\n    LanguagesListComponent,\n    PostComponent,\n    StorySectionComponent,\n    PrimaryBlockComponent,\n    SecondaryBlockComponent,\n    ProfileComponent,\n    SugestionsComponent,\n    FollowsComponent,\n    StoryBtnComponent,\n    StoryItemComponent,\n    PostSectionComponent,\n    PostFooterComponent,\n    PostHeaderComponent,\n    ProfileHeaderComponent,\n    ProfileToogleComponent,\n    ProfileContentComponent,\n    MessengerContentRightComponent,\n    MessengerContentLeftComponent,\n    UsersPostsComponent,\n  ],\n  imports: [BrowserModule, AppRoutingModule],\n  providers: [],\n  bootstrap: [AppComponent],\n})\nexport class AppModule {}\n",
+            "sourceCode": "import { NgModule } from '@angular/core';\r\nimport { BrowserModule } from '@angular/platform-browser';\r\n\r\nimport { AppRoutingModule } from './app-routing.module';\r\nimport { AppComponent } from './app.component';\r\nimport { StoryComponent } from './components/story/story.component';\r\nimport { NavigationComponent } from './components/navigation/navigation.component';\r\nimport { HomeComponent } from './pages/home/home.component';\r\nimport { MessengerComponent } from './pages/messenger/messenger.component';\r\nimport { MyProfileComponent } from './pages/my-profile/my-profile.component';\r\nimport { UserProfileComponent } from './pages/user-profile/user-profile.component';\r\nimport { ExploreComponent } from './pages/explore/explore.component';\r\nimport { FooterComponent } from './components/footer/footer.component';\r\nimport { LogoComponent } from './components/logo/logo.component';\r\nimport { NavMenuComponent } from './components/nav-menu/nav-menu.component';\r\nimport { LinksBlockComponent } from './components/links-block/links-block.component';\r\nimport { LanguagesListComponent } from './components/languages-list/languages-list.component';\r\nimport { PostComponent } from './components/post/post.component';\r\nimport { StorySectionComponent } from './components/story-section/story-section.component';\r\nimport { PrimaryBlockComponent } from './components/primary-block/primary-block.component';\r\nimport { SecondaryBlockComponent } from './components/secondary-block/secondary-block.component';\r\nimport { ProfileComponent } from './components/profile/profile.component';\r\nimport { SugestionsComponent } from './components/sugestions/sugestions.component';\r\nimport { FollowsComponent } from './components/follows/follows.component';\r\nimport { PostSectionComponent } from './components/post-section/post-section.component';\r\nimport { PostFooterComponent } from './components/post-footer/post-footer.component';\r\nimport { PostHeaderComponent } from './components/post-header/post-header.component';\r\nimport { ProfileHeaderComponent } from './components/profile-header/profile-header.component';\r\nimport { ProfileToogleComponent } from './components/profile-toogle/profile-toogle.component';\r\nimport { ProfileContentComponent } from './components/profile-content/profile-content.component';\r\nimport { MessengerContentRightComponent } from './components/messenger-content-right/messenger-content-right.component';\r\nimport { MessengerContentLeftComponent } from './components/messenger-content-left/messenger-content-left.component';\r\nimport { UsersPostsComponent } from './components/users-posts/users-posts.component';\r\nimport { ProfilePostsComponent } from './components/profile-posts/profile-posts.component';\r\nimport { ProfileSavedComponent } from './components/profile-saved/profile-saved.component';\r\nimport { ProfileTaggedComponent } from './components/profile-tagged/profile-tagged.component';\r\nimport { UserToogleComponent } from './components/user-toogle/user-toogle.component';\r\nimport { UserPostsComponent } from './components/user-posts/user-posts.component';\r\nimport { UserGuidesComponent } from './components/user-guides/user-guides.component';\r\nimport { UserReelsComponent } from './components/user-reels/user-reels.component';\r\nimport { UserVideosComponent } from './components/user-videos/user-videos.component';\r\nimport { UserTaggedComponent } from './components/user-tagged/user-tagged.component';\r\nimport { NextBtnDirective } from './next-btn.directive';\r\n\r\n@NgModule({\r\n  declarations: [\r\n    AppComponent,\r\n    StoryComponent,\r\n    NavigationComponent,\r\n    HomeComponent,\r\n    MessengerComponent,\r\n    MyProfileComponent,\r\n    UserProfileComponent,\r\n    ExploreComponent,\r\n    FooterComponent,\r\n    LogoComponent,\r\n    NavMenuComponent,\r\n    LinksBlockComponent,\r\n    LanguagesListComponent,\r\n    PostComponent,\r\n    StorySectionComponent,\r\n    PrimaryBlockComponent,\r\n    SecondaryBlockComponent,\r\n    ProfileComponent,\r\n    SugestionsComponent,\r\n    FollowsComponent,\r\n    PostSectionComponent,\r\n    PostFooterComponent,\r\n    PostHeaderComponent,\r\n    ProfileHeaderComponent,\r\n    ProfileToogleComponent,\r\n    ProfileContentComponent,\r\n    MessengerContentRightComponent,\r\n    MessengerContentLeftComponent,\r\n    UsersPostsComponent,\r\n    ProfilePostsComponent,\r\n    ProfileSavedComponent,\r\n    ProfileTaggedComponent,\r\n    UserToogleComponent,\r\n    UserPostsComponent,\r\n    UserGuidesComponent,\r\n    UserReelsComponent,\r\n    UserVideosComponent,\r\n    UserTaggedComponent,\r\n    NextBtnDirective,\r\n  ],\r\n  imports: [BrowserModule, AppRoutingModule],\r\n  providers: [],\r\n  bootstrap: [AppComponent],\r\n})\r\nexport class AppModule {}\r\n",
             "children": [
                 {
                     "type": "providers",
@@ -2070,6 +2642,9 @@
                             "name": "NavigationComponent"
                         },
                         {
+                            "name": "NextBtnDirective"
+                        },
+                        {
                             "name": "PostComponent"
                         },
                         {
@@ -2094,19 +2669,22 @@
                             "name": "ProfileHeaderComponent"
                         },
                         {
+                            "name": "ProfilePostsComponent"
+                        },
+                        {
+                            "name": "ProfileSavedComponent"
+                        },
+                        {
+                            "name": "ProfileTaggedComponent"
+                        },
+                        {
                             "name": "ProfileToogleComponent"
                         },
                         {
                             "name": "SecondaryBlockComponent"
                         },
                         {
-                            "name": "StoryBtnComponent"
-                        },
-                        {
                             "name": "StoryComponent"
-                        },
-                        {
-                            "name": "StoryItemComponent"
                         },
                         {
                             "name": "StorySectionComponent"
@@ -2115,7 +2693,25 @@
                             "name": "SugestionsComponent"
                         },
                         {
+                            "name": "UserGuidesComponent"
+                        },
+                        {
+                            "name": "UserPostsComponent"
+                        },
+                        {
                             "name": "UserProfileComponent"
+                        },
+                        {
+                            "name": "UserReelsComponent"
+                        },
+                        {
+                            "name": "UserTaggedComponent"
+                        },
+                        {
+                            "name": "UserToogleComponent"
+                        },
+                        {
+                            "name": "UserVideosComponent"
                         },
                         {
                             "name": "UsersPostsComponent"
@@ -2150,13 +2746,13 @@
         },
         {
             "name": "AppRoutingModule",
-            "id": "module-AppRoutingModule-1e14394e77b789bfe22410eed6c01d2194927e03a3f856c29f43d3b13a194598255fac0e715c20bb8080cf5f19af5acbeac618a42d663ff4a4aac97ccc1da570",
+            "id": "module-AppRoutingModule-09a1100f95da70f262d1bf667da49d3ac800f98e5b063d3431ffe0b398364208d6d5973408f9413c2e59a40fd2ac6aa4523e5fc2e4e51c9c5b89938693c28a09",
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
             "file": "src/app/app-routing.module.ts",
             "methods": [],
-            "sourceCode": "import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport { ExploreComponent } from './pages/explore/explore.component';\nimport { HomeComponent } from './pages/home/home.component';\nimport { MessengerComponent } from './pages/messenger/messenger.component';\nimport { MyProfileComponent } from './pages/my-profile/my-profile.component';\nimport { UserProfileComponent } from './pages/user-profile/user-profile.component';\n\nconst routes: Routes = [\n  {\n    path: '',\n    redirectTo: 'home',\n    pathMatch: 'full',\n  },\n  {\n    path: 'home',\n    component: HomeComponent,\n  },\n  {\n    path: 'my-profile',\n    component: MyProfileComponent,\n  },\n  {\n    path: 'explore',\n    component: ExploreComponent,\n  },\n  {\n    path: 'messenger',\n    component: MessengerComponent,\n  },\n  {\n    path: 'user-profile',\n    component: UserProfileComponent,\n  },\n  {\n    path: '**',\n    redirectTo: 'home',\n    pathMatch: 'full',\n  },\n];\n\n@NgModule({\n  imports: [RouterModule.forRoot(routes)],\n  exports: [RouterModule]\n})\nexport class AppRoutingModule { }\n",
+            "sourceCode": "import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport { ProfilePostsComponent } from './components/profile-posts/profile-posts.component';\nimport { ProfileSavedComponent } from './components/profile-saved/profile-saved.component';\nimport { ProfileTaggedComponent } from './components/profile-tagged/profile-tagged.component';\nimport { UserGuidesComponent } from './components/user-guides/user-guides.component';\nimport { UserPostsComponent } from './components/user-posts/user-posts.component';\nimport { UserReelsComponent } from './components/user-reels/user-reels.component';\nimport { UserTaggedComponent } from './components/user-tagged/user-tagged.component';\nimport { UserVideosComponent } from './components/user-videos/user-videos.component';\nimport { ExploreComponent } from './pages/explore/explore.component';\nimport { HomeComponent } from './pages/home/home.component';\nimport { MessengerComponent } from './pages/messenger/messenger.component';\nimport { MyProfileComponent } from './pages/my-profile/my-profile.component';\nimport { UserProfileComponent } from './pages/user-profile/user-profile.component';\n\nconst routes: Routes = [\n  {\n    path: '',\n    redirectTo: 'home',\n    pathMatch: 'full',\n  },\n  {\n    path: 'home',\n    component: HomeComponent,\n  },\n  {\n    path: 'my-profile',\n    component: MyProfileComponent,\n    children: [\n      { path: '', redirectTo: 'profile-posts', pathMatch: 'full' },\n      {\n        path: 'profile-posts',\n        component: ProfilePostsComponent,\n      },\n      {\n        path: 'profile-saved',\n        component: ProfileSavedComponent,\n      },\n      {\n        path: 'profile-tagged',\n        component: ProfileTaggedComponent,\n      },\n    ],\n  },\n  {\n    path: 'explore',\n    component: ExploreComponent,\n  },\n  {\n    path: 'messenger',\n    component: MessengerComponent,\n  },\n  {\n    path: 'user-profile',\n    component: UserProfileComponent,\n    children: [\n      { path: '', redirectTo: 'user-posts', pathMatch: 'full' },\n      {\n        path: 'user-posts',\n        component: UserPostsComponent,\n      },\n      {\n        path: 'user-guides',\n        component: UserGuidesComponent,\n      },\n      {\n        path: 'user-reels',\n        component: UserReelsComponent,\n      },\n      {\n        path: 'user-videos',\n        component: UserVideosComponent,\n      },\n      {\n        path: 'user-tagged',\n        component: UserTaggedComponent,\n      },\n    ],\n  },\n  {\n    path: '**',\n    redirectTo: 'home',\n    pathMatch: 'full',\n  },\n];\n\n@NgModule({\n  imports: [RouterModule.forRoot(routes)],\n  exports: [RouterModule],\n})\nexport class AppRoutingModule {}\n",
             "children": [
                 {
                     "type": "providers",
@@ -2241,7 +2837,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/nav-menu/nav-menu.stories.ts",
+                "file": "src/app/components/navigation/navigation.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -2261,7 +2857,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/post-footer/post-footer.stories.ts",
+                "file": "src/app/components/nav-menu/nav-menu.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -2281,7 +2877,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/navigation/navigation.stories.ts",
+                "file": "src/app/components/post-footer/post-footer.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -2301,16 +2897,6 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/profile-content/profile-content.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "",
-                "defaultValue": "Template.bind({})"
-            },
-            {
-                "name": "Default",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/components/post-header/post-header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -2321,17 +2907,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/profile-toogle/profile-toogle.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "",
-                "defaultValue": "Template.bind({})"
-            },
-            {
-                "name": "Default",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "src/app/components/secondary-block/secondary-block.stories.ts",
+                "file": "src/app/components/profile-content/profile-content.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -2351,7 +2927,17 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/story-btn/story-btn.stories.ts",
+                "file": "src/app/components/secondary-block/secondary-block.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/components/profile-toogle/profile-toogle.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -2371,7 +2957,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/story-item/story-item.stories.ts",
+                "file": "src/app/components/story-section/story-section.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -2382,16 +2968,6 @@
                 "ctype": "miscellaneous",
                 "subtype": "variable",
                 "file": "src/app/components/sugestions/sugestions.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "",
-                "defaultValue": "Template.bind({})"
-            },
-            {
-                "name": "Default",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "src/app/components/story-section/story-section.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -2490,11 +3066,11 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/nav-menu/nav-menu.stories.ts",
+                "file": "src/app/components/navigation/navigation.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Story<NavMenuComponent>",
-                "defaultValue": "(args: NavMenuComponent) => ({\r\n  props: args,\r\n})"
+                "type": "Story<NavigationComponent>",
+                "defaultValue": "(args: NavigationComponent) => ({\r\n  props: args,\r\n})"
             },
             {
                 "name": "Template",
@@ -2510,11 +3086,11 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/post-footer/post-footer.stories.ts",
+                "file": "src/app/components/nav-menu/nav-menu.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Story<PostFooterComponent>",
-                "defaultValue": "(args: PostFooterComponent) => ({\r\n  props: args,\r\n})"
+                "type": "Story<NavMenuComponent>",
+                "defaultValue": "(args: NavMenuComponent) => ({\r\n  props: args,\r\n})"
             },
             {
                 "name": "Template",
@@ -2530,11 +3106,11 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/navigation/navigation.stories.ts",
+                "file": "src/app/components/post-footer/post-footer.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Story<NavigationComponent>",
-                "defaultValue": "(args: NavigationComponent) => ({\r\n  props: args,\r\n})"
+                "type": "Story<PostFooterComponent>",
+                "defaultValue": "(args: PostFooterComponent) => ({\r\n  props: args,\r\n})"
             },
             {
                 "name": "Template",
@@ -2550,16 +3126,6 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/profile-content/profile-content.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story<ProfileContentComponent>",
-                "defaultValue": "(args: ProfileContentComponent) => ({\r\n  props: args,\r\n})"
-            },
-            {
-                "name": "Template",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/components/post-header/post-header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -2570,21 +3136,11 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/profile-toogle/profile-toogle.stories.ts",
+                "file": "src/app/components/profile-content/profile-content.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Story<ProfileToogleComponent>",
-                "defaultValue": "(\r\n  args: ProfileToogleComponent\r\n) => ({\r\n  props: args,\r\n})"
-            },
-            {
-                "name": "Template",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "src/app/components/secondary-block/secondary-block.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story<SecondaryBlockComponent>",
-                "defaultValue": "(\r\n  args: SecondaryBlockComponent\r\n) => ({\r\n  props: args,\r\n})"
+                "type": "Story<ProfileContentComponent>",
+                "defaultValue": "(args: ProfileContentComponent) => ({\r\n  props: args,\r\n})"
             },
             {
                 "name": "Template",
@@ -2600,11 +3156,21 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/story-btn/story-btn.stories.ts",
+                "file": "src/app/components/secondary-block/secondary-block.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Story<StoryBtnComponent>",
-                "defaultValue": "(args: StoryBtnComponent) => ({\r\n  props: args,\r\n})"
+                "type": "Story<SecondaryBlockComponent>",
+                "defaultValue": "(\r\n  args: SecondaryBlockComponent\r\n) => ({\r\n  props: args,\r\n})"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/components/profile-toogle/profile-toogle.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<ProfileToogleComponent>",
+                "defaultValue": "(\r\n  args: ProfileToogleComponent\r\n) => ({\r\n  props: args,\r\n})"
             },
             {
                 "name": "Template",
@@ -2620,11 +3186,11 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/story-item/story-item.stories.ts",
+                "file": "src/app/components/story-section/story-section.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Story<StoryItemComponent>",
-                "defaultValue": "(args: StoryItemComponent) => ({\r\n  props: args,\r\n})"
+                "type": "Story<StorySectionComponent>",
+                "defaultValue": "(args: StorySectionComponent) => ({\r\n  props: args,\r\n})"
             },
             {
                 "name": "Template",
@@ -2635,16 +3201,6 @@
                 "deprecationMessage": "",
                 "type": "Story<SugestionsComponent>",
                 "defaultValue": "(\r\n    args: SugestionsComponent\r\n  ) => ({\r\n    props: args,\r\n  })"
-            },
-            {
-                "name": "Template",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "src/app/components/story-section/story-section.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story<StorySectionComponent>",
-                "defaultValue": "(args: StorySectionComponent) => ({\r\n  props: args,\r\n})"
             },
             {
                 "name": "Template",
@@ -2674,7 +3230,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "User[]",
-                "defaultValue": "[\r\n  {\r\n    name: 'your story',\r\n    foolName: 'i.slimeeee____',\r\n    avatar: '../../../assets/Icons/Profile-Pic-S.svg',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'tery',\r\n    foolName: 'terylucas',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-7.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-7.1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsint',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-2.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-2.1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'harry',\r\n    foolName: 'harryprescott',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-3.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-3.1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'edna',\r\n    foolName: 'ednamanz',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-4.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-4.1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'christina',\r\n    foolName: 'christinasterling',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-5.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsant',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'lorem m',\r\n    foolName: 'loremlorem',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-6.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n]"
+                "defaultValue": "[\r\n  {\r\n    name: 'your story',\r\n    foolName: 'i.slimeeee____',\r\n    avatar: '../../../assets/Icons/Profile-Pic-S.svg',\r\n    comment: 'Imperdiet in sit rhokfvodvj jrifvjiviriggu...',\r\n  },\r\n  {\r\n    name: 'tery',\r\n    foolName: 'terylucas',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-7.png',\r\n    image: '../../../assets/Images/Profile-Pic-S-7.1.png',\r\n    comment: 'Imperdiet in sit rhokfvodvj jrifvjiviriggu...',\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsint',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-2.png',\r\n    image: '../../../assets/Images/Profile-Pic-S-2.1.png',\r\n    comment: 'Imperdiet in sit rhokfvodvj jrifvjiviriggu...',\r\n  },\r\n  {\r\n    name: 'harry',\r\n    foolName: 'harryprescott',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-3.png',\r\n    image: '../../../assets/Images/Profile-Pic-S-3.1.png',\r\n    comment: 'Imperdiet in sit rhokfvodvj jrifvjiviriggu...',\r\n  },\r\n  {\r\n    name: 'edna',\r\n    foolName: 'ednamanz',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-4.png',\r\n    image: '../../../assets/Images/Profile-Pic-S-4.1.png',\r\n    comment: 'Imperdiet in sit rhokfvodvj jrifvjiviriggu...',\r\n  },\r\n  {\r\n    name: 'christina',\r\n    foolName: 'christinasterling',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-5.png',\r\n    comment: 'Imperdiet in sit rhokfvodvj jrifvjiviriggu...',\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsant',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-1.png',\r\n    comment: 'Imperdiet in sit rhokfvodvj jrifvjiviriggu...',\r\n  },\r\n  {\r\n    name: 'lorem m',\r\n    foolName: 'loremlorem',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-6.png',\r\n    comment: 'Imperdiet in sit rhokfvodvj jrifvjiviriggu...',\r\n  },\r\n]"
             }
         ],
         "functions": [],
@@ -2790,12 +3346,12 @@
                     "defaultValue": "(args: LogoComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
-            "src/app/components/nav-menu/nav-menu.stories.ts": [
+            "src/app/components/navigation/navigation.stories.ts": [
                 {
                     "name": "Default",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/app/components/nav-menu/nav-menu.stories.ts",
+                    "file": "src/app/components/navigation/navigation.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
@@ -2805,11 +3361,11 @@
                     "name": "Template",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/app/components/nav-menu/nav-menu.stories.ts",
+                    "file": "src/app/components/navigation/navigation.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "Story<NavMenuComponent>",
-                    "defaultValue": "(args: NavMenuComponent) => ({\r\n  props: args,\r\n})"
+                    "type": "Story<NavigationComponent>",
+                    "defaultValue": "(args: NavigationComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
             "src/app/components/messenger-content-right/messenger-content-right.stories.ts": [
@@ -2834,12 +3390,12 @@
                     "defaultValue": "(args: MessengerContentRightComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
-            "src/app/components/post-footer/post-footer.stories.ts": [
+            "src/app/components/nav-menu/nav-menu.stories.ts": [
                 {
                     "name": "Default",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/app/components/post-footer/post-footer.stories.ts",
+                    "file": "src/app/components/nav-menu/nav-menu.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
@@ -2849,11 +3405,11 @@
                     "name": "Template",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/app/components/post-footer/post-footer.stories.ts",
+                    "file": "src/app/components/nav-menu/nav-menu.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "Story<PostFooterComponent>",
-                    "defaultValue": "(args: PostFooterComponent) => ({\r\n  props: args,\r\n})"
+                    "type": "Story<NavMenuComponent>",
+                    "defaultValue": "(args: NavMenuComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
             "src/app/components/post/post.stories.ts": [
@@ -2878,12 +3434,12 @@
                     "defaultValue": "(args: PostComponent) => ({\r\n    props: args,\r\n  })"
                 }
             ],
-            "src/app/components/navigation/navigation.stories.ts": [
+            "src/app/components/post-footer/post-footer.stories.ts": [
                 {
                     "name": "Default",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/app/components/navigation/navigation.stories.ts",
+                    "file": "src/app/components/post-footer/post-footer.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
@@ -2893,11 +3449,11 @@
                     "name": "Template",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/app/components/navigation/navigation.stories.ts",
+                    "file": "src/app/components/post-footer/post-footer.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "Story<NavigationComponent>",
-                    "defaultValue": "(args: NavigationComponent) => ({\r\n  props: args,\r\n})"
+                    "type": "Story<PostFooterComponent>",
+                    "defaultValue": "(args: PostFooterComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
             "src/app/components/primary-block/primary-block.stories.ts": [
@@ -2922,28 +3478,6 @@
                     "defaultValue": "(\r\n  args: PrimaryBlockComponent\r\n) => ({\r\n  props: args,\r\n})"
                 }
             ],
-            "src/app/components/profile-content/profile-content.stories.ts": [
-                {
-                    "name": "Default",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/components/profile-content/profile-content.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "Template.bind({})"
-                },
-                {
-                    "name": "Template",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/components/profile-content/profile-content.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story<ProfileContentComponent>",
-                    "defaultValue": "(args: ProfileContentComponent) => ({\r\n  props: args,\r\n})"
-                }
-            ],
             "src/app/components/post-header/post-header.stories.ts": [
                 {
                     "name": "Default",
@@ -2966,12 +3500,12 @@
                     "defaultValue": "(args: PostHeaderComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
-            "src/app/components/profile-toogle/profile-toogle.stories.ts": [
+            "src/app/components/profile-content/profile-content.stories.ts": [
                 {
                     "name": "Default",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/app/components/profile-toogle/profile-toogle.stories.ts",
+                    "file": "src/app/components/profile-content/profile-content.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
@@ -2981,33 +3515,11 @@
                     "name": "Template",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/app/components/profile-toogle/profile-toogle.stories.ts",
+                    "file": "src/app/components/profile-content/profile-content.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "Story<ProfileToogleComponent>",
-                    "defaultValue": "(\r\n  args: ProfileToogleComponent\r\n) => ({\r\n  props: args,\r\n})"
-                }
-            ],
-            "src/app/components/secondary-block/secondary-block.stories.ts": [
-                {
-                    "name": "Default",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/components/secondary-block/secondary-block.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "Template.bind({})"
-                },
-                {
-                    "name": "Template",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/components/secondary-block/secondary-block.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story<SecondaryBlockComponent>",
-                    "defaultValue": "(\r\n  args: SecondaryBlockComponent\r\n) => ({\r\n  props: args,\r\n})"
+                    "type": "Story<ProfileContentComponent>",
+                    "defaultValue": "(args: ProfileContentComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
             "src/app/components/profile-header/profile-header.stories.ts": [
@@ -3032,12 +3544,12 @@
                     "defaultValue": "(\r\n  args: ProfileHeaderComponent\r\n) => ({\r\n  props: args,\r\n})"
                 }
             ],
-            "src/app/components/story-btn/story-btn.stories.ts": [
+            "src/app/components/secondary-block/secondary-block.stories.ts": [
                 {
                     "name": "Default",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/app/components/story-btn/story-btn.stories.ts",
+                    "file": "src/app/components/secondary-block/secondary-block.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
@@ -3047,11 +3559,33 @@
                     "name": "Template",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/app/components/story-btn/story-btn.stories.ts",
+                    "file": "src/app/components/secondary-block/secondary-block.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "Story<StoryBtnComponent>",
-                    "defaultValue": "(args: StoryBtnComponent) => ({\r\n  props: args,\r\n})"
+                    "type": "Story<SecondaryBlockComponent>",
+                    "defaultValue": "(\r\n  args: SecondaryBlockComponent\r\n) => ({\r\n  props: args,\r\n})"
+                }
+            ],
+            "src/app/components/profile-toogle/profile-toogle.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/profile-toogle/profile-toogle.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/profile-toogle/profile-toogle.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<ProfileToogleComponent>",
+                    "defaultValue": "(\r\n  args: ProfileToogleComponent\r\n) => ({\r\n  props: args,\r\n})"
                 }
             ],
             "src/app/components/story/story.stories.ts": [
@@ -3076,12 +3610,12 @@
                     "defaultValue": "(args: StoryComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
-            "src/app/components/story-item/story-item.stories.ts": [
+            "src/app/components/story-section/story-section.stories.ts": [
                 {
                     "name": "Default",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/app/components/story-item/story-item.stories.ts",
+                    "file": "src/app/components/story-section/story-section.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
@@ -3091,11 +3625,11 @@
                     "name": "Template",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/app/components/story-item/story-item.stories.ts",
+                    "file": "src/app/components/story-section/story-section.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "Story<StoryItemComponent>",
-                    "defaultValue": "(args: StoryItemComponent) => ({\r\n  props: args,\r\n})"
+                    "type": "Story<StorySectionComponent>",
+                    "defaultValue": "(args: StorySectionComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
             "src/app/components/sugestions/sugestions.stories.ts": [
@@ -3118,28 +3652,6 @@
                     "deprecationMessage": "",
                     "type": "Story<SugestionsComponent>",
                     "defaultValue": "(\r\n    args: SugestionsComponent\r\n  ) => ({\r\n    props: args,\r\n  })"
-                }
-            ],
-            "src/app/components/story-section/story-section.stories.ts": [
-                {
-                    "name": "Default",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/components/story-section/story-section.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "Template.bind({})"
-                },
-                {
-                    "name": "Template",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/components/story-section/story-section.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story<StorySectionComponent>",
-                    "defaultValue": "(args: StorySectionComponent) => ({\r\n  props: args,\r\n})"
                 }
             ],
             "src/app/pages/home/home.stories.ts": [
@@ -3219,7 +3731,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "User[]",
-                    "defaultValue": "[\r\n  {\r\n    name: 'your story',\r\n    foolName: 'i.slimeeee____',\r\n    avatar: '../../../assets/Icons/Profile-Pic-S.svg',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'tery',\r\n    foolName: 'terylucas',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-7.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-7.1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsint',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-2.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-2.1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'harry',\r\n    foolName: 'harryprescott',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-3.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-3.1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'edna',\r\n    foolName: 'ednamanz',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-4.png',\r\n    image:'../../../assets/Images/Profile-Pic-S-4.1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'christina',\r\n    foolName: 'christinasterling',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-5.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsant',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-1.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n  {\r\n    name: 'lorem m',\r\n    foolName: 'loremlorem',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-6.png',\r\n    comment:'Imperdiet in sit rhokfvodvj jrifvjiviriggu...'\r\n  },\r\n]"
+                    "defaultValue": "[\r\n  {\r\n    name: 'your story',\r\n    foolName: 'i.slimeeee____',\r\n    avatar: '../../../assets/Icons/Profile-Pic-S.svg',\r\n    comment: 'Imperdiet in sit rhokfvodvj jrifvjiviriggu...',\r\n  },\r\n  {\r\n    name: 'tery',\r\n    foolName: 'terylucas',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-7.png',\r\n    image: '../../../assets/Images/Profile-Pic-S-7.1.png',\r\n    comment: 'Imperdiet in sit rhokfvodvj jrifvjiviriggu...',\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsint',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-2.png',\r\n    image: '../../../assets/Images/Profile-Pic-S-2.1.png',\r\n    comment: 'Imperdiet in sit rhokfvodvj jrifvjiviriggu...',\r\n  },\r\n  {\r\n    name: 'harry',\r\n    foolName: 'harryprescott',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-3.png',\r\n    image: '../../../assets/Images/Profile-Pic-S-3.1.png',\r\n    comment: 'Imperdiet in sit rhokfvodvj jrifvjiviriggu...',\r\n  },\r\n  {\r\n    name: 'edna',\r\n    foolName: 'ednamanz',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-4.png',\r\n    image: '../../../assets/Images/Profile-Pic-S-4.1.png',\r\n    comment: 'Imperdiet in sit rhokfvodvj jrifvjiviriggu...',\r\n  },\r\n  {\r\n    name: 'christina',\r\n    foolName: 'christinasterling',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-5.png',\r\n    comment: 'Imperdiet in sit rhokfvodvj jrifvjiviriggu...',\r\n  },\r\n  {\r\n    name: 'lorem',\r\n    foolName: 'loremsant',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-1.png',\r\n    comment: 'Imperdiet in sit rhokfvodvj jrifvjiviriggu...',\r\n  },\r\n  {\r\n    name: 'lorem m',\r\n    foolName: 'loremlorem',\r\n    avatar: '../../../assets/Images/Profile-Pic-S-6.png',\r\n    comment: 'Imperdiet in sit rhokfvodvj jrifvjiviriggu...',\r\n  },\r\n]"
                 }
             ]
         },
@@ -3248,7 +3760,26 @@
                     },
                     {
                         "path": "my-profile",
-                        "component": "MyProfileComponent"
+                        "component": "MyProfileComponent",
+                        "children": [
+                            {
+                                "path": "",
+                                "redirectTo": "profile-posts",
+                                "pathMatch": "full"
+                            },
+                            {
+                                "path": "profile-posts",
+                                "component": "ProfilePostsComponent"
+                            },
+                            {
+                                "path": "profile-saved",
+                                "component": "ProfileSavedComponent"
+                            },
+                            {
+                                "path": "profile-tagged",
+                                "component": "ProfileTaggedComponent"
+                            }
+                        ]
                     },
                     {
                         "path": "explore",
@@ -3260,7 +3791,34 @@
                     },
                     {
                         "path": "user-profile",
-                        "component": "UserProfileComponent"
+                        "component": "UserProfileComponent",
+                        "children": [
+                            {
+                                "path": "",
+                                "redirectTo": "user-posts",
+                                "pathMatch": "full"
+                            },
+                            {
+                                "path": "user-posts",
+                                "component": "UserPostsComponent"
+                            },
+                            {
+                                "path": "user-guides",
+                                "component": "UserGuidesComponent"
+                            },
+                            {
+                                "path": "user-reels",
+                                "component": "UserReelsComponent"
+                            },
+                            {
+                                "path": "user-videos",
+                                "component": "UserVideosComponent"
+                            },
+                            {
+                                "path": "user-tagged",
+                                "component": "UserTaggedComponent"
+                            }
+                        ]
                     },
                     {
                         "path": "**",
@@ -3690,6 +4248,33 @@
                 "status": "low"
             },
             {
+                "filePath": "src/app/components/profile-posts/profile-posts.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "ProfilePostsComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/profile-saved/profile-saved.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "ProfileSavedComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/profile-tagged/profile-tagged.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "ProfileTaggedComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
                 "filePath": "src/app/components/profile-toogle/profile-toogle.component.ts",
                 "type": "component",
                 "linktype": "component",
@@ -3757,70 +4342,12 @@
                 "status": "low"
             },
             {
-                "filePath": "src/app/components/story-btn/story-btn.component.ts",
-                "type": "component",
-                "linktype": "component",
-                "name": "StoryBtnComponent",
-                "coveragePercent": 0,
-                "coverageCount": "0/3",
-                "status": "low"
-            },
-            {
-                "filePath": "src/app/components/story-btn/story-btn.stories.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "Default",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/app/components/story-btn/story-btn.stories.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "Template",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/app/components/story-item/story-item.component.ts",
-                "type": "component",
-                "linktype": "component",
-                "name": "StoryItemComponent",
-                "coveragePercent": 0,
-                "coverageCount": "0/2",
-                "status": "low"
-            },
-            {
-                "filePath": "src/app/components/story-item/story-item.stories.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "Default",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/app/components/story-item/story-item.stories.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "Template",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
                 "filePath": "src/app/components/story-section/story-section.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "StorySectionComponent",
                 "coveragePercent": 0,
-                "coverageCount": "0/3",
+                "coverageCount": "0/1",
                 "status": "low"
             },
             {
@@ -3849,7 +4376,7 @@
                 "linktype": "component",
                 "name": "StoryComponent",
                 "coveragePercent": 0,
-                "coverageCount": "0/2",
+                "coverageCount": "0/3",
                 "status": "low"
             },
             {
@@ -3902,6 +4429,60 @@
                 "status": "low"
             },
             {
+                "filePath": "src/app/components/user-guides/user-guides.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "UserGuidesComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/user-posts/user-posts.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "UserPostsComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/user-reels/user-reels.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "UserReelsComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/user-tagged/user-tagged.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "UserTaggedComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/user-toogle/user-toogle.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "UserToogleComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/7",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/user-videos/user-videos.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "UserVideosComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
                 "filePath": "src/app/components/users-posts/users-posts.component.ts",
                 "type": "component",
                 "linktype": "component",
@@ -3927,6 +4508,15 @@
                 "name": "UsersData",
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/next-btn.directive.ts",
+                "type": "directive",
+                "linktype": "directive",
+                "name": "NextBtnDirective",
+                "coveragePercent": 0,
+                "coverageCount": "0/4",
                 "status": "low"
             },
             {
@@ -4011,7 +4601,7 @@
                 "linktype": "component",
                 "name": "UserProfileComponent",
                 "coveragePercent": 0,
-                "coverageCount": "0/3",
+                "coverageCount": "0/4",
                 "status": "low"
             },
             {

@@ -8,8 +8,6 @@ import { CommonModule } from '@angular/common';
 
 import { PrimaryBlockComponent } from './primary-block.component';
 import { StorySectionComponent } from '../story-section/story-section.component';
-import { StoryItemComponent } from '../story-item/story-item.component';
-import { StoryBtnComponent } from '../story-btn/story-btn.component';
 import { PostSectionComponent } from '../post-section/post-section.component';
 import { PostComponent } from '../post/post.component';
 import { PostHeaderComponent } from '../post-header/post-header.component';
@@ -22,8 +20,6 @@ export default {
       //👇 Imports both components to allow component composition with Storybook
       declarations: [
         PrimaryBlockComponent,
-        StoryItemComponent,
-        StoryBtnComponent,
         PostComponent,
         StorySectionComponent,
         PostHeaderComponent,

@@ -7,6 +7,8 @@
   border: 1px solid #dbdbdb;
   padding: 9px 0 9px 9px;
   background: #ffffff;
+  min-width: 320px;
+  max-width: 100%;
 }
 
 .name__wrapper {
@@ -33,10 +35,15 @@
 .more__options {
   width: 48px;
   height: 42px;
-  //   padding: 1px 8px 1px 0px;
   background: url(../../../assets/Icons/More.svg);
   background-repeat: no-repeat;
   cursor: pointer;
   border: none;
   background-color: white;
+}
+
+@media screen and (max-width: 1020px) {
+  .post__header {
+    margin: 0 auto;
+  }
 }

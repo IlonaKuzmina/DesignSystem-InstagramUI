@@ -5,8 +5,6 @@ import {
   Story,
 } from '@storybook/angular';
 import { StorySectionComponent } from './story-section.component';
-import { StoryItemComponent } from '../story-item/story-item.component';
-import { StoryBtnComponent } from '../story-btn/story-btn.component';
 import { CommonModule } from '@angular/common';
 
 export default {
@@ -14,9 +12,7 @@ export default {
   decorators: [
     moduleMetadata({
       //👇 Imports both components to allow component composition with Storybook
-      declarations: [StorySectionComponent,
-        StoryItemComponent,
-        StoryBtnComponent,
+      declarations: [StorySectionComponent
       ],
       imports: [CommonModule],
     }),

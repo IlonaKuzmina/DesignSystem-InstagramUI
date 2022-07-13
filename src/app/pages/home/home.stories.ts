@@ -9,8 +9,6 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home.component';
 import { PrimaryBlockComponent } from 'src/app/components/primary-block/primary-block.component';
 import { StorySectionComponent } from '../../../app/components/story-section/story-section.component';
-import { StoryItemComponent } from '../../../app/components/story-item/story-item.component';
-import { StoryBtnComponent } from '../../../app/components/story-btn/story-btn.component';
 import { PostSectionComponent } from '../../../app/components/post-section/post-section.component';
 import { PostComponent } from '../../../app/components/post/post.component';
 import { PostHeaderComponent } from '../../../app/components/post-header/post-header.component';
@@ -32,8 +30,6 @@ export default {
       declarations: [
         HomeComponent,
         PrimaryBlockComponent,
-        StoryItemComponent,
-        StoryBtnComponent,
         PostComponent,
         StorySectionComponent,
         PostHeaderComponent,

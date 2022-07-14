@@ -17,7 +17,7 @@ This responsive project is a design reproduction from [Figma community project](
 
 ### Deployed StoryBook:
 
-[LINK](https://www.chromatic.com/setup?appId=62d088b22c4027f2e693500e)
+[LINK](https://62d088b22c4027f2e693500e-iqnheyvwpa.chromatic.com/?path=/story/instagram-ui-molecules-postfootercomponent--default)
 
 
 

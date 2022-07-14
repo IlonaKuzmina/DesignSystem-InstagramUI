@@ -13,11 +13,11 @@ This responsive project is a design reproduction from [Figma community project](
 
 ### Deployed project:
 
-[LINK](https://dancing-chimera-2c9083.netlify.app)
+[LINK](https://designsystem-instagramui.netlify.app)
 
 ### Depoyed StoryBook:
 
-[LINK]()
+[LINK](https://www.chromatic.com/setup?appId=62d088b22c4027f2e693500e)
 
 
 

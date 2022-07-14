@@ -15,7 +15,7 @@ This responsive project is a design reproduction from [Figma community project](
 
 [LINK](https://designsystem-instagramui.netlify.app)
 
-### Depoyed StoryBook:
+### Deployed StoryBook:
 
 [LINK](https://www.chromatic.com/setup?appId=62d088b22c4027f2e693500e)
 
